@@ -3,8 +3,8 @@
           "commentaires": "",
           "prix": 150,
           "dimensions": "20cm x 50cm",
-          "poche": TRUE,
-          "zip": TRUE,
+          "poche": true,
+          "zip": true,
          },
  
 "sac2": {"nom": "Le Tache de Rousseur",
@@ -12,17 +12,17 @@
           "commentaires": "",
           "prix": 150,
           "dimensions": "20cm x 50cm",
-          "poche": TRUE,
-          "zip": TRUE,
+          "poche": true,
+          "zip": true,
          }, 
  
- "sac1": {"nom": "Le Sarbacane",
+ "sac3": {"nom": "Le Sarbacane",
           "description": "",
           "commentaires": "",
           "prix": 150,
           "dimensions": "20cm x 50cm",
-          "poche": TRUE,
-          "zip": TRUE,
+          "poche": true,
+          "zip": true,
          },
 
   
