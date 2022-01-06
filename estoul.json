@@ -1,1 +1,29 @@
+{"sac1": {"nom": "Le Noisette",
+          "description": "",
+          "commentaires": "",
+          "prix": 150,
+          "dimensions": "20cm x 50cm",
+          "poche": True,
+          "zip": True,
+         },
+ 
+"sac2": {"nom": "Le Tache de Rousseur",
+          "description": "",
+          "commentaires": "",
+          "prix": 150,
+          "dimensions": "20cm x 50cm",
+          "poche": True,
+          "zip": True,
+         }, 
+ 
+ "sac1": {"nom": "Le Sarbacane",
+          "description": "",
+          "commentaires": "",
+          "prix": 150,
+          "dimensions": "20cm x 50cm",
+          "poche": True,
+          "zip": True,
+         },
 
+  
+}  
