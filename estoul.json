@@ -2,9 +2,9 @@
           "description": "",
           "commentaires": "",
           "prix": 150,
-          "dimensions": "20cm x 50cm",
+          "dimensions": "30cm x 40cm",
           "poche": true,
-          "zip": true,
+          "zip": false,
          },
  
 "sac2": {"nom": "Le Tache de Rousseur",
@@ -24,6 +24,10 @@
           "poche": true,
           "zip": true,
          },
+ 
+ "page principale": "Les sacs Estoul sont faits de toile et de textiles récupérés et sont, pour la plupart, munis de deux poches intérieures.",
+ 
+ philosophie: "",
 
   
 }  
