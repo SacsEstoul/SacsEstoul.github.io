@@ -1,9 +1,17 @@
-{
-"Data":{
-        "id": 1312
-        },
-"Metadata":{
-    "time stamp": 1529462906,
-    "Error": null
+[
+    {
+        "id": "1",
+        "firstName": "John",
+        "lastName": "Doe"
+    },
+    {
+        "id": "2",
+        "firstName": "Mary",
+        "lastName": "Peterson"
+    },
+    {
+        "id": "3",
+        "firstName": "George",
+        "lastName": "Hansen"
     }
-}
+]
