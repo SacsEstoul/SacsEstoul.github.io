@@ -6,7 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Estoul">
-<!--     <meta http-equiv="X-UA-Compatible" content="ie=edge">	   -->
 	  
     <!--  a)  Les 2 lignes suivantes servent à la découverte du site sur Google	   -->
     <meta name="description", content="Collection de Sacs Design Uniques / Handmade Tote Bags">
@@ -27,7 +26,7 @@
 	  
 	  
 	  
-    <script>
+<!--     <script>
         fetch('people.json')
             .then(function (response) {
                 return response.json();
@@ -46,8 +45,27 @@
                 mainContainer.appendChild(div);
             }
         }
-    </script>	  
+    </script>	   
+
+    <div id='myData'></div> -->
 	  	  
+	  
+   <script>
+   function getElement(id) {
+       return document.getElementById(id);
+   }
+
+   fetch('people.json')
+   .then(res => res.json())
+   .then((res) => {
+   const data = res.data;
+   getElement('name').innerHTML =  'Name: ' + data.name;
+   getElement('symbol').innerHTML = 'Symbol: ' + data.symbol;
+   getElement('rank').innerHTML = 'Rank: ' + data.rank;
+   getElement('price').innerHTML = 'Price: ' + data.quotes.USD.price;
+   });
+	  
+  </script>	  
 	  
   <!--  b) Les prochaines lignes sont pour la barre d'en haut du site - Nom, contact, descriptions avec liens	 -->	  
 	  
@@ -95,7 +113,7 @@
 	    <p style="font-size:20px;text-align:center"><em>Soigneusement confectionnés à partir
 	       de textiles récupérés, les sacs Estoul sont reconnus pour leur style et leur durabilité</em></p> 
 		  		
-	     <div id='myData'></div>
+	     
 	    <div class="bottom-one"></div>
 	    <hr></hr>	
 	    <div class="bottom-one"></div>  
@@ -103,6 +121,13 @@
             <p style="font-family:Didot;font-size:25px;color:#5F9EA0;text-align:center"> Pour plus de détails, questions, ou pour commander un sac, </br>
 	     communiquez avec nous ici: <a href="mailto:sacs.estoul@gmail.com">sacs.estoul@gmail.com</a></p>   
 
+        </div>
+
+        <div>
+            <p id="name"></p>
+            <p id="symbol"></p>
+            <p id="rank"></p>
+            <p id="price"></p>
         </div>
 	    
       <hr></hr>	    
