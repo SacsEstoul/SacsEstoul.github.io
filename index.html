@@ -40,8 +40,8 @@
 		  
             </br>
 	    </hr>  
-<!-- 	      style="font-family:Didot;font-size:48px;color:#5F9EA0", -->
-	    <p id="idname"></p>
+
+	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">ASD</p>
             </hr>		  
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -200,25 +200,7 @@
  </div><!-- /.container -->
 
 
-
-
-    <!-- JavaScript -->
-    <script>
-        function getElement(id) {
-            return document.getElementById(id);
-        }
-
-    fetch('people.json')
-    .then(res => res.json())
-    .then((res) => {
-        const data = res.data;
-        getElement('idname').innerHTML = 'Name: ' + data.idname;
-     });	  	  
-    </script>
-
-    
-
-
+    <!-- JavaScript -->    
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
