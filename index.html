@@ -40,7 +40,7 @@
 		  
             </br>
 	    </hr>  
-	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">&nbsp;data.id</p>
+	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">&nbsp;'id'</p>
             </hr>		  
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -215,7 +215,7 @@
       .then(res => res.json())
       .then((res) => {
       const data = res.data;
-          getElement('id').innerHTML =  data.id;
+          getElement('id').innerHTML = 'ID: ' + data.id;
           // do the rest here
        });	  	  
     </script>
