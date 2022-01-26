@@ -1,9 +1,9 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
-var pkg = require('./package.json');
+var pkg = require('./estoul.json');
 
 // Copy third party libraries from /node_modules into /vendor
-gulp.task('vendor', function() {
+gulp.task('js', function() {
 
   // Bootstrap
   gulp.src([
@@ -11,19 +11,19 @@ gulp.task('vendor', function() {
       '!./node_modules/bootstrap/dist/css/bootstrap-grid*',
       '!./node_modules/bootstrap/dist/css/bootstrap-reboot*'
     ])
-    .pipe(gulp.dest('./vendor/bootstrap'))
+    .pipe(gulp.dest('./js/bootstrap'))
 
   // jQuery
   gulp.src([
       './node_modules/jquery/dist/*',
       '!./node_modules/jquery/dist/core.js'
     ])
-    .pipe(gulp.dest('./vendor/jquery'))
+    .pipe(gulp.dest('./js/jquery'))
 
 })
 
 // Default task
-gulp.task('default', ['vendor']);
+gulp.task('default', ['js']);
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
