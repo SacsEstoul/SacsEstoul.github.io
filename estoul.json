@@ -4,7 +4,7 @@
          {"nom": "Les pois jaunes",
           "description": "",
           "commentaires": "",
-          "prix": 150,
+          "prix": "100$",
           "dimensions": "53 cm L x 35 cm P"
          },
  
@@ -12,16 +12,16 @@
          {"nom": "Tapisserie noir gris blanc",
           "description": "",
           "commentaires": "",
-          "prix": 150,
-          "dimensions": "20cm x 50cm"
+          "prix": "50$",
+          "dimensions": "43 cm L x 30 cm P"
          }, 
  
      "sac3": 
          {"nom": "Le Sarbacane",
           "description": "",
           "commentaires": "",
-          "prix": 150,
-          "dimensions": "20cm x 50cm"
+          "prix": "80$",
+          "dimensions": " 47cm L x 32 cm P"
          },
  
       "page principale": "Les sacs Estoul sont faits de toile et de textiles récupérés et sont, pour la plupart, munis de deux poches intérieures.",
