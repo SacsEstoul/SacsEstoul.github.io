@@ -1,33 +1,35 @@
-{"sac1": {"nom": "Les pois jaunes",
+{"Données":
+ 
+    {"sac1": 
+         {"nom": "Les pois jaunes",
           "description": "",
           "commentaires": "",
           "prix": 150,
-          "dimensions": "53 cm L x 35 cm P",
-          "poche": true,
-          "zip": false,
+          "dimensions": "53 cm L x 35 cm P"
          },
  
-"sac2": {"nom": "Tapisserie noir gris blanc",
+     "sac2": 
+         {"nom": "Tapisserie noir gris blanc",
           "description": "",
           "commentaires": "",
           "prix": 150,
-          "dimensions": "20cm x 50cm",
-          "poche": true,
-          "zip": true,
+          "dimensions": "20cm x 50cm"
          }, 
  
- "sac3": {"nom": "Le Sarbacane",
+     "sac3": 
+         {"nom": "Le Sarbacane",
           "description": "",
           "commentaires": "",
           "prix": 150,
-          "dimensions": "20cm x 50cm",
-          "poche": true,
-          "zip": true,
+          "dimensions": "20cm x 50cm"
          },
  
- "page principale": "Les sacs Estoul sont faits de toile et de textiles récupérés et sont, pour la plupart, munis de deux poches intérieures.",
+      "page principale": "Les sacs Estoul sont faits de toile et de textiles récupérés et sont, pour la plupart, munis de deux poches intérieures.",
  
- "philosophie": "",
-
+      "philosophie": "",
+ 
+      "questions": ""
+     
+    }
   
 }  
