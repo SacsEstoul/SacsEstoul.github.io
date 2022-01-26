@@ -26,31 +26,6 @@
 	  
 	  
 	  
-<!--     <script>
-        fetch('people.json')
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (data) {
-                appendData(data);
-            })
-            .catch(function (err) {
-                console.log('error: ' + err);
-            });
-        function appendData(data) {
-            var mainContainer = document.getElementById("myData");
-            for (var i = 0; i < data.length; i++) {
-                var div = document.createElement("div");
-                div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
-                mainContainer.appendChild(div);
-            }
-        }
-    </script>	   
-
-    <div id='myData'></div> -->
-	  	  
-	  	  
-	  
   <!--  b) Les prochaines lignes sont pour la barre d'en haut du site - Nom, contact, descriptions avec liens	 -->	  
 	  
 	  
@@ -122,14 +97,14 @@
       <div class="row">
 	  
         <div class="col-md-4 portfolio-item">
-          <p style="font-size:25px;text-align:center;font-family:Optima", id="nom1"><a href="pages/sac1.html"></a></p>
+          <p style="font-size:25px;text-align:center;font-family:Optima;color:#5F9EA0", id="nom1"><a href="pages/sac1.html"></a></p>
 <!-- 	  <p style="font-size:15px">Dimensions: 30cm x 50cm</p> -->
           <a href="pages/sac1.html"><img class="img-responsive" style="text-align:center" width="350" src="images/sac1.JPG"></a>
           <h3>$120</a></h3>               
         </div>
 
         <div class="col-md-4 portfolio-item">
-          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="pages/sac2.html">L Tache de Rousseur</a></p>   
+          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="pages/sac2.html">Tache de Rousseur</a></p>   
           <a href="pages/sac2.html"><img class="img-responsive" style="text-align:center" width="350" src="images/sac2.JPG"></a>
           <h3>Vendu</a></h3>               
         </div>
@@ -255,6 +230,32 @@
       var dt = new Date();
       document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
     </script>
+
+	  
+<!--     <script>
+        fetch('people.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+        function appendData(data) {
+            var mainContainer = document.getElementById("myData");
+            for (var i = 0; i < data.length; i++) {
+                var div = document.createElement("div");
+                div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
+                mainContainer.appendChild(div);
+            }
+        }
+    </script>	   
+
+    <div id='myData'></div> -->
+	  	  
+	  
   </body>
 
 </html>
