@@ -1,9 +1,7 @@
 {
 "Data":{
-    "id": 1312,
-    "Name": "Steem Dollars",
-    "Symbol": "SBD"
-     },
+        "id": 1312
+        },
 "Metadata":{
     "time stamp": 1529462906,
     "Error": null
