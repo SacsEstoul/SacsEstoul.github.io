@@ -8,7 +8,7 @@
     <meta name="author" content="Estoul">
 	  
     <!--  a)  Les 2 lignes suivantes servent à la découverte du site sur Google	   -->
-    <meta name="description" content="Collection de Sacs Design Uniques / Handmade Tote Bags">
+    <meta name="description", content="Collection de Sacs Design Uniques / Handmade Tote Bags">
     <meta name="keywords", content="sacs Estoul, sacs, sacs faits main, sacoche, sacs de sport, sacs uniques, bags, tote bags">	 
     <!--  a)   -->
 
@@ -40,7 +40,7 @@
 		  
             </br>
 	    </hr>  
-	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">&nbsp;"idname"</p>
+	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0", id="idname"</p>
             </hr>		  
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -211,7 +211,7 @@
     .then(res => res.json())
     .then((res) => {
         const data = res.data;
-        getElement('idname').innerHTML =  'Name: ' + data.idname;
+        getElement('idname').innerHTML = 'Name: ' + data.idname;
      });	  	  
     </script>
 
