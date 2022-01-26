@@ -25,7 +25,6 @@
 	
   <!--  b) Les prochaines lignes sont pour la barre d'en haut du site - Nom, contact, descriptions avec liens	 -->
   <body>  
-
 	  
 	  
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
@@ -206,6 +205,25 @@
 
 
     <!-- JavaScript -->
+    <script>
+	  
+    function getElement(id) {
+       return document.getElementById(id);
+    }
+
+    fetch('people.json')
+      .then(res => res.json())
+      .then((res) => {
+      const data = res.data;
+      getElement('name').innerHTML =  'Name: ' + data.name;
+      getElement('symbol').innerHTML = 'Symbol: ' + data.symbol;
+      getElement('rank').innerHTML = 'Rank: ' + data.rank;
+      getElement('price').innerHTML = 'Price: ' + data.quotes.USD.price;
+      // do the rest here
+    });	  	  
+    </script>
+
+
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
