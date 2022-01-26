@@ -1,12 +1,17 @@
-{
-"Data":{
-"idname": 1312,
-"Name": "Steem Dollars",
-"Symbol": "SBD",
-"website_slug": "steem-dollars",
-"Level": 313,
-"circulating_supply": 15185862.0,
-"total_supply": 15185862.0,
-"max_supply":null
-}
-}
+[
+    {
+        "id": "1",
+        "firstName": "John",
+        "lastName": "Doe"
+    },
+    {
+        "id": "2",
+        "firstName": "Mary",
+        "lastName": "Peterson"
+    },
+    {
+        "id": "3",
+        "firstName": "George",
+        "lastName": "Hansen"
+    }
+]
