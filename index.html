@@ -49,21 +49,7 @@
 
     <div id='myData'></div> -->
 	  	  
-	  
-   <script>
-   function getElement(id) {
-       return document.getElementById(id);
-   }
-
-   fetch('estoul.json')
-   .then(res => res.json())
-   .then((res) => {
-   const data = res.Données;
-   getElement('prix1').innerHTML =  data.sac1.prix;
-   getElement('nom1').innerHTML = data.sac1.nom;
-
-   });  
-  </script>	  
+	  	  
 	  
   <!--  b) Les prochaines lignes sont pour la barre d'en haut du site - Nom, contact, descriptions avec liens	 -->	  
 	  
@@ -121,12 +107,6 @@
 
         </div>
 
-        <div>
-		<p>aaaaaa</p>
-            <p id='nom1'></p>
-            <p id='prix1'></p>
-
-        </div>
 	    
       <hr></hr>	    
       <div class="bottom-one"></div>
@@ -142,14 +122,14 @@
       <div class="row">
 	  
         <div class="col-md-4 portfolio-item">
-          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="pages/sac1.html">Le Noisette</a></p>
+          <p style="font-size:25px;text-align:center;font-family:Optima", id="nom1"><a href="pages/sac1.html"></a></p>
 <!-- 	  <p style="font-size:15px">Dimensions: 30cm x 50cm</p> -->
           <a href="pages/sac1.html"><img class="img-responsive" style="text-align:center" width="350" src="images/sac1.JPG"></a>
           <h3>$120</a></h3>               
         </div>
 
         <div class="col-md-4 portfolio-item">
-          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="pages/sac2.html">Le Tache de Rousseur</a></p>   
+          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="pages/sac2.html">L Tache de Rousseur</a></p>   
           <a href="pages/sac2.html"><img class="img-responsive" style="text-align:center" width="350" src="images/sac2.JPG"></a>
           <h3>Vendu</a></h3>               
         </div>
@@ -249,6 +229,26 @@
 
 
     <!-- JavaScript -->    
+   <script>
+   function getElement(id) {
+       return document.getElementById(id);
+   }
+
+   fetch('estoul.json')
+   .then(res => res.json())
+   .then((res) => {
+   const data = res.Données;
+   getElement('nom1').innerHTML = data.sac1.nom;
+   getElement('prix1').innerHTML =  data.sac1.prix;
+   getElement('nom2').innerHTML = data.sac2.nom;
+   getElement('prix2').innerHTML =  data.sac2.prix;
+   getElement('nom3').innerHTML = data.sac3.nom;
+   getElement('prix3').innerHTML =  data.sac3.prix;	   
+	   
+
+   });  
+  </script>
+
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
