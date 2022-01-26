@@ -58,7 +58,7 @@
    fetch('people.json')
    .then(res => res.json())
    .then((res) => {
-   const data = res.data;
+   const data = res.Data;
    getElement('Name').innerHTML =  'Name: ' + data.Name;
    getElement('Symbol').innerHTML = 'Symbol: ' + data.Symbol;
 
@@ -83,7 +83,7 @@
             </br>
 	    </hr>  
 
-	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">aLes Sacs Estoul</p>
+	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">bLes Sacs Estoul</p>
             </hr>		  
           </ul>
         </div><!-- /.navbar-collapse -->
