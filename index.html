@@ -55,15 +55,14 @@
        return document.getElementById(id);
    }
 
-   fetch('people.json')
+   fetch('estoul.json')
    .then(res => res.json())
    .then((res) => {
-   const data = res.Data;
-   getElement('Name').innerHTML =  'Name: ' + data.Name;
-   getElement('Symbol').innerHTML = 'Symbol: ' + data.Symbol;
+   const data = res.Données;
+   getElement('prix1').innerHTML =  data.sac1.prix;
+   getElement('nom1').innerHTML = data.sac1.nom;
 
-   });
-	  
+   });  
   </script>	  
 	  
   <!--  b) Les prochaines lignes sont pour la barre d'en haut du site - Nom, contact, descriptions avec liens	 -->	  
@@ -124,9 +123,9 @@
 
         <div>
 		<p>aaaaaa</p>
-            <p id='Name'></p>
-            <p id='Symbol'></p>
-		<p>aaaaaa</p>
+            <p id='nom1'></p>
+            <p id='prix1'></p>
+
         </div>
 	    
       <hr></hr>	    
