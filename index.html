@@ -40,7 +40,7 @@
 		  
             </br>
 	    </hr>  
-	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">&nbsp;Les Sacs ESTOUL</p>
+	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">&nbsp;data.id</p>
             </hr>		  
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -215,13 +215,11 @@
       .then(res => res.json())
       .then((res) => {
       const data = res.data;
-      getElement('name').innerHTML =  'Name: ' + data.name;
-      getElement('symbol').innerHTML = 'Symbol: ' + data.symbol;
-      getElement('rank').innerHTML = 'Rank: ' + data.rank;
-      getElement('price').innerHTML = 'Price: ' + data.quotes.USD.price;
-      // do the rest here
-    });	  	  
+          getElement('id').innerHTML =  data.id;
+          // do the rest here
+       });	  	  
     </script>
+
 
 
     <script src="js/jquery-1.10.2.js"></script>
