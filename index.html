@@ -201,25 +201,21 @@
 
 
 
-
-
-
     <!-- JavaScript -->
     <script>
-	  
-    function getElement(id) {
-       return document.getElementById(id);
-    }
+        function getElement(id) {
+            return document.getElementById(id);
+        }
 
     fetch('people.json')
-      .then(res => res.json())
-      .then((res) => {
-      const data = res.data;
-          getElement('id').innerHTML = 'ID: ' + data.id;
-          // do the rest here
-       });	  	  
+    .then(res => res.json())
+    .then((res) => {
+        const data = res.data;
+        getElement('idname').innerHTML =  'Name: ' + data.idname;
+     });	  	  
     </script>
 
+    
 
 
     <script src="js/jquery-1.10.2.js"></script>
