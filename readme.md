@@ -9,7 +9,6 @@ Lien du site [ici](SacsEstoul.github.io).
 
 <hr/>
 
----
 
 ## PHOTOS DE SACS
 
