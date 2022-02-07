@@ -43,11 +43,11 @@ Pour l'instant, les photos doivent être nommées en fonction de leur position s
 ---
 
 Pour l'instant, il est important de nommer les photos suivant ce format: `sac#.JPG`. Le numéro (#) positionne la photo à l'endoit démontré sur la table ci-dessus.
-Les photos sur la page d'acceuil peuvent être téléchargées à cet entroit: [images](tree/main/images).
+Les photos sur la page d'acceuil peuvent être téléchargées à cet entroit: [images](images).
 
 ---
 
-Pour ajouter les photos qui accompagnent les détails comme les dimensions et autres traits particuliers, cliquez [ici](tree/main/pages/images), ou cliquez sur `pages`, suivi de `images` (à l'adresse [pages/images](tree/main/pages/images)).
+Pour ajouter les photos qui accompagnent les détails comme les dimensions et autres traits particuliers, cliquez [ici](pages/images), ou cliquez sur `pages`, suivi de `images` (à l'adresse [pages/images](pages/images)).
 
 Une fois sur la page de description (la page qu'on voit après avoir cliqué sur le nom ou la photo principale du sac), les photos sont positionnées comme suit:
 
@@ -69,5 +69,5 @@ Cet exemple montre les noms de fichiers pour la photo du `sac 1`, le sac en haut
 
 ### Pour changer le nom, les dimensions, le prix, et autres détails sur chaque sac
 
-Toutes ces informations peuvent être changées sur le fichier `estoul.json`, ou [ici](tree/main/estoul.json).
+Toutes ces informations peuvent être changées sur le fichier `estoul.json`, ou [ici](estoul.json).
 
