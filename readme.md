@@ -1,7 +1,9 @@
 
 <hr/>
 
-## Instructions pour opérer le site `estoul.github.io`
+## Instructions pour opérer le site `SacsEstoul.github.io` 
+
+Lien [ici](SacsEstoul.github.io)
 
 *Ces instructions sont temporaires - le modèle d'opération sera modifié/simplifié au fur et à mesure que nous développerons le design du site*
 
