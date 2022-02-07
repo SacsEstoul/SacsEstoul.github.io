@@ -43,7 +43,7 @@
             </br>
 	    </hr>  
 
-	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">Les Sacs Estoul</p>
+	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">BBLes Sacs Estoul</p>
             </hr>		  
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -217,6 +217,19 @@
    function getElement(id) {
        return document.getElementById(id);
    }
+	   
+   function getName(data) {
+       var nameBag = [];	   
+       for (var i = 0; i < data.length; i++) {	
+	   console.log("SAC" + i);    
+	   nameBag.append("sac" + i)  
+	   console.log(nameBag[i]);    
+           getElement.innerHTML(nameBag[i]);	       
+	       
+	       
+       }	       
+
+   }	   
 
    fetch('estoul.json')
    .then(res => res.json())
@@ -230,6 +243,8 @@
    getElement('prix3').innerHTML =  data.sac3.prix;	   
    });  
   </script>
+
+
 
 <!--     <script>
         fetch('estoul.json')
