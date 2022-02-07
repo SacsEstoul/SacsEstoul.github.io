@@ -229,9 +229,18 @@
 	       
        }	       
 
-   }	   
-
+   }	 
+	   
    fetch('estoul.json')
+   .then(res => res.json())
+   .then((res) => {
+   const data = res.Données;
+   getName(data);	   
+	   
+   });  
+  </script>	   
+
+<!--    fetch('estoul.json')
    .then(res => res.json())
    .then((res) => {
    const data = res.Données;
@@ -242,7 +251,7 @@
    getElement('nom3').innerHTML = data.sac3.nom;
    getElement('prix3').innerHTML =  data.sac3.prix;	   
    });  
-  </script>
+  </script> -->
 
 
 
