@@ -12,7 +12,7 @@
 ## PHOTOS DE SACS
 
 
-Les photos de sacs sont téléchargées [ici (photo sur la page d'acceuil)](tree/main/images) et [ici (photos avec les détails)](tree/main/pages/images). 
+Les photos de sacs sont téléchargées [ici (photo sur la page d'acceuil)](images) et [ici (photos avec les détails)](pages/images). 
 
 
 ---
