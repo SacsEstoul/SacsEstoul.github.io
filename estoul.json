@@ -1,6 +1,6 @@
 {"Données":
  
- {"sacs_1-9":
+ {"sacs_1_9":
  
     {"sac1": 
          {"nom": "Les pois jaunes",
@@ -53,7 +53,7 @@
      
     },
   
- {"sacs_10-18":
+ {"sacs_10_18":
  
     {"sac10": 
          {"nom": "sac 10",
