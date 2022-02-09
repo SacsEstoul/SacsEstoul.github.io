@@ -1,6 +1,5 @@
 {"Données":
  
- {"sacs_1_9":
  
     {"sac1": 
          {"nom": "Les pois jaunes",
@@ -51,11 +50,7 @@
           "dimensions": "53 cm L x 35 cm P"
          }, 
      
-    },
-  
- {"sacs_10_18":
- 
-    {"sac10": 
+     "sac10": 
          {"nom": "sac 10",
           "prix": "65$",
           "dimensions": "53 cm L x 35 cm P"
@@ -104,9 +99,7 @@
           "dimensions": "53 cm L x 35 cm P"
          }, 
      
-    },  
-  
-  
+ 
   
  
       "philosophie": "",
