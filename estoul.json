@@ -5,9 +5,8 @@
          {"nom": "Les pois jaunes",
           "prix": "65$",
           "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
+          "Type de poche": "Zippée",
+          "détail2": "Velcro",
           "paramètre1": "intérieur",
           "paramètre2": "côté"
          },
