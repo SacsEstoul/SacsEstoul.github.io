@@ -1,7 +1,5 @@
 {"Données":
  
- {"sacs_1_9":
- 
  
     {"sac1": 
          {"nom": "Les pois jaunes",
@@ -50,29 +48,23 @@
          {"nom": "Blanc",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P"
-         }
-   },
- 
- "sacs_10_18":
+         },
      
-    {"sac10": 
+     "sac10": 
          {"nom": "sac 10",
           "prix": "65$",
           "dimensions": "53 cm L x 35 cm P"
          },
- 
      "sac11": 
          {"nom": "sac 11",
           "prix": "55$",
           "dimensions": "53 cm L x 35 cm P"
          }, 
- 
      "sac12": 
          {"nom": "sac 12",
           "prix": "50$",
           "dimensions": " 38cm L x 35 cm P"
-         },
-     
+         },   
       "sac13": 
          {"nom": "sac 13",
           "prix": "45$",
@@ -102,9 +94,8 @@
          {"nom": "sac 18",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P"
-         }
-      }
-  }, 
+         },
+      
      
  
   
