@@ -220,28 +220,28 @@
    fetch('estoul.json')
    .then(res => res.json())
    .then((res) => {
-   const data = res.Données;
+   const data = res.Données.sacs_1_9;
    // Noms:
-   getElement('nom1').innerHTML = data.sacs_1_9.sac1.nom;
-   getElement('nom2').innerHTML = data.sacs_1_9.sac2.nom;
-   getElement('nom3').innerHTML = data.sacs_1_9.sac3.nom;
-   getElement('nom4').innerHTML = data.sacs_1_9.sac4.nom;
-   getElement('nom5').innerHTML = data.sacs_1_9.sac5.nom;
-   getElement('nom6').innerHTML = data.sacs_1_9.sac6.nom;
-   getElement('nom7').innerHTML = data.sacs_1_9.sac7.nom;
-   getElement('nom8').innerHTML = data.sacs_1_9.sac8.nom;	   
-   getElement('nom9').innerHTML = data.sacs_1_9.sac9.nom;	   
+   getElement('nom1').innerHTML = data.sac1.nom;
+   getElement('nom2').innerHTML = data.sac2.nom;
+   getElement('nom3').innerHTML = data.sac3.nom;
+   getElement('nom4').innerHTML = data.sac4.nom;
+   getElement('nom5').innerHTML = data.sac5.nom;
+   getElement('nom6').innerHTML = data.sac6.nom;
+   getElement('nom7').innerHTML = data.sac7.nom;
+   getElement('nom8').innerHTML = data.sac8.nom;	   
+   getElement('nom9').innerHTML = data.sac9.nom;	   
 	
    // Prix: 	   
-   getElement('prix1').innerHTML =  data.sacs_1_9.sac1.prix;
-   getElement('prix2').innerHTML =  data.sacs_1_9.sac2.prix;
-   getElement('prix3').innerHTML =  data.sacs_1_9.sac3.prix;	
-   getElement('prix4').innerHTML =  data.sacs_1_9.sac4.prix;
-   getElement('prix5').innerHTML =  data.sacs_1_9.sac5.prix;
-   getElement('prix6').innerHTML =  data.sacs_1_9.sac6.prix;
-   getElement('prix7').innerHTML =  data.sacs_1_9.sac7.prix;	
-   getElement('prix8').innerHTML =  data.sacs_1_9.sac8.prix;	
-   getElement('prix9').innerHTML =  data.sacs_1_9.sac9.prix;	   
+   getElement('prix1').innerHTML =  data.sac1.prix;
+   getElement('prix2').innerHTML =  data.sac2.prix;
+   getElement('prix3').innerHTML =  data.sac3.prix;	
+   getElement('prix4').innerHTML =  data.sac4.prix;
+   getElement('prix5').innerHTML =  data.sac5.prix;
+   getElement('prix6').innerHTML =  data.sac6.prix;
+   getElement('prix7').innerHTML =  data.sac7.prix;	
+   getElement('prix8').innerHTML =  data.sac8.prix;	
+   getElement('prix9').innerHTML =  data.sac9.prix;	   
 	   
    });  
   </script>
