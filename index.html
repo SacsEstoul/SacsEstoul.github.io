@@ -41,7 +41,7 @@
             </br>
 	    </hr>  
 
-	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">dLes Sacs Estoul</p>
+	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">Les Sacs Estoul</p>
             </hr>		  
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -216,7 +216,7 @@
    fetch('estoul.json')
    .then(res => res.json())
    .then((res) => {
-   const data = res.Données.sacs_1_9;
+   const data = res.Données;
 	   
    // Noms:
    getElement('nom1').innerHTML = data.sac1.nom;
