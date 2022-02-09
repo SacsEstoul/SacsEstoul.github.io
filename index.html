@@ -221,6 +221,10 @@
    .then(res => res.json())
    .then((res) => {
    const data = res.Données;
+   });  
+  </script>	   
+	   
+  <script>
    // Noms:
    getElement('nom1').innerHTML = data.sac1.nom;
    getElement('nom2').innerHTML = data.sac2.nom;
@@ -242,9 +246,8 @@
    getElement('prix7').innerHTML =  data.sac7.prix;	
    getElement('prix8').innerHTML =  data.sac8.prix;	
    getElement('prix9').innerHTML =  data.sac9.prix;	   
-	   
-   });  
-  </script>
+   </script>	   
+
 
 
  <script src="code/js/jquery-1.10.2.js"></script>
