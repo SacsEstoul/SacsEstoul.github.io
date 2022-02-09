@@ -62,13 +62,13 @@
 	            
 	  
         <div class="col-md-4 portfolio-item">
-	  <p style="font-size:20px;text-align:center;font-family:Optima">Intérieur:</p>
+	  <p style="font-size:20px;text-align:center;font-family:Optima" id="param1"></p>
           <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1.JPG"></a>
            
         </div>
 
         <div class="col-md-4 portfolio-item">
-	  <p style="font-size:20px;text-align:center;font-family:Optima">Côté:</p>
+	  <p style="font-size:20px;text-align:center;font-family:Optima" id="param2"></p>
           <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1.JPG"></a>
       
         </div>
@@ -76,13 +76,16 @@
         <div class="col-md-4 portfolio-item">
         <div class="bottom-two"></div>
           <p style="font-size:20px">
-		  * Dimensions: 25cm x 55cm </p>
+		  * Dimensions: </p><a id="dims"></a>
 	      <div class="bottom-one"></div>
 	  <p style="font-size:20px">	
-	          * Autres détails </p>
+	          * Autre détail: </p><a id="detail1"></a>
 	      <div class="bottom-one"></div>
 	  <p style="font-size:20px">    
-	          * ... </p>        
+	          * 2eme détail: </p><a id="detail2"></a>  
+	      <div class="bottom-one"></div>
+	  <p style="font-size:20px">    
+	          * 3eme détail: </p><a id="detail3"></a> 		
              
 
         </div>
@@ -120,6 +123,35 @@
 
 
     <!-- JavaScript -->
+
+
+   <script>
+   function getElement(id) {
+       return document.getElementById(id);
+   }
+
+   fetch('estoul.json')
+   .then(res => res.json())
+   .then((res) => {
+   const data = res.Données;
+	   
+   // Dims:
+   getElement('dims').innerHTML = data.sac1.dimensions;	   
+   getElement('detail1').innerHTML = data.sac1.détail1;	
+   getElement('detail2').innerHTML = data.sac1.détail2;	   
+   getElement('detail3').innerHTML = data.sac1.détail3;	 
+   getElement('param1').innerHTML = data.sac1.paramètre1;	 
+   getElement('param2').innerHTML = data.sac1.paramètre2;	   
+	   
+	   
+	   
+	   
+	
+
+   }); 	   
+   </script>	  
+
+
     <script src="../../code/js/jquery-1.10.2.js"></script>
     <script src="../../code/js/bootstrap.js"></script>
     <script type="text/javascript">
