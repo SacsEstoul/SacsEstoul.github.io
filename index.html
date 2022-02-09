@@ -43,7 +43,7 @@
             </br>
 	    </hr>  
 
-	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">Les Sacs Estoul</p>
+	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">MMLes Sacs Estoul</p>
             </hr>		  
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -119,11 +119,11 @@
       <div class="bottom-one"></div>	      
 	  
         <div class="col-md-4 portfolio-item">
-          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="pages/sac4.html">Le Coccinelle</a></p>
+          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="pages/sac4.html", id="nom4">Le Coccinelle</a></p>
           <a href="pages/sac4.html">
 		  <img class="img-responsive" style="text-align:center" width="350" src="images/sac4.JPG" alt="sac Estoul">
 	  </a>
-          <h3>$120</a></h3>               
+          <h3 id="prix4"></a></h3>               
         </div>
 
         <div class="col-md-4 portfolio-item">
@@ -217,17 +217,18 @@
    function getElement(id) {
        return document.getElementById(id);
    }
-	   
+   </script>	   
+	
+<!--    <script>
    function getName(data) {
        var nameBag = [];	   
        for (var i = 0; i < data.length; i++) {	
-	   console.log("SAC" + i);    
-	   nameBag.append("sac" + i)  
+	   nameBag.append("sac" + i);  
 	   console.log(nameBag[i]);    
-           getElement.innerHTML(nameBag[i]);	       
+           getElement.innerHTML(nameBag[i]) = data;	// how to get each varname       
 	       
 	       
-       }	       
+       }	
 
    }	 
 	   
@@ -238,9 +239,12 @@
    getName(data);	   
 	   
    });  
-  </script>	   
+  </script>	    -->
 
-<!--    fetch('estoul.json')
+
+   <script>
+
+   fetch('estoul.json')
    .then(res => res.json())
    .then((res) => {
    const data = res.Données;
@@ -249,9 +253,11 @@
    getElement('nom2').innerHTML = data.sac2.nom;
    getElement('prix2').innerHTML =  data.sac2.prix;
    getElement('nom3').innerHTML = data.sac3.nom;
-   getElement('prix3').innerHTML =  data.sac3.prix;	   
+   getElement('prix3').innerHTML =  data.sac3.prix;	
+   getElement('nom4').innerHTML = data.sac4.nom;
+   getElement('prix4').innerHTML =  data.sac4.prix;	   
    });  
-  </script> -->
+  </script>
 
 
 
