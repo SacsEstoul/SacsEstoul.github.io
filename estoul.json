@@ -23,6 +23,14 @@
           "prix": "50$",
           "dimensions": " 38cm L x 35 cm P"
          },
+     
+      "sac4": 
+         {"nom": "Orange",
+          "description": "",
+          "commentaires": "",
+          "prix": "45$",
+          "dimensions": "53 cm L x 35 cm P"
+         }, 
  
       "page principale": "Les sacs Estoul sont faits de toile et de textiles récupérés et sont munis, pour la plupart, de deux poches intérieures.",
  
