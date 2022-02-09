@@ -1,38 +1,113 @@
 {"Données":
  
+ {"sacs_1-9":
+ 
     {"sac1": 
          {"nom": "Les pois jaunes",
-          "description": "",
-          "commentaires": "",
           "prix": "65$",
           "dimensions": "53 cm L x 35 cm P"
          },
  
      "sac2": 
          {"nom": "Tapisserie noir gris blanc",
-          "description": "",
-          "commentaires": "",
           "prix": "55$",
           "dimensions": "53 cm L x 35 cm P"
          }, 
  
      "sac3": 
          {"nom": "Les rayures",
-          "description": "",
-          "commentaires": "",
           "prix": "50$",
           "dimensions": " 38cm L x 35 cm P"
          },
      
       "sac4": 
          {"nom": "Orange",
-          "description": "",
-          "commentaires": "",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P"
          }, 
+       "sac5": 
+         {"nom": "Jaune",
+          "prix": "45$",
+          "dimensions": "53 cm L x 35 cm P"
+         }, 
+      "sac6": 
+         {"nom": "Vert",
+          "prix": "45$",
+          "dimensions": "53 cm L x 35 cm P"
+         }, 
+      "sac7": 
+         {"nom": "Bleu",
+          "prix": "45$",
+          "dimensions": "53 cm L x 35 cm P"
+         }, 
+      "sac8": 
+         {"nom": "Noir",
+          "prix": "45$",
+          "dimensions": "53 cm L x 35 cm P"
+         }, 
+      "sac9": 
+         {"nom": "Blanc",
+          "prix": "45$",
+          "dimensions": "53 cm L x 35 cm P"
+         }, 
+     
+    },
+  
+ {"sacs_10-18":
  
-      "page principale": "Les sacs Estoul sont faits de toile et de textiles récupérés et sont munis, pour la plupart, de deux poches intérieures.",
+    {"sac10": 
+         {"nom": "sac 10",
+          "prix": "65$",
+          "dimensions": "53 cm L x 35 cm P"
+         },
+ 
+     "sac11": 
+         {"nom": "sac 11",
+          "prix": "55$",
+          "dimensions": "53 cm L x 35 cm P"
+         }, 
+ 
+     "sac12": 
+         {"nom": "sac 12",
+          "prix": "50$",
+          "dimensions": " 38cm L x 35 cm P"
+         },
+     
+      "sac13": 
+         {"nom": "sac 13",
+          "prix": "45$",
+          "dimensions": "53 cm L x 35 cm P"
+         }, 
+       "sac14": 
+         {"nom": "sac 14",
+          "prix": "45$",
+          "dimensions": "53 cm L x 35 cm P"
+         }, 
+      "sac15": 
+         {"nom": "sac 15",
+          "prix": "45$",
+          "dimensions": "53 cm L x 35 cm P"
+         }, 
+      "sac16": 
+         {"nom": "sac 16",
+          "prix": "45$",
+          "dimensions": "53 cm L x 35 cm P"
+         }, 
+      "sac17": 
+         {"nom": "sac 17",
+          "prix": "45$",
+          "dimensions": "53 cm L x 35 cm P"
+         }, 
+      "sac18": 
+         {"nom": "sac 18",
+          "prix": "45$",
+          "dimensions": "53 cm L x 35 cm P"
+         }, 
+     
+    },  
+  
+  
+  
  
       "philosophie": "",
  
