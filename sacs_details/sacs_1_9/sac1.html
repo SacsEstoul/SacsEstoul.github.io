@@ -62,13 +62,13 @@
 	            
 	  
         <div class="col-md-4 portfolio-item">
-	  <p style="font-size:20px;text-align:center;font-family:Optima" id="param1"></p>
+		<p style="font-size:20px;text-align:center;font-family:Optima"></p><a id="param1"></a>
           <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1.JPG"></a>
            
         </div>
 
         <div class="col-md-4 portfolio-item">
-	  <p style="font-size:20px;text-align:center;font-family:Optima" id="param2"></p>
+	  <p style="font-size:20px;text-align:center;font-family:Optima"></p><a href="" id="param2"></a>
           <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1.JPG"></a>
       
         </div>
@@ -76,7 +76,7 @@
         <div class="col-md-4 portfolio-item">
         <div class="bottom-two"></div>
           <p style="font-size:20px">
-		  * Dimensions: </p><a id="dims"></a>
+		  * Dimensions: </p><span id="dims"></span>
 	      <div class="bottom-one"></div>
 	  <p style="font-size:20px">	
 	          * Autre détail: </p><a id="detail1"></a>
@@ -130,7 +130,7 @@
        return document.getElementById(id);
    }
 
-   fetch('estoul.json')
+   fetch('../../estoul.json')
    .then(res => res.json())
    .then((res) => {
    const data = res.Données;
