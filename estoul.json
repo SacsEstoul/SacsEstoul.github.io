@@ -5,113 +5,185 @@
          {"nom": "Les pois jaunes",
           "prix": "65$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          },
  
      "sac2": 
          {"nom": "Tapisserie noir gris blanc",
           "prix": "55$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          }, 
  
      "sac3": 
          {"nom": "Les rayures",
           "prix": "50$",
           "dimensions": " 38cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          },
      
       "sac4": 
          {"nom": "Orange",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          }, 
        "sac5": 
          {"nom": "Jaune",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          }, 
       "sac6": 
          {"nom": "Vert",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          }, 
       "sac7": 
          {"nom": "Bleu",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          }, 
       "sac8": 
          {"nom": "Noir",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          }, 
       "sac9": 
          {"nom": "Blanc",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          },
      
      "sac10": 
          {"nom": "sac 10",
           "prix": "65$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          },
      "sac11": 
          {"nom": "sac 11",
           "prix": "55$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          }, 
      "sac12": 
          {"nom": "sac 12",
           "prix": "50$",
           "dimensions": " 38cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          },   
       "sac13": 
          {"nom": "sac 13",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          }, 
        "sac14": 
          {"nom": "sac 14",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          }, 
       "sac15": 
          {"nom": "sac 15",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          }, 
       "sac16": 
          {"nom": "sac 16",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          }, 
       "sac17": 
          {"nom": "sac 17",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          }, 
       "sac18": 
          {"nom": "sac 18",
           "prix": "45$",
           "dimensions": "53 cm L x 35 cm P",
-          "détails": "abcd"
+          "détail1": "abcd",
+          "détail2": "qwe",
+          "détail3": "uio",
+          "paramètre1": "intérieur",
+          "paramètre2": "côté"
          },
       
      
