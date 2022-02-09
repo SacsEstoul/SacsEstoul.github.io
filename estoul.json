@@ -5,11 +5,12 @@
          {"nom": "Les pois jaunes",
           "prix": "65$",
           "dimensions": "53 cm L x 35 cm P",
-          "Type de poche": "Zippée",
-          "détail2": "Velcro",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
+          "type de poche": "Zippée",
+          "détail": "Velcro",
+          "photo1": "",
+          "photo2": ""
          },
+     
  
      "sac2": 
          {"nom": "Tapisserie noir gris blanc",
