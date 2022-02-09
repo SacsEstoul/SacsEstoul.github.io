@@ -41,7 +41,7 @@
             </br>
 	    </hr>  
 
-	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">ALes Sacs Estoul</p>
+	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0">HLes Sacs Estoul</p>
             </hr>		  
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -212,19 +212,12 @@
    function getElement(id) {
        return document.getElementById(id);
    }
-   </script>	   
-
-
-   <script>
 
    fetch('estoul.json')
    .then(res => res.json())
    .then((res) => {
    const data = res.Données;
-   });  
-  </script>	   
 	   
-  <script>
    // Noms:
    getElement('nom1').innerHTML = data.sac1.nom;
    getElement('nom2').innerHTML = data.sac2.nom;
@@ -245,7 +238,8 @@
    getElement('prix6').innerHTML =  data.sac6.prix;
    getElement('prix7').innerHTML =  data.sac7.prix;	
    getElement('prix8').innerHTML =  data.sac8.prix;	
-   getElement('prix9').innerHTML =  data.sac9.prix;	   
+   getElement('prix9').innerHTML =  data.sac9.prix;
+   }); 	   
    </script>	   
 
 
