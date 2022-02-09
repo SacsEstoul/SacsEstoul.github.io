@@ -24,8 +24,6 @@
 	  	  
   <body>  
 	  
-	  
-	  
   <!--  b) Les prochaines lignes sont pour la barre d'en haut du site - Nom, contact, descriptions avec liens	 -->	  
 	  
 	  
@@ -50,10 +48,7 @@
       </div><!-- /.container -->
     </nav>
    <!-- b)	   -->
-	  
-	  
-	  
-	  
+
 	 
 
 <!-- -->
@@ -218,28 +213,6 @@
        return document.getElementById(id);
    }
    </script>	   
-	
-<!--    <script>
-   function getName(data) {
-       var nameBag = [];	   
-       for (var i = 0; i < data.length; i++) {	
-	   nameBag.append("sac" + i);  
-	   console.log(nameBag[i]);    
-           getElement.innerHTML(nameBag[i]) = data;	// how to get each varname       
-	       
-	       
-       }	
-
-   }	 
-	   
-   fetch('estoul.json')
-   .then(res => res.json())
-   .then((res) => {
-   const data = res.Données;
-   getName(data);	   
-	   
-   });  
-  </script>	    -->
 
 
    <script>
@@ -260,6 +233,14 @@
   </script>
 
 
+ <script src="js/jquery-1.10.2.js"></script>
+ <script src="js/bootstrap.js"></script>
+ <script type="text/javascript">
+    var dt = new Date();
+    document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
+ </script>
+
+	
 
 <!--     <script>
         fetch('estoul.json')
@@ -284,17 +265,30 @@
 
     <div id='myData'></div> -->
 
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script type="text/javascript">
-      var dt = new Date();
-      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
-    </script>
 
-	  
+	
+<!--    <script>
+   function getName(data) {
+       var nameBag = [];	   
+       for (var i = 0; i < data.length; i++) {	
+	   nameBag.append("sac" + i);  
+	   console.log(nameBag[i]);    
+           getElement.innerHTML(nameBag[i]) = data;	// how to get each varname       
+	       
+	       
+       }	
 
-	  	  
+   }	 
+	   
+   fetch('estoul.json')
+   .then(res => res.json())
+   .then((res) => {
+   const data = res.Données;
+   getName(data);	   
+	   
+   });  
+  </script>	    -->
+
 	  
   </body>
-
 </html>
