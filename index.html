@@ -247,13 +247,17 @@
    getElement('prix8').innerHTML =  data.sac8.prix;	
    getElement('prix9').innerHTML =  data.sac9.prix;
 	   
+	   
+   getElement('slogan').innerHTML = data.sous_la_bannière;
+	   
+	   
    }); 	   
 	   
-   fetch('ESTELLE/autres_textes.json')
-   .then(ecrits => ecrits.json())
-   .then((ecrits) => {
-   const miscel = ecrits.texte;	 
-   getElement('slogan').innerHTML = miscel.sous_la_bannière;
+//    fetch('ESTELLE/autres_textes.json')
+//    .then(ecrits => ecrits.json())
+//    .then((ecrits) => {
+//    const miscel = ecrits.texte;	 
+//    getElement('slogan').innerHTML = miscel.sous_la_bannière;
 	   
    </script>	   
 
