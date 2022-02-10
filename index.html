@@ -68,7 +68,7 @@
 	    <hr></hr>
 	    <div class="bottom-one"></div>  	      
 	      
-            <p style="font-family:Didot;font-size:21px;color:#5F9EA0;text-align:center", id="commandez"></p><a href="mailto:sacs.estoul@gmail.com">sacs.estoul@gmail.com</a>   
+            <p style="font-family:Didot;font-size:21px;color:#5F9EA0;text-align:center", id="commandez"><a href="mailto:sacs.estoul@gmail.com" id="email"></a></p>   
 
             <div class="bottom-one"></div>
         </div>
@@ -250,7 +250,8 @@
    .then((ecrits) => {
    const miscel = ecrits.phrases;	 
    getElement('slogan').innerHTML = miscel.sous_la_bannière;
-   getElement('commandez').innerHTML = miscel.commandez;	   
+   getElement('commandez').innerHTML = miscel.commandez;
+   getElement('email').innerHTML = miscel.email;	   
 	   
     }); 	   
 	   
