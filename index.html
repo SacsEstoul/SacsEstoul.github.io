@@ -42,7 +42,7 @@
             </br>
 	    </hr>  
 
-	    <li><a style="font-family:Didot;font-size:48px;color:#5F9EA0" href="#">&nbsp;Les Sacs ESTOUL</a></li>  
+	    <p style="font-family:Didot;font-size:48px;color:#5F9EA0" href="#">&nbsp;Les Sacs ESTOUL</p>  
 	    <div class="bottom-one"></div>   
             </hr>		  
           </ul>
@@ -245,8 +245,8 @@
    fetch('ESTELLE/autres_textes.json')
    .then(ecrits => ecrits.json())
    .then((ecrits) => {
-   const misc = ecrits.textes;	 
-   getElement('slogan').innerHTML = misc.texte.sous_la_bannière;
+   const misc = ecrits.texte;	 
+   getElement('slogan').innerHTML = misc.sous_la_bannière;
 	   
    </script>	   
 
