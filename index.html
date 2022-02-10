@@ -73,8 +73,7 @@
 	    <div class="bottom-one"></div>  	      
 	      
 	      
-            <p style="font-family:Didot;font-size:25px;color:#5F9EA0;text-align:center">Pour plus de détails, questions, ou pour commander un sac, </br>
-	     communiquez avec nous ici: <a href="mailto:sacs.estoul@gmail.com">sacs.estoul@gmail.com</a></p>   
+            <p style="font-family:Didot;font-size:25px;color:#5F9EA0;text-align:center", id="commandez"><a href="mailto:sacs.estoul@gmail.com">sacs.estoul@gmail.com</a></p>   
 
             <div class="bottom-one"></div>
 
@@ -256,6 +255,7 @@
    .then((ecrits) => {
    const miscel = ecrits.phrases;	 
    getElement('slogan').innerHTML = miscel.sous_la_bannière;
+   getElement('commandez').innerHTML = miscel.commandez;	   
 	   
     }); 	   
 	   
@@ -269,6 +269,10 @@
     var dt = new Date();
     document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
  </script>
+
+
+ </body>
+</html>
 
 	
 
@@ -319,6 +323,4 @@
    });  
   </script>	    -->
 
-	  
-  </body>
-</html>
+	 
