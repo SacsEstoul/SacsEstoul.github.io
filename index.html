@@ -223,7 +223,7 @@
    fetch('ESTELLE/info_sacs.json')
    .then(res => res.json())
    .then((res) => {
-   const data = res.Données;
+   const data = res.données_sacs;
 	   
    // Noms:
    getElement('nom1').innerHTML = data.sac1.nom;
@@ -246,6 +246,7 @@
    getElement('prix7').innerHTML =  data.sac7.prix;	
    getElement('prix8').innerHTML =  data.sac8.prix;	
    getElement('prix9').innerHTML =  data.sac9.prix;
+	   
    }); 	   
 	   
    fetch('ESTELLE/autres_textes.json')
