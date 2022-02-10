@@ -68,7 +68,7 @@
 	    <hr></hr>
 	    <div class="bottom-one"></div>  	      
 	      
-            <p style="font-family:Didot;font-size:21px;color:#5F9EA0;text-align:center", id="commandez"><a href="mailto:sacs.estoul@gmail.com" id="email"></a></p>   
+            <p style="font-family:Didot;font-size:22px;color:#5F9EA0;text-align:center", id="commandez"></p><a "font-family:Didot;font-size:22px;color:#5F9EA0;text-align:center" href="email_ref" id="email"></a>   
 
             <div class="bottom-one"></div>
         </div>
@@ -252,7 +252,9 @@
    const utils = ecrits.outils;	   
    getElement('slogan').innerHTML = phrase.sous_la_bannière;
    getElement('commandez').innerHTML = phrase.commandez;
-   getElement('email').innerHTML = utils.email;	   
+   getElement('email').innerHTML = utils.email;	  
+   getElement('email_ref').innerHTML = "mailto:" + utils.email;	   
+	   
 	   
     }); 	   
 	   
