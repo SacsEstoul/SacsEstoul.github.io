@@ -35,9 +35,9 @@
           <ul class="nav navbar-nav">
 	    <li><a href="../">&#x2302; Accueil</a></li>
             <li><a href="mailto:sacs.estoul@gmail.com">&#x1F4E7; Adresse Courriel</a></li>
-            <li><a href="barre_en_haut/philosophie.html">&#9752; La petite histoire</a></li>
-	    <li><a href="barre_en_haut/info.html">&#128172; FAQ</a></li>	
-            <li><a href="barre_en_haut/info.html">&#128172; FAQ</a></li>		  
+            <li><a href="barre_en_haut/petite_histoire.html">&#9752; La petite histoire</a></li>
+	    <li><a href="barre_en_haut/faq.html">&#128172; FAQ</a></li>	
+            <li><a href="barre_en_haut/message.html">&#128172; Message aux Trifluviens</a></li>		  
 		  
             </br>
 	    </hr>  
@@ -63,8 +63,7 @@
 		
 	    <div class="bottom-two"></div>	
 		
-	    <p style="font-size:20px;text-align:center"><em>Soigneusement confectionnés à partir
-	       de textiles récupérés, les sacs Estoul sont reconnus pour leur style unique. Il n'y a pas deux pareils!</em></p> 
+		<em><p style="font-size:20px;text-align:center" id="slogan"></p></em>
 		  		
 	     
 	    <div class="bottom-one"></div>
@@ -214,7 +213,7 @@
        return document.getElementById(id);
    }
 
-   fetch('estoul.json')
+   fetch('ESTELLE/info_sacs.json')
    .then(res => res.json())
    .then((res) => {
    const data = res.Données;
@@ -241,6 +240,13 @@
    getElement('prix8').innerHTML =  data.sac8.prix;	
    getElement('prix9').innerHTML =  data.sac9.prix;
    }); 	   
+	   
+   fetch('ESTELLE/autres_sacs.json')
+   .then(textes => textes.json())
+   .then((textes) => {
+   const misc = textes.texte;	 
+   getElement('slogan').innerHTML = misc.texte.sous_la_bannière;
+	   
    </script>	   
 
 
