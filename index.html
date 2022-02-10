@@ -248,10 +248,11 @@
    fetch('ESTELLE/autres_textes.json')
    .then(ecrits => ecrits.json())
    .then((ecrits) => {
-   const miscel = ecrits.phrases;	 
-   getElement('slogan').innerHTML = miscel.sous_la_bannière;
-   getElement('commandez').innerHTML = miscel.commandez;
-   getElement('email').innerHTML = miscel.email;	   
+   const phrase = ecrits.phrases;	 
+   const utils = ecrits.outils;	   
+   getElement('slogan').innerHTML = phrase.sous_la_bannière;
+   getElement('commandez').innerHTML = phrase.commandez;
+   getElement('email').innerHTML = utils.email;	   
 	   
     }); 	   
 	   
