@@ -5,7 +5,8 @@
  
  
  "outils":
-    {"email": "!sacs.estoul@gmail.com",
+    {"email": "sacs.estoul@gmail.com",
+     "titre_détails": "Charactéristiques Particuliers",
      "lettres_taille": "20px",
      "pagination": "sacs suivants"
     }
