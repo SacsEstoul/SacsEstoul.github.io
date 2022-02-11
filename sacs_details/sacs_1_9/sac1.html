@@ -42,7 +42,7 @@
 		  
             </br>
 	    </hr>  
-	    <a href="../../index.html" style="font-family:Didot;font-size:48px;color:#5F9EA0">&nbsp;aLes Sacs ESTOUL</a>
+	    <a href="../../index.html" style="font-family:Didot;font-size:48px;color:#5F9EA0">&nbsp;Les Sacs ESTOUL</a>
 	    <div class="bottom-one"></div>   
             </hr>		  
           </ul>
@@ -77,6 +77,8 @@
 
         <div class="col-md-4 portfolio-item">
         <div class="bottom-two"></div>
+		
+          <p style="font-size:20px" id="titre_details"></p>		
           <p style="font-size:20px" id="dims"></p>
 	      <div class="bottom-one"></div>
 	  <p style="font-size:20px">Autre détail: </p>&nbsp;<span style="font-size:20px" id="detail1"></span>
@@ -142,13 +144,19 @@
    getElement('detail3').innerHTML = data.sac1.détail3;	 
    getElement('param1').innerHTML = data.sac1.paramètre1;	 
    getElement('param2').innerHTML = data.sac1.paramètre2;	   
-	   
-	   
-	   
-	   
-	
+	  
 
-   }); 	   
+   }); 	
+	   
+	   
+   fetch('../../ESTELLE/autres_textes.json')
+   .then(ecrits => ecrits.json())
+   .then((ecrits) => {
+   const miscel = ecrits.outils;	 
+   getElement('titre_details').innerHTML = miscel.titre_détails;   
+	   
+    }); 	   
+	   
    </script>	  
 
 
