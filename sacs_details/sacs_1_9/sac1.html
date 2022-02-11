@@ -11,8 +11,7 @@
     <meta name="description" content="Collection de Sacs Design Unique / Handmade Tote Bags">
     <meta name="keywords", content="sacs Estoul, sacs, sacs faits main, sacoche, sacs de sport, sacs uniques, bags, tote bags">	 
     <!--  a)   -->
-
-	  
+  
     <title>Sacs ESTOUL - Collection Complète</title>
 
     <!--  1) CSS style using bootstrap -->
@@ -39,7 +38,6 @@
             </br>
 	    <hr></hr>  
 
-	    
 	    <a href="../../index.html" style="font-family:Didot;font-size:48px;color:#5F9EA0;">&nbsp;Les Sacs ESTOUL</a>
 	    <div class="bottom-one"></div>   
             </hr>		  
@@ -88,22 +86,15 @@
 	      <div class="bottom-one"></div>
 	  <li><p style="font-size:20px"></p>&nbsp;<span style="white-space:nowrap;font-size:20px" id="detail3"></span></li> 
 	      <div class="bottom-two"></div>
-	<p><a href="mailto:sacs.estoul@gmail.com" style="font-size:20px;border:2px;border-style:solid;border-color:#5F9EA0;padding:0.5em;"> Cliquez ici pour commander</a></p>
-             
+	<p><a href="mailto:sacs.estoul@gmail.com" style="font-size:20px;border:2px;border-color:#5F9EA0;padding:0.5em;"> Cliquez ici pour commander</a></p>
+<!--              border-style:solid; -->
 
         </div>
-
       </div>
-      
- 
-      <hr>
-
-
+      <hr></hr>
     </div><!-- /.container -->
 
     <div class="container">
-	       
-
 
       <footer>
         <div class="row">
@@ -115,18 +106,11 @@
 		                            Canada<p>
           </div>
         </div>
-      </footer> 
-           
+      </footer>            
  </div><!-- /.container -->
 
 
-
-
-
-
-
     <!-- JavaScript -->
-
 
    <script>
    function getElement(id) {
@@ -138,15 +122,13 @@
    .then((res) => {
    const data = res.données_sacs;
 	   
-   // Dims:
+   // Dims et details:
    getElement('dims').innerHTML = data.sac1.dimensions;	   
    getElement('detail1').innerHTML = data.sac1.détail1;	
    getElement('detail2').innerHTML = data.sac1.détail2;	   
    getElement('detail3').innerHTML = data.sac1.détail3;	 
    getElement('param1').innerHTML = data.sac1.photo1;	 
    getElement('param2').innerHTML = data.sac1.photo2;	   
-	  
-
    }); 	
 	   
 	   
@@ -155,11 +137,8 @@
    .then((ecrits) => {
    const miscel = ecrits.outils;	 
    getElement('titre_details').innerHTML = miscel.titre_détails;   
-	   
-    }); 	   
-	   
+   }); 	      
    </script>	  
-
 
     <script src="../../code/js/jquery-1.10.2.js"></script>
     <script src="../../code/js/bootstrap.js"></script>
