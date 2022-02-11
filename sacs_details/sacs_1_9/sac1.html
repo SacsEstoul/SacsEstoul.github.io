@@ -62,20 +62,20 @@
       <div class="row">
 	  
         <div class="col-md-4 portfolio-item">
-		<p style="font-size:20px;text-align:center;font-family:Optima" id="param1"></p>
+		<p style="font-size:20px;text-align:center;font-family:Optima" id="photo1"></p>
           <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1a.JPG" alt="nom_sac_a"></a>
            
         </div>
 
         <div class="col-md-4 portfolio-item">
-	        <p style="font-size:20px;text-align:center;font-family:Optima" id="param2"></p>
+	        <p style="font-size:20px;text-align:center;font-family:Optima" id="photo2"></p>
           <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1b.JPG" alt="nom_sac_a"></a>
       
         </div>
 
         <div class="col-md-4 portfolio-item">
         <div class="bottom-two"></div>
-          <p style="font-size:20px">Dimensions: </p><span style="font-size:20px" id="dims"></span>
+          <p style="font-size:20px" id="dims"></p>
 	      <div class="bottom-one"></div>
 	  <p style="font-size:20px" id="detail1"></p>
 	      <div class="bottom-one"></div>
@@ -141,6 +141,8 @@
    getElement('detail3').innerHTML = data.sac1.détail3;	 
    getElement('param1').innerHTML = data.sac1.paramètre1;	 
    getElement('param2').innerHTML = data.sac1.paramètre2;	   
+   getElement('photo1').innerHTML = data.sac1.photo1;	 
+   getElement('photo2').innerHTML = data.sac1.photo2;	   
 	   
    });	   
 	   
