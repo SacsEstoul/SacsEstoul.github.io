@@ -61,7 +61,11 @@ footer {
     text-decoration: none;
 }
 
-/* a:hover{
- border:1px solid red;  
-}
- */
+.link_border {
+    border:2px;
+    border-style:solid;
+    border-color:#5F9EA0;
+    padding:0.5em;	
+}	
+	
+	
