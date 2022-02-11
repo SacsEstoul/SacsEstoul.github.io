@@ -130,11 +130,12 @@
        return document.getElementById(id);
    }
 
-   fetch('../../estoul.json')
+   fetch('../ESTELLE/info_sacs.json')
    .then(res => res.json())
    .then((res) => {
-   const data = res.Données;
+   const data = res.données_sacs;
 	   
+   getElement('nom1').innerHTML = data.sac1.nom;	   
    // Dims:
    getElement('dims').innerHTML = data.sac1.dimensions;	   
    getElement('detail1').innerHTML = data.sac1.détail1;	
@@ -143,8 +144,27 @@
    getElement('param1').innerHTML = data.sac1.paramètre1;	 
    getElement('param2').innerHTML = data.sac1.paramètre2;	   
 	   
+   });	   
 	   
+	      
+   fetch('../ESTELLE/autres_textes.json')
+   .then(ecrits => ecrits.json())
+   .then((ecrits) => {
+   const phrase = ecrits.phrases;	 
+   const utils = ecrits.outils;	   
+   getElement('slogan').innerHTML = phrase.sous_la_bannière;
 	   
+   // To implement 	   
+   getElement('commandez').innerHTML = phrase.commandez;
+   getElement('email').innerHTML = utils.email;	  
+   getElement('email_ref').innerHTML = "mailto:" + utils.email;	   
+   getElement('fontsize').innerHTML = utils.lettres_taille;
+   getElement('pages').innerHTML = utils.pagination;
+   const nom_sac1 = "Sac Estoul " + data.sac1.nom; 
+	   
+    }); 	   
+	   
+   </script>	 	   
 	   
 	
 
