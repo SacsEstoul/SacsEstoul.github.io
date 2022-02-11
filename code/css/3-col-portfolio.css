@@ -43,8 +43,8 @@ footer {
 
 .logo_topright {
   position:absolute;
-  top:-5px;
-  right:-5px;
+  top:5px;
+  right:5px;
   height: 160px;
   width: 160px;	
 }
