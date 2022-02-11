@@ -65,13 +65,13 @@
 	  
         <div class="col-md-4 portfolio-item">
 		<p style="font-size:20px;text-align:center;font-family:Optima" id="param1"></p>
-          <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1.JPG", alt=""></a>
+          <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1a.JPG", alt=""></a>
            
         </div>
 
         <div class="col-md-4 portfolio-item">
 	  <p style="font-size:20px;text-align:center;font-family:Optima" id="param2"></p>
-          <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1.JPG"></a>
+          <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1b.JPG"></a>
       
         </div>
 
@@ -130,7 +130,7 @@
        return document.getElementById(id);
    }
 
-   fetch('../ESTELLE/info_sacs.json')
+   fetch('../../ESTELLE/info_sacs.json')
    .then(res => res.json())
    .then((res) => {
    const data = res.données_sacs;
@@ -147,15 +147,15 @@
    });	   
 	   
 	      
-   fetch('../ESTELLE/autres_textes.json')
+   fetch('../../ESTELLE/autres_textes.json')
    .then(ecrits => ecrits.json())
    .then((ecrits) => {
    const phrase = ecrits.phrases;	 
    const utils = ecrits.outils;	   
    getElement('slogan').innerHTML = phrase.sous_la_bannière;
 	   
-   const nom_sac_a = "Sac Estoul " + data.sac1.nom + " a"; 
-   const nom_sac_b = "Sac Estoul " + data.sac1.nom + " b"; 
+   getElement('nom_sac_a').innerHTML = "Sac Estoul " + data.sac1.nom + " a"; 
+   getElement('nom_sac_b').innerHTML = "Sac Estoul " + data.sac1.nom + " b"; 
 	   
     }); 	   
 	   
