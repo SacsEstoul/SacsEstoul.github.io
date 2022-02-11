@@ -39,3 +39,14 @@ footer {
   left: 0vw;
   z-index: 1;
 }
+
+
+#content {
+  position:relative;
+}
+
+.logo_topright {
+  position:absolute;
+  top:0;
+  right:0;
+}
