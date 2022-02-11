@@ -27,22 +27,22 @@
   <body>  
 
 	  
+	  
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
       <div class="container">
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav"> 
-	    <li><a href="../../">&#127968; Accueil</a></li>
+          <ul class="nav navbar-nav">
+	    <li><a href="../../">&#x2302; Accueil</a></li>
             <li><a href="mailto:sacs.estoul@gmail.com">&#x1F4E7; Adresse Courriel</a></li>
-            <li><a href="../../barre_en_haut/petite_histoire.html">&#128092; La petite histoire</a></li>
-	    <li><a href="../../barre_en_haut/faq.html">&#10067; FAQ</a></li>	
-            <li><a href="../../barre_en_haut/message.html">&#128172; Message aux Trifluviens</a></li>		  
+            <li><a href="../../barre_en_haut/philosophie.html">&#9752; La petite histoire</a></li>
+	    <li><a href="../../barre_en_haut/info.html">&#128172; FAQ</a></li>	
+	    <li><a href="../../barre_en_haut/message.html">&#128172; Message aux Trifluviens</a></li>  
 		  
             </br>
-	    <hr></hr>  
-
-	    <a style="font-family:Didot;font-size:48px;color:#5F9EA0" href="../../">&nbsp;Les Sacs ESTOUL</a>  
+	    </hr>  
+	    <a href="../../index.html" style="font-family:Didot;font-size:48px;color:#5F9EA0">&nbsp;aLes Sacs ESTOUL</a>
 	    <div class="bottom-one"></div>   
             </hr>		  
           </ul>
@@ -59,22 +59,23 @@
     <div class="bottom-three"></div>
     <div class="bottom-three"></div>	    
 
+
       <div class="row">
+	            
 	  
         <div class="col-md-4 portfolio-item">
-		<p style="font-size:20px;text-align:center;font-family:Optima" id="photo1"></p>
-          <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1a.JPG"></a>
+		<p style="font-size:20px;text-align:center;font-family:Optima" id="param1"></p>
+          <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1.JPG"></a>
            
         </div>
 
         <div class="col-md-4 portfolio-item">
-	        <p style="font-size:20px;text-align:center;font-family:Optima" id="photo2"></p>
-          <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1b.JPG"></a>
+	  <p style="font-size:20px;text-align:center;font-family:Optima" id="param2"></p>
+          <a><img style="text-align:center" width="350" src="../../photos/sacs_1-9/sac1.JPG"></a>
       
         </div>
 
         <div class="col-md-4 portfolio-item">
-		
         <div class="bottom-two"></div>
           <p style="font-size:20px" id="dims"></p>
 	      <div class="bottom-one"></div>
@@ -86,22 +87,6 @@
 	      <div class="bottom-two"></div>
 	<p><a href="mailto:sacs.estoul@gmail.com" style="font-size:22px"> Cliquez ici pour commander</a></p>
              
-		
-		
-<!--         <div class="bottom-two"></div> -->
-<!-- 	<p style="font-size:20px;font-family:Optima" id="dims"></p> -->
-<!--           <span style="font-size:20px" id="dims"></span> -->
-		
-<!--           <p style="font-size:20px" id="dims"></p> -->
-<!-- 	      <div class="bottom-one"></div>
-	  <p style="font-size:20px" id="detail1"></p>
-	      <div class="bottom-one"></div>
-	  <p style="font-size:20px" id="detail2"></p>  
-	      <div class="bottom-one"></div>
-	  <p style="font-size:20px" id="detail3"></p> 
-	      <div class="bottom-two"></div>
-	<p><a href="mailto:sacs.estoul@gmail.com" style="font-size:20px"> Cliquez ici pour commander</a></p>
-              -->
 
         </div>
 
@@ -150,7 +135,6 @@
    .then((res) => {
    const data = res.données_sacs;
 	   
-   getElement('nom1').innerHTML = data.sac1.nom;	   
    // Dims:
    getElement('dims').innerHTML = data.sac1.dimensions;	   
    getElement('detail1').innerHTML = data.sac1.détail1;	
@@ -158,16 +142,14 @@
    getElement('detail3').innerHTML = data.sac1.détail3;	 
    getElement('param1').innerHTML = data.sac1.paramètre1;	 
    getElement('param2').innerHTML = data.sac1.paramètre2;	   
-   getElement('photo1').innerHTML = data.sac1.photo1;	 
-   getElement('photo2').innerHTML = data.sac1.photo2;	   
 	   
-   });	   
 	   
-//    getElement('nom_sac_a').innerHTML = "Sac Estoul " + data.sac1.nom + " a"; 
-//    getElement('nom_sac_b').innerHTML = "Sac Estoul " + data.sac1.nom + " b"; 	   
 	   
-   </script>	 	   
-	     
+	   
+	
+
+   }); 	   
+   </script>	  
 
 
     <script src="../../code/js/jquery-1.10.2.js"></script>
