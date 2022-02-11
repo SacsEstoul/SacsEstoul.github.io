@@ -42,7 +42,7 @@
 		  
             </br>
 	    </hr>  
-	    <a href="../../index.html" style="font-family:Didot;font-size:48px;color:#5F9EA0">&nbsp;Les Sacs ESTOUL</a>
+	    <a href="../../index.html" style="font-family:Didot;font-size:48px;color:#5F9EA0">&nbsp;aLes Sacs ESTOUL</a>
 	    <div class="bottom-one"></div>   
             </hr>		  
           </ul>
@@ -77,7 +77,7 @@
 
         <div class="col-md-4 portfolio-item">
         <div class="bottom-two"></div>
-          <p style="font-size:20px">Dimensions: </p>&nbsp;<span style="font-size:20px" id="dims"></span>
+          <p style="font-size:20px" id="dims"></p>
 	      <div class="bottom-one"></div>
 	  <p style="font-size:20px">Autre détail: </p>&nbsp;<span style="font-size:20px" id="detail1"></span>
 	      <div class="bottom-one"></div>
@@ -133,7 +133,7 @@
    fetch('../../ESTELLE/info_sacs.json')
    .then(res => res.json())
    .then((res) => {
-   const data = res.Données;
+   const data = res.données_sacs;
 	   
    // Dims:
    getElement('dims').innerHTML = data.sac1.dimensions;	   
