@@ -177,10 +177,7 @@
         <div class="col-lg-12">
 		
 
-          <ul class="pagination">
-                    <a class="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">«</span>
-                        <span class="sr-only">Previous</span>		  
+          <ul class="pagination" style="vertical-align: text-top" id="pages">  
             <li><a href="#">&laquo;</a></li>
             <li class="active"><a href="#">1</a></li>
             <li><a href="pages_suivantes/onglet2.html">2</a></li>
@@ -265,6 +262,8 @@
    getElement('email').innerHTML = utils.email;	  
    getElement('email_ref').innerHTML = "mailto:" + utils.email;	   
    getElement('fontsize').innerHTML = utils.lettres_taille;
+   getElement('pages').innerHTML = utils.pagination;
+	   
 	   
    const nom_sac1 = "Sac Estoul " + data.sac1.nom; 
    const nom_sac2 = "Sac Estoul " + data.sac2.nom; 	   
