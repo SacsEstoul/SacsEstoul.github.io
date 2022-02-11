@@ -46,7 +46,7 @@ footer {
   top:0;
   right:0;
   height: 160px;
-  width: 16px;	
+  width: 160px;	
 }
 
 
@@ -60,3 +60,8 @@ footer {
     text-indent: -999em;
     text-decoration: none;
 }
+
+a:hover{
+ border:1px solid red;  
+}
+
