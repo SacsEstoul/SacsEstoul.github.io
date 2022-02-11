@@ -1,11 +1,12 @@
 {"phrases":
     {"sous_la_bannière": "Soigneusement confectionnés à partir de textiles récupérés, les sacs Estoul sont reconnus pour leur style unique. </br> Il n'y en a pas deux pareils!",
-     "commandez": "Pour plus de détails, questions, ou pour commander un sac, </br> communiquez avec nous ici:"
+     "commandez": "!Pour plus de détails, questions, ou pour commander un sac, </br> communiquez avec nous ici:"
     },
  
  
  "outils":
-    {"email": "sacs.estoul@gmail.com",
-     "lettres_taille": "20px"
+    {"email": "!sacs.estoul@gmail.com",
+     "lettres_taille": "20px",
+     "pagination": "sacs suivants"
     }
 }
