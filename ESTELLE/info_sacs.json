@@ -266,34 +266,34 @@
          },  
      
       "sac25": 
-         {"nom": "sac 25",
+         {"nom": "Sport vert forêt",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 53 cm L x 37 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "Ferme avec fermeture éclair",
           "photo1": "",
           "photo2": ""
          },  
      
       "sac26": 
-         {"nom": "sac 26",
+         {"nom": "Rouge à grosses fleurs",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 38 cm L x 34 cm P",
           "détail1": "Poche zippée",
-          "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail2": "",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },  
      
       "sac27": 
-         {"nom": "sac 27",
+         {"nom": "Planète jaune",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "Ferme avec fermeture éclair",
           "photo1": "",
           "photo2": ""
          },    
