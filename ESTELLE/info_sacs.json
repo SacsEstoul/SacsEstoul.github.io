@@ -11,182 +11,536 @@
           "photo1": "",
           "photo2": ""
          },
-     
  
      "sac2": 
          {"nom": "Tapisserie noir gris blanc",
-          "prix": "55$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         }, 
- 
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
      "sac3": 
          {"nom": "Les rayures",
-          "prix": "50$",
-          "dimensions": " 38cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         },
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },   
      
       "sac4": 
          {"nom": "Orange",
-          "prix": "45$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         }, 
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
        "sac5": 
          {"nom": "Jaune",
-          "prix": "45$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         }, 
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
       "sac6": 
          {"nom": "Vert",
-          "prix": "45$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         }, 
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
       "sac7": 
          {"nom": "Bleu",
-          "prix": "45$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         }, 
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
       "sac8": 
          {"nom": "Noir",
-          "prix": "45$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         }, 
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
       "sac9": 
          {"nom": "Blanc",
-          "prix": "45$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
          },
      
      "sac10": 
          {"nom": "sac 10",
           "prix": "65$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
          },
+     
      "sac11": 
          {"nom": "sac 11",
-          "prix": "55$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         }, 
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
      "sac12": 
          {"nom": "sac 12",
-          "prix": "50$",
-          "dimensions": " 38cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         },   
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
       "sac13": 
          {"nom": "sac 13",
-          "prix": "45$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         }, 
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
        "sac14": 
          {"nom": "sac 14",
-          "prix": "45$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         }, 
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
       "sac15": 
          {"nom": "sac 15",
-          "prix": "45$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         }, 
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
       "sac16": 
          {"nom": "sac 16",
-          "prix": "45$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         }, 
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
       "sac17": 
          {"nom": "sac 17",
-          "prix": "45$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         }, 
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
       "sac18": 
          {"nom": "sac 18",
-          "prix": "45$",
-          "dimensions": "53 cm L x 35 cm P",
-          "détail1": "abcd",
-          "détail2": "qwe",
-          "détail3": "uio",
-          "paramètre1": "intérieur",
-          "paramètre2": "côté"
-         }
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },
+     
+      "sac19": 
+         {"nom": "sac 19",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac20": 
+         {"nom": "sac 20",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac21": 
+         {"nom": "sac 21",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },  
+     
+      "sac22": 
+         {"nom": "sac 22",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },  
+     
+      "sac23": 
+         {"nom": "sac 23",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },  
+     
+      "sac24": 
+         {"nom": "sac 24",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },  
+     
+      "sac25": 
+         {"nom": "sac 25",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },  
+     
+      "sac26": 
+         {"nom": "sac 26",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },  
+     
+      "sac27": 
+         {"nom": "sac 27",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },    
+     
+      "sac28": 
+         {"nom": "sac 28",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },   
+     
+      "sac29": 
+         {"nom": "sac 29",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },   
+     
+      "sac30": 
+         {"nom": "sac 30",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },   
+     
+      "sac31": 
+         {"nom": "sac 31",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },   
+     
+      "sac32": 
+         {"nom": "sac 32",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },   
+     
+      "sac33": 
+         {"nom": "sac 33",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },   
+     
+      "sac34": 
+         {"nom": "sac 34",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },   
+     
+      "sac35": 
+         {"nom": "sac 35",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },   
+     
+      "sac36": 
+         {"nom": "sac 36",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },        
 
+      "sac37": 
+         {"nom": "sac 37",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac38": 
+         {"nom": "sac 38",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac39": 
+         {"nom": "sac 39",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac40": 
+         {"nom": "sac 40",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac41": 
+         {"nom": "sac 41",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac42": 
+         {"nom": "sac 42",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac43": 
+         {"nom": "sac 43",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac44": 
+         {"nom": "sac 44",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac45": 
+         {"nom": "sac 45",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac46": 
+         {"nom": "sac 46",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac47": 
+         {"nom": "sac 47",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac48": 
+         {"nom": "sac 48",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },     
+     
+      "sac49": 
+         {"nom": "sac 49",
+          "prix": "65$",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
+          "photo1": "",
+          "photo2": ""
+         },          
+     
+     
     }
   
 }  
