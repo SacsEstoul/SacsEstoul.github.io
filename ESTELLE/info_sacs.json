@@ -145,56 +145,56 @@
          },
      
        "sac14": 
-         {"nom": "sac 14",
+         {"nom": "Vert fluo sans nom",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },
      
       "sac15": 
-         {"nom": "sac 15",
+         {"nom": "Il a de la classe",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },
      
       "sac16": 
-         {"nom": "sac 16",
+         {"nom": "Le vert et son étui à crayons",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
-          "détail1": "Poche zippée",
-          "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Poche double",
+          "détail2": "Étui détachable",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },
      
       "sac17": 
-         {"nom": "sac 17",
+         {"nom": "Fleur bleue",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 38 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "Ferme avec fermeture éclair",
           "photo1": "",
           "photo2": ""
          },
      
       "sac18": 
-         {"nom": "sac 18",
+         {"nom": "Les grandes feuilles",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 53 cm L x 32 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "Ferme avec fermeture éclair",
           "photo1": "",
           "photo2": ""
          },
