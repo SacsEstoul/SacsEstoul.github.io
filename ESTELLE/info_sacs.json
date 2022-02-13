@@ -123,12 +123,12 @@
          },
      
      "sac12": 
-         {"nom": "sac 12",
+         {"nom": "Le potager orange fluo",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },
