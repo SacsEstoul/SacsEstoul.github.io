@@ -35,12 +35,12 @@
          },   
      
       "sac4": 
-         {"nom": "Orange",
+         {"nom": "Le jean d'Isa",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 38 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "Une poche à l'extérieur",
           "photo1": "",
           "photo2": ""
          },
