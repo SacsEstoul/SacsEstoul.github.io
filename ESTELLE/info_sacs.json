@@ -299,100 +299,100 @@
          },    
      
       "sac28": 
-         {"nom": "sac 28",
+         {"nom": "Grand bleu fleuri",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 53 cm L x 34 cm P",
           "détail1": "Poche zippée",
-          "détail2": "Poche double",
+          "détail2": "Poche simple",
           "détail3": "Fermeture à velcro",
           "photo1": "",
           "photo2": ""
          },   
      
       "sac29": 
-         {"nom": "sac 29",
+         {"nom": "Losanges",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 38 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },   
      
       "sac30": 
-         {"nom": "sac 30",
+         {"nom": "Psychédélique jaune",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },   
      
       "sac31": 
-         {"nom": "sac 31",
+         {"nom": "Sport vert",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 58 cm L x 37 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "Ferme avec fermeture éclair",
           "photo1": "",
           "photo2": ""
          },   
      
       "sac32": 
-         {"nom": "sac 32",
+         {"nom": "Le chasseur",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Poche zippée",
-          "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail2": "Poche à l'extérieur",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },   
      
       "sac33": 
-         {"nom": "sac 33",
+         {"nom": "Légumes vert forêt",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },   
      
       "sac34": 
-         {"nom": "sac 34",
+         {"nom": "Le jaune et son étui à crayons",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
-          "détail1": "Poche zippée",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Étui détachable",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },   
      
       "sac35": 
-         {"nom": "sac 35",
+         {"nom": "Le carotté bleu rose",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },   
      
       "sac36": 
-         {"nom": "sac 36",
-          "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+         {"nom": "Petit rouge à rayures",
+          "prix": "VENDU",
+          "dimensions": "Dimensions: 38 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "Ferme avec fermeture éclair",
           "photo1": "",
           "photo2": ""
          },        
