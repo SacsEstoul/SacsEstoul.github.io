@@ -233,34 +233,34 @@
          },  
      
       "sac22": 
-         {"nom": "sac 22",
+         {"nom": "Champignons bleus",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 30 cm L x 34 cm P",
           "détail1": "Poche zippée",
-          "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail2": "",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },  
      
       "sac23": 
-         {"nom": "sac 23",
+         {"nom": "Les petits pois",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 38 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },  
      
       "sac24": 
-         {"nom": "sac 24",
+         {"nom": "Psychédélique bleu",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },  
