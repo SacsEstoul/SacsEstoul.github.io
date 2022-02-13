@@ -200,23 +200,23 @@
          },
      
       "sac19": 
-         {"nom": "sac 19",
+         {"nom": "Jaune à petites fleurs",
           "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },     
      
       "sac20": 
-         {"nom": "sac 20",
-          "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 35 cm P",
+         {"nom": "Carotté brun-vert",
+          "prix": "VENDU",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Fermeture à velcro",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },     
