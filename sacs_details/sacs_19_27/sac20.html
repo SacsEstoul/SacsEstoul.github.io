@@ -58,12 +58,12 @@
       <div class="row">
         <div class="col-md-4 portfolio-item">
 		<p style="font-size:20px;text-align:center;font-family:Optima" id="param1"></p>
-		<a><img style="text-align:center;width:300px;height:300px;" src="../../photos/sacs_19-17/sac20a.JPG" id=nom_sac></img></a>  
+		<a><img style="text-align:center;width:300px;height:300px;" src="../../photos/sacs_19-17/sac20a.JPG" id="nom_sac"></img></a>  
         </div>
 
         <div class="col-md-4 portfolio-item">
 	  <p style="font-size:20px;text-align:center;font-family:Optima" id="param2"></p>
-		<a><img style="text-align:center;width:300px;height:300px;" src="../../photos/sacs_19-27/sac20b.JPG" alt=nom_sac></img></a>
+		<a><img style="text-align:center;width:300px;height:300px;" src="../../photos/sacs_19-27/sac20b.JPG" alt="nom_sac"></img></a>
    
         </div>
 
@@ -129,8 +129,8 @@
    getElement('param2').innerHTML = data.sac20.photo2;	   
 	   
    // Noms:
-	   
-   var nom_sac = "Sac Estoul " + data.sac20.nom;	   
+   getElement('nom_sac').innerHTML = "Sac Estoul " + data.sac20.nom;  
+	      
    }); 	
 	   
 	   
