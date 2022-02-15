@@ -79,6 +79,11 @@ Mais ce que je préfère par-dessus tout, c’est faire aller ma machine à coud
 	<a href="mailto:sacs.estoul@gmail.com">
 	    <p style="font-size:20px;text-align:center;border:2px;border-style:solid;border-color:#5F9EA0;padding:0.5em;"> Cliquez ici pour commander</p>
 	</a>	 -->
+	    <div class="bottom-one"></div>  	      
+            <p style="font-family:Didot;font-size:23px;color:#5F9EA0;text-align:center">Pour plus de détails, questions, ou pour commander un sac, </br>
+	     communiquez avec nous ici: <a href="mailto:sacs.estoul@gmail.com">sacs.estoul@gmail.com</a></p>  	      
+            <div class="bottom-one"></div>		
+		
 	<div class="bottom-two"></div>	
         </div>
       </div>
@@ -108,7 +113,7 @@ Mais ce que je préfère par-dessus tout, c’est faire aller ma machine à coud
        return document.getElementById(id);
    }
 
-   fetch('../../ESTELLE/info_sacs.json')
+   fetch('../ESTELLE/info_sacs.json')
    .then(res => res.json())
    .then((res) => {
    const data = res.données_sacs;
@@ -123,7 +128,7 @@ Mais ce que je préfère par-dessus tout, c’est faire aller ma machine à coud
    }); 	
 	   
 	   
-   fetch('../../ESTELLE/autres_textes.json')
+   fetch('../ESTELLE/autres_textes.json')
    .then(ecrits => ecrits.json())
    .then((ecrits) => {
    const miscel = ecrits.outils;	 
@@ -131,8 +136,8 @@ Mais ce que je préfère par-dessus tout, c’est faire aller ma machine à coud
    }); 	      
    </script>	  
 
-    <script src="../../code/js/jquery-1.10.2.js"></script>
-    <script src="../../code/js/bootstrap.js"></script>
+    <script src="../code/js/jquery-1.10.2.js"></script>
+    <script src="../code/js/bootstrap.js"></script>
     <script type="text/javascript">
       var dt = new Date();
       document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
