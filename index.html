@@ -69,7 +69,7 @@
         <div class="col-md-4 portfolio-item">
           <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_1_9/sac1.html" id="nom1"></a></p>
           <a href="sacs_details/sacs_1_9/sac1.html">
-		  <img class="img-responsive" style="text-align:center;width:350;height:525" src="photos/sacs_1-9/ac1.JPG" id="nom_sac1"></img>
+		  <img class="img-responsive" style="text-align:center;width:350;height:525" src="photos/sacs_1-9/ac1.JPG" alt="nom_lab1"></img>
 	  </a>
           <h3 id="prix1"></h3>               
         </div>
@@ -196,6 +196,12 @@
    function getElement(id) {
        return document.getElementById(id);
    }
+	   
+   function setAlt(lab){
+    var div = document.querySelector("#table-processing");
+        var image = div.querySelector("img");
+            image.setAttribute("alt", lab);
+   }	   
 
    fetch('ESTELLE/info_sacs.json')
    .then(res => res.json())
@@ -223,6 +229,8 @@
    getElement('prix7').innerHTML =  data.sac7.prix;	
    getElement('prix8').innerHTML =  data.sac8.prix;	
    getElement('prix9').innerHTML =  data.sac9.prix;
+	   
+   setAlt("nom_lab1").innerHTML = "Sac Estoul " + data.sac1.nom; 	   
    });	   
 	   
 	   
@@ -256,7 +264,9 @@
    var trything = "Sac Estoul " + data.sac9.nom; 	   
 	   
 	   
-    }); 	   
+    }); 	  
+	   
+	   
 	   
    </script>	   
 
