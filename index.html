@@ -20,7 +20,8 @@
     <!-- 1)  -->
   </head>	  
 	  	  
-  <body>  
+
+  <body onload="myFunction()">	  
 	  
 	  
   <!--  b) Les prochaines lignes sont pour la barre d'en haut du site - Nom, contact, descriptions avec liens	 -->	  
@@ -32,7 +33,7 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav"> 
 	    <li><a href="#">&#127968; Accueil</a></li>
-            <li><a href="mailto:sacs.estoul@gmail.com?subject='nom1'&body='prix1'">&#x1F4E7; Adresse Courriel</a></li>	  
+	    <li><a href=<span id='href_str'></span>&#x1F4E7; Adresse Courriel</a></li>	  
             <li><a href="mailto:sacs.estoul@gmail.com?subject='data.sac1.nom'&body=<p id='nom1'/>">&#x1F4E7; Adresse Courriel</a></li>	  
 		  
             <li><a href="barre_en_haut/petite_histoire.html">&#128092; La petite histoire</a></li>
@@ -204,7 +205,7 @@
    }
 	   
    function setAlt(lab){
-   // function to set photo 'alt' attribute dynamically 	   
+   // function to set photo 'alt' attribute dynamically (#TODO: fix)	   
     var div = document.querySelector("#table-processing");
         var image = div.querySelector("img");
             image.setAttribute("alt", lab);
@@ -239,15 +240,18 @@
    getElement('prix8').innerHTML =  data.sac8.prix;	
    getElement('prix9').innerHTML =  data.sac9.prix;
 	   
-   setAlt("nom_lab1").innerHTML = "Sac Estoul " + data.sac1.nom; 
+   setAlt("nom_lab1").innerHTML = "Sac Estoul " + data.sac1.nom;  
 	   
-   function myFunc() {
-       var href_str = "mailto:sacs.estoul@gmail.com?subject=" + data.sac1.nom + "&body=Prix: " + data.sac1.prix;	   
-       var HTMLContent =`<li><a href=href_str>&#x1F4E7; Adresse Courriel ++</a></li>`;
-        document.getElementById('sactype').innerHTML = (HTMLContent);
-    }
-           	   
-    myFunc();  	
+    function myFunction() {
+        var strname = "mailto:sacs.estoul@gmail.com?subject=" + data.sac1.nom + "&body=" + data.sac1.prix;
+        document.getElementById("href_str").innerHTML = strname;
+    }	   
+	   
+   
+	  
+   <li><a href="mailto:sacs.estoul@gmail.com?subject='nom1'&body='prix1'">&#x1F4E7; Adresse Courriel</a></li>	  
+
+	   
 	   
    });	   
 	   
