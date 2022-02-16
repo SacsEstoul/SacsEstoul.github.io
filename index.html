@@ -18,11 +18,28 @@
     <!-- Custom CSS for the '3 Col Portfolio' Template -->
     <link href="code/css/3-col-portfolio.css" rel="stylesheet">
     <!-- 1)  -->
+	  
+    <script>
+   function putText() {	    
+
+       fetch('ESTELLE/info_sacs.json')
+       .then(res => res.json())
+       .then((res) => {
+       const data = res.données_sacs;    
+	     
+       var splitText = "mailto:sacs.estoul@gmail.com?subject=" + data.sac1.nom + "&body=prix: " + data.sac1.prix; 
+       document.getElementById("destination").innerHTML = splitText;
+            
+       });
+   }   
+	    
+    </script>	  
+	  
   </head>	  
 	  	  
-
-  <body onload="myFunction()">	  
 	  
+  <body onLoad = putText()>
+   	  
 	  
   <!--  b) Les prochaines lignes sont pour la barre d'en haut du site - Nom, contact, descriptions avec liens	 -->	  
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
@@ -33,7 +50,7 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav"> 
 	    <li><a href="#">&#127968; Accueil</a></li>
-            <li><a href="mailto:sacs.estoul@gmail.com">&#x1F4E7; Adresse Courriel</a></li>	  
+            <li><a href=<a id="destination" href = test.html></a>>&#x1F4E7; Adresse Courriel</a></li>	  
 		  
             <li><a href="mailto:sacs.estoul@gmail.com?subject='data.sac1.nom'&body=<p id='nom1'/>">&#x1F4E7; Adresse Courriel</a></li>	  
 		  
@@ -204,15 +221,6 @@
    function getElement(id) {
        return document.getElementById(id);
    }
-	   
-   function setAlt(lab){
-   // function to set photo 'alt' attribute dynamically (#TODO: fix)	   
-    var div = document.querySelector("#table-processing");
-        var image = div.querySelector("img");
-            image.setAttribute("alt", lab);
-   }	   
-	    
-	   
 
    fetch('ESTELLE/info_sacs.json')
    .then(res => res.json())
@@ -240,13 +248,7 @@
    getElement('prix7').innerHTML =  data.sac7.prix;	
    getElement('prix8').innerHTML =  data.sac8.prix;	
    getElement('prix9').innerHTML =  data.sac9.prix;
-	   
-   setAlt("nom_lab1").innerHTML = "Sac Estoul " + data.sac1.nom;  
-	   
-    function myFunction() {
-        var strname = "mailto:sacs.estoul@gmail.com?subject=" + data.sac1.nom + "&body=" + data.sac1.prix;
-        document.getElementById("href_str").innerHTML = strname;
-    }	    
+ 	    
 	   
    });	   
 	   
