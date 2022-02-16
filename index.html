@@ -32,6 +32,7 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav"> 
 	    <li><a href="#">&#127968; Accueil</a></li>
+	    <div id="sactype"></div>  
             <li><a href="mailto:sacs.estoul@gmail.com?subject='nom1'&body='prix1'">&#x1F4E7; Adresse Courriel</a></li>	  
             <li><a href="mailto:sacs.estoul@gmail.com?subject='data.sac1.nom'&body=<p id='nom1'/>">&#x1F4E7; Adresse Courriel</a></li>	  
 		  
@@ -209,13 +210,7 @@
         var image = div.querySelector("img");
             image.setAttribute("alt", lab);
    }	   
-	   
-   function myFunc() {
-       var HTMLContent =`<div class="className"><div>HTML Content</div></div>`;
-        document.getElementById('sactype').innerHTML = (HTMLContent);
-    }
-	   
-    myFunc();   
+	    
 	   
 
    fetch('ESTELLE/info_sacs.json')
@@ -245,7 +240,16 @@
    getElement('prix8').innerHTML =  data.sac8.prix;	
    getElement('prix9').innerHTML =  data.sac9.prix;
 	   
-   setAlt("nom_lab1").innerHTML = "Sac Estoul " + data.sac1.nom; 	   
+   setAlt("nom_lab1").innerHTML = "Sac Estoul " + data.sac1.nom; 
+	   
+   function myFunc() {
+       var href_str = "mailto:sacs.estoul@gmail.com?subject=" + data.sac1.nom + "&body=Prix: " + data.sac1.prix;	   
+       var HTMLContent =`<li><a href=href_str>&#x1F4E7; Adresse Courriel ++</a></li>`;
+        document.getElementById('sactype').innerHTML = (HTMLContent);
+    }
+           	   
+    myFunc();  	
+	   
    });	   
 	   
 	   
