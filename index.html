@@ -33,7 +33,7 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav"> 
 	    <li><a href="#">&#127968; Accueil</a></li>
-	    <li><a href=<span id='href_str'></span>&#x1F4E7; Adresse Courriel</a></li>	  
+	    <li><a href="<span id='href_str'></span>">&#x1F4E7; Adresse Courriel</a></li>	  
             <li><a href="mailto:sacs.estoul@gmail.com?subject='data.sac1.nom'&body=<p id='nom1'/>">&#x1F4E7; Adresse Courriel</a></li>	  
 		  
             <li><a href="barre_en_haut/petite_histoire.html">&#128092; La petite histoire</a></li>
@@ -245,13 +245,7 @@
     function myFunction() {
         var strname = "mailto:sacs.estoul@gmail.com?subject=" + data.sac1.nom + "&body=" + data.sac1.prix;
         document.getElementById("href_str").innerHTML = strname;
-    }	   
-	   
-   
-	  
-   <li><a href="mailto:sacs.estoul@gmail.com?subject='nom1'&body='prix1'">&#x1F4E7; Adresse Courriel</a></li>	  
-
-	   
+    }	    
 	   
    });	   
 	   
