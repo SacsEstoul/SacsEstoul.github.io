@@ -26,6 +26,8 @@
   <!--  b) Les prochaines lignes sont pour la barre d'en haut du site - Nom, contact, descriptions avec liens	 -->	  
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
       <div class="container">
+      
+	      
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav"> 
@@ -73,7 +75,7 @@
         <div class="col-md-4 portfolio-item">
           <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_1_9/sac1.html" id="nom1"></a></p>
           <a href="sacs_details/sacs_1_9/sac1.html">
-		  <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src="photos/sacs_1-9/sac1.JPG" alt="sac1"></img>
+		  <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src="photos/sacs_1-9/ac1.JPG" alt="nom_sac1"></img>
 	  </a>
           <h3 id="prix1"></h3>               
         </div>
@@ -202,10 +204,19 @@
    }
 	   
    function setAlt(lab){
+   // function to set photo 'alt' attribute dynamically 	   
     var div = document.querySelector("#table-processing");
         var image = div.querySelector("img");
             image.setAttribute("alt", lab);
    }	   
+	   
+   function myFunc() {
+       var HTMLContent =`<div class="className"><div>HTML Content</div></div>`;
+        document.getElementById('sactype').innerHTML = (HTMLContent);
+    }
+	   
+    myFunc();   
+	   
 
    fetch('ESTELLE/info_sacs.json')
    .then(res => res.json())
@@ -265,17 +276,8 @@
    getElement('nom_sac8').innerHTML = "Sac Estoul " + data.sac8.nom; 	   
    getElement('nom_sac9').innerHTML = "Sac Estoul " + data.sac9.nom; 	   
 	   
-   var trything = "Sac Estoul " + data.sac9.nom;
-	   
-  var leame = data.sac1.nom;
-  p = document.createElement("p");
-  p.innerHTML = "Your name is "+ leame +" characters long.";
-  document.body.appendChild(p);	   
-	   
-	   
     }); 	  
-	   
-	   
+
 	   
    </script>	   
 
