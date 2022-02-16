@@ -21,6 +21,8 @@
   </head>	  
 	  	  
   <body>  
+	  
+	  
   <!--  b) Les prochaines lignes sont pour la barre d'en haut du site - Nom, contact, descriptions avec liens	 -->	  
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
       <div class="container">
@@ -29,7 +31,7 @@
           <ul class="nav navbar-nav"> 
 	    <li><a href="#">&#127968; Accueil</a></li>
             <li><a href="mailto:sacs.estoul@gmail.com?subject='nom1'&body='prix1'">&#x1F4E7; Adresse Courriel</a></li>	  
-            <li><a href="mailto:sacs.estoul@gmail.com?subject='data.sac1.nom'&body=data.sac1.nom">&#x1F4E7; Adresse Courriel</a></li>	  
+            <li><a href="mailto:sacs.estoul@gmail.com?subject='data.sac1.nom'&body=<p id=">&#x1F4E7; Adresse Courriel</a></li>	  
 		  
             <li><a href="barre_en_haut/petite_histoire.html">&#128092; La petite histoire</a></li>
 	    <li><a href="barre_en_haut/faq.html">&#10067; FAQ</a></li>	
@@ -263,7 +265,12 @@
    getElement('nom_sac8').innerHTML = "Sac Estoul " + data.sac8.nom; 	   
    getElement('nom_sac9').innerHTML = "Sac Estoul " + data.sac9.nom; 	   
 	   
-   var trything = "Sac Estoul " + data.sac9.nom; 	   
+   var trything = "Sac Estoul " + data.sac9.nom;
+	   
+  var leame = data.sac1.nom;
+  p = document.createElement("p");
+  p.innerHTML = "Your name is "+ leame +" characters long.";
+  document.body.appendChild(p);	   
 	   
 	   
     }); 	  
