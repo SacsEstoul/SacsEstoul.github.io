@@ -34,7 +34,7 @@
             <li><a href="mailto:sacs.estoul@gmail.com">&#x1F4E7; Adresse Courriel</a></li>
             <li><a href="#">&#9752; La petite histoire</a></li>
 	    <li><a href="info.html">&#128172; FAQ</a></li>	
-	    <li><a href="message.html">&#128172; Message aux Trifluviens</a></li>  
+	    <li><a href="message.html">&#128172; Par ici les rabais!</a></li>  
             </br>
 	    <hr></hr>  
 
@@ -56,45 +56,31 @@
     <div class="bottom-three"></div>	    
 
       <div class="row">
-<!--       <div class="bottom-two"></div>	       -->
+
         <div class="col-md-8 portfolio-item">
 		<p style="font-family:Didot;font-size:50px;">La Petite Histoire</p>
-<!-- 		<img class="logo_topright" title="logo estoul" src="../ESTELLE/logo_photos/logo.JPG" alt="logo"></img> -->
         <div class="bottom-two"></div>
-<p style="font-size:35px;color:#5F9EA0"><em>L'Origine</em></p>
+<p style="font-size:35px;color:#5F9EA0" id="titre1"></p>
 	<div class="bottom-one"></div>	
-<p style="font-size:20px;text-align:justify">Tout a commencé à l’automne 2019.  Des médicaments que je prenais en prévision d’une greffe 
-	de moelle osseuse me faisaient passer quelques nuits blanches.  Pour les meubler, j’ai pensé à sortir ma vieille machine à coudre 
-	du fond d’un garde-robe.  J’ai commencé à me dérouiller en faisant des tabliers, des vêtements et... des sacs de toute sorte.  
-	Depuis ce temps, je ne peux m’arrêter.</p>
+<p style="font-size:20px;text-align:justify" id="sec1_par1"></p>
 	
 	<div class="bottom-one"></div>	
-<p style="font-size:20px;text-align:justify">J’ai même reçu une nouvelle machine à coudre en cadeau.  On me donne des vêtements que je 
-	défais, des restants de toile, de tissu, des ganses, des fermetures-éclairs, etc.  Bref, tout est récupéré et recyclé.  
-	  </p>
+<p style="font-size:20px;text-align:justify" id="sec1_par2"></p>
 
 	      	<div class="bottom-two"></div>	
-<p style="font-size:35px;color:#5F9EA0"><em>Depuis...</em></p>	
+<p style="font-size:35px;color:#5F9EA0" id="titre2"></p>	
 	<div class="bottom-one"></div>
-<p style="font-size:20px;text-align:justify">J’ai participé au Marché de Noël de Trois-Rivières en décembre 2021 et les commentaires que j’ai reçus m’ont encouragée à monter mon site web,
-SacsEstoul.github.io, pour y présenter mes confections.  Pourquoi le nom "Estoul", me demandez-vous?  Eh bien, c'est tout simplement le surnom 
-	      que m'a donné ma famille il y a plusieurs années!</p>	
+<p style="font-size:20px;text-align:justify" id="sec2_par1"></p>	
 	<div class="bottom-one"></div>	
-<p style="font-size:20px;text-align:justify">C'est bien beau s'occuper d'un site web, mais moi, ce que je préfère par-dessus tout, c’est faire aller ma machine à coudre!!!
-	   </p>	      
+<p style="font-size:20px;text-align:justify" id="sec2_par2"></p>	      
 	
-		      
-		
-<!-- 	<div class="bottom-two"></div>
-	<a href="mailto:sacs.estoul@gmail.com">
-	    <p style="font-size:20px;text-align:center;border:2px;border-style:solid;border-color:#5F9EA0;padding:0.5em;"> Cliquez ici pour commander</p>
-	</a>	 -->		
+		      	
 		
 	<div class="bottom-two"></div>	
         </div>
       </div>
       <hr></hr>
-<img class="logo_topright" title="logo estoul" src="../ESTELLE/logo_photos/logo.JPG" alt="logo"></img>
+<img class="logo_topright" title="logo estoul" src="logo_photos/logo.JPG" alt="logo"></img>
 
     </div><!-- /.container -->
    
@@ -124,28 +110,22 @@ SacsEstoul.github.io, pour y présenter mes confections.  Pourquoi le nom "Estou
    <script>
    function getElement(id) {
        return document.getElementById(id);
-   }
-
-   fetch('../ESTELLE/info_sacs.json')
-   .then(res => res.json())
-   .then((res) => {
-   const data = res.données_sacs;
+   } 
 	   
-   // Dims et details:
-   getElement('dims').innerHTML = data.sac1.dimensions;	   
-   getElement('detail1').innerHTML = data.sac1.détail1;	
-   getElement('detail2').innerHTML = data.sac1.détail2;	   
-   getElement('detail3').innerHTML = data.sac1.détail3;	 
-   getElement('param1').innerHTML = data.sac1.photo1;	 
-   getElement('param2').innerHTML = data.sac1.photo2;	   
-   }); 	
-	   
-	   
-   fetch('../ESTELLE/autres_textes.json')
+   fetch('../ESTELLE/petite_histoire.json')
    .then(ecrits => ecrits.json())
    .then((ecrits) => {
-   const miscel = ecrits.outils;	 
+   const data = ecrits.histoire;	 
    // put new vars here
+   getElement('titre1').innerHTML = data.sous_titre1;	
+   getElement('titre2').innerHTML = data.sous_titre2;	
+   getElement('sec1_par1').innerHTML = data.section1_paragraphe1;	   
+   getElement('sec1_par2').innerHTML = data.section1_paragraphe2;	   
+   getElement('sec2_par1').innerHTML = data.section2_paragraphe1;	   
+   getElement('sec2_par2').innerHTML = data.section2_paragraphe2;	   
+
+	   
+	   
    }); 	      
    </script>	  
 
