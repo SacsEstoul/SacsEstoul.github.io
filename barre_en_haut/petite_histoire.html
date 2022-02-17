@@ -59,18 +59,19 @@
 
         <div class="col-md-8 portfolio-item">
 		
-	<p style="font-family:Didot;font-size:50px;">La Petite Histoire</p>
-		
+	<p style="font-family:Didot;font-size:50px;">La Petite Histoire</p>	
         <div class="bottom-two"></div>       
 	
 	<p style="font-size:35px;color:#5F9EA0;" id="titre1"></p>
-		
+	<div class="bottom-one"></div>	
+	<span style="font-size:20px;text-align:justify;" id="s1p1"></span>
+	<div class="bottom-one"></div>	
+	<span style="font-size:20px;text-align:justify;" id="s1p2"></span>		
 	<div class="bottom-one"></div>	
 		
-	<span style="font-size:20px;text-align:justify;" id="t1"></span>
-		
-		
-<!-- 	<p style="font-size:35px;color:#5F9EA0" id="sec1_par1"></p> -->
+	<span style="font-size:20px;text-align:justify;" id="s2p2"></span>
+	<div class="bottom-one"></div>	
+	<span style="font-size:20px;text-align:justify;" id="s1p2"></span>		
 		
 		
 	<div class="bottom-one"></div>	
@@ -132,13 +133,10 @@
    var textes = ecrits.histoire;	 
    // put new vars here
    getElement('titre1').innerHTML = textes.sous_titre1;	
-   getElement('t1').innerHTML = textes.s1_p1;  
-   getElement('sec1_par1').innerHTML = textes.section1_paragraphe1;	   
-   getElement('titre2').innerHTML = textes.sous_titre2;	
-//    getElement('sec1_par1').innerHTML = textes.section1_paragraphe1;	   
-   getElement('sec1_par2').innerHTML = textes.section1_paragraphe2;	   
-   getElement('sec2_par1').innerHTML = textes.section2_paragraphe1;	   
-   getElement('sec2_par2').innerHTML = textes.section2_paragraphe2;	   
+   getElement('s1p1').innerHTML = textes.s1_p1;  
+   getElement('s1p2').innerHTML = textes.s1_p2;	   
+   getElement('s2p1').innerHTML = textes.s2_p1;	   
+   getElement('s2p2').innerHTML = textes.s2_p2;	   
 
 	   
 	   
