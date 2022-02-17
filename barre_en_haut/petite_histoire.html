@@ -63,9 +63,11 @@
 		
         <div class="bottom-two"></div>       
 	
-	<p style="font-size:35px;color:#5F9EA0" id="titre1"></p>
+	<p style="font-size:35px;color:#5F9EA0" id='titre1'></p>
 		
-	<span style="font-size:20px;" id="t1"></span>
+	<div class="bottom-one"></div>	
+		
+	<span style="font-size:20px;" id='sec1_par1'></span>
 		
 		
 <!-- 	<p style="font-size:35px;color:#5F9EA0" id="sec1_par1"></p> -->
@@ -130,9 +132,10 @@
    var textes = ecrits.histoire;	 
    // put new vars here
    getElement('titre1').innerHTML = textes.sous_titre1;	
-   getElement('t1').innerHTML = textes.s1_p1;   
-   getElement('titre2').innerHTML = textes.sous_titre2;	
+   getElement('t1').innerHTML = textes.s1_p1;  
    getElement('sec1_par1').innerHTML = textes.section1_paragraphe1;	   
+   getElement('titre2').innerHTML = textes.sous_titre2;	
+//    getElement('sec1_par1').innerHTML = textes.section1_paragraphe1;	   
    getElement('sec1_par2').innerHTML = textes.section1_paragraphe2;	   
    getElement('sec2_par1').innerHTML = textes.section2_paragraphe1;	   
    getElement('sec2_par2').innerHTML = textes.section2_paragraphe2;	   
