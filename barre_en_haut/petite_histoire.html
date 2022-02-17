@@ -34,7 +34,7 @@
             <li><a href="mailto:sacs.estoul@gmail.com">&#x1F4E7; Adresse Courriel</a></li>
             <li><a href="#">&#9752; La petite histoire</a></li>
 	    <li><a href="info.html">&#128172; FAQ</a></li>	
-	    <li><a href="message.html">&#128172; Par ici les rabais!</a></li>  
+	    <li><a href="message.html">&#x2702; Par ici les rabais!</a></li>  
             </br>
 	    <hr></hr>  
 
@@ -126,15 +126,15 @@
    fetch('../ESTELLE/petite_histoire.json')
    .then(ecrits => ecrits.json())
    .then((ecrits) => {
-   var data = ecrits.histoire;	 
+   var textes = ecrits.histoire;	 
    // put new vars here
-   getElement('titre1').innerHTML = data.sous_titre1;	
-   getElement('t1').innerHTML = data.s1_p1;   
-   getElement('titre2').innerHTML = data.sous_titre2;	
-   getElement('sec1_par1').innerHTML = data.section1_paragraphe1;	   
-   getElement('sec1_par2').innerHTML = data.section1_paragraphe2;	   
-   getElement('sec2_par1').innerHTML = data.section2_paragraphe1;	   
-   getElement('sec2_par2').innerHTML = data.section2_paragraphe2;	   
+   getElement('titre1').innerHTML = textes.sous_titre1;	
+   getElement('t1').innerHTML = textes.s1_p1;   
+   getElement('titre2').innerHTML = textes.sous_titre2;	
+   getElement('sec1_par1').innerHTML = textes.section1_paragraphe1;	   
+   getElement('sec1_par2').innerHTML = textes.section1_paragraphe2;	   
+   getElement('sec2_par1').innerHTML = textes.section2_paragraphe1;	   
+   getElement('sec2_par2').innerHTML = textes.section2_paragraphe2;	   
 
 	   
 	   
