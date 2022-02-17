@@ -10,6 +10,14 @@ footer {
 	margin: 50px 0;
 }
 
+.bottom-tiny {
+     margin-bottom: 0.25cm;
+}
+
+.bottom-sm {
+     margin-bottom: 0.5cm;
+}
+
 
 .bottom-one {
      margin-bottom: 1cm;
