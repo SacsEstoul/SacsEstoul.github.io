@@ -59,24 +59,24 @@
 	    <p style="font-family:Didot;font-size:45px;text-align:justify;">La Foire Aux Questions</p>
         <div class="bottom-two"></div>
 		
-            <p style="font-size:20px;text-align:justify;color:#5F9EA0;font-family:Optima;" id="Q1Q"></p>
+            <p style="font-size:20px;text-align:justify;color:#5F9EA0;font-family:Optima;" id="Q1Q" onerror="this.style.visibility = 'hidden'"></p>
         <div class="bottom-one"></div>
-            <p style="font-size:20px;text-align:justify;font-family:Optima;" id="Q1R"></p>
+            <p style="font-size:20px;text-align:justify;font-family:Optima;" id="Q1R" onerror="this.style.visibility = 'hidden'"></p>
 	
         <div class="bottom-two"></div>
-          <p style="font-size:20px;text-align:justify;color:#5F9EA0;font-family:Optima;" id="Q2Q"></p>
+          <p style="font-size:20px;text-align:justify;color:#5F9EA0;font-family:Optima;" id="Q2Q" onerror="this.style.visibility = 'hidden'"></p>
         <div class="bottom-one"></div>
-          <p style="font-size:20px;text-align:justify;font-family:Optima" id="Q2R"></p>          
+          <p style="font-size:20px;text-align:justify;font-family:Optima" id="Q2R" onerror="this.style.visibility = 'hidden'"></p>          
 
         <div class="bottom-two"></div>
           <p style="font-size:20px;text-align:justify;color:#5F9EA0;font-family:Optima;" id="Q3Q" onerror="this.style.visibility = 'hidden'"></p>
          <div class="bottom-one"></div>
-          <p style="font-size:20px;text-align:justify;font-family:Optima;" id="Q3R"></p>   	
+          <p style="font-size:20px;text-align:justify;font-family:Optima;" id="Q3R" onerror="this.style.visibility = 'hidden'"></p>   	
 		
-<!--         <div class="bottom-two"></div>
+        <div class="bottom-two"></div>
           <p style="font-size:20px;text-align:justify;color:#5F9EA0;font-family:Optima;" id="Q4Q" onerror="this.style.visibility = 'hidden'"></p>
          <div class="bottom-one"></div>
-          <p style="font-size:20px;text-align:justify;font-family:Optima;" id="Q4R" onerror="this.style.visibility = 'hidden'"></p>		 -->
+          <p style="font-size:20px;text-align:justify;font-family:Optima;" id="Q4R" onerror="this.style.visibility = 'hidden'"></p>		
 		
 		
 	<div class="bottom-two"></div>	
@@ -124,8 +124,10 @@
    getElement('Q1R').innerHTML = questions.Q1.réponse;	   
    getElement('Q2Q').innerHTML = questions.Q2.question;	   
    getElement('Q2R').innerHTML = questions.Q2.réponse;	
-//    getElement('Q3Q').innerHTML = questions.Q3.question;	   
-   getElement('Q3R').innerHTML = questions.Q3.réponse;		      
+   getElement('Q3Q').innerHTML = questions.Q3.question;	   
+   getElement('Q3R').innerHTML = questions.Q3.réponse;	
+   getElement('Q4Q').innerHTML = questions.Q4.question;	   
+   getElement('Q4R').innerHTML = questions.Q4.réponse;		   
    }); 	
 	   
 	      
