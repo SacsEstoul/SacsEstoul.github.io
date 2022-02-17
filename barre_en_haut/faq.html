@@ -57,26 +57,26 @@
 
       <div class="row">
         <div class="col-md-8 portfolio-item">
-		<p style="font-family:Didot;font-size:50px;">La Foire Aux Questions</p>
+		<p style="font-family:Didot;font-size:45px;text-align:justify;">La Foire Aux Questions</p>
         <div class="bottom-two"></div>
-          <p style="font-size:25px;text-align:justify;color:#5F9EA0;"></p>
+          <p style="font-size:20px;text-align:justify;color:#5F9EA0;" id="Q1Q"></p>
         <div class="bottom-one"></div>
-          <p style="font-size:25px;text-align:justify"></p>
+          <p style="font-size:20px;text-align:justify" id="Q1R"></p>
 	
         <div class="bottom-two"></div>
-          <p style="font-size:25px;text-align:justify;color:#5F9EA0;"></p>
+          <p style="font-size:20px;text-align:justify;color:#5F9EA0;" id="Q2Q"></p>
         <div class="bottom-one"></div>
-          <p style="font-size:25px;text-align:justify"></p>          
+          <p style="font-size:20px;text-align:justify" id="Q2R"></p>          
 
         <div class="bottom-two"></div>
-          <p style="font-size:25px;text-align:justify;color:#5F9EA0;"></p>
+          <p style="font-size:20px;text-align:justify;color:#5F9EA0;" id="Q3Q"></p>
          <div class="bottom-one"></div>
-          <p style="font-size:25px;text-align:justify"></p>             
+          <p style="font-size:20px;text-align:justify;" id="Q3R"></p>             
 		
 	<div class="bottom-two"></div>
 		<hr></hr>
 	<div class="bottom-one"></div>      
-	<a href="mailto:sacs.estoul@gmail.com?subject=Commande Sac ESTOUL &body='Inclure le nom du sac à commander S.V.P.'">
+	<a href="mailto:sacs.estoul@gmail.com?subject=Commande Sac ESTOUL">
 	    <p style="font-size:20px;text-align:center;border:2px;border-style:solid;border-color:#5F9EA0;padding:0.5em;"> Cliquez ici pour commander</p>
 	</a>	 	
 		
@@ -115,27 +115,21 @@
        return document.getElementById(id);
    }
 
-   fetch('../ESTELLE/info_sacs.json')
+   fetch('../ESTELLE/faq.json')
    .then(res => res.json())
    .then((res) => {
-   const data = res.données_sacs;
+   const questions = res.faq;
 	   
    // Dims et details:
-   getElement('dims').innerHTML = data.sac1.dimensions;	   
-   getElement('detail1').innerHTML = data.sac1.détail1;	
-   getElement('detail2').innerHTML = data.sac1.détail2;	   
-   getElement('detail3').innerHTML = data.sac1.détail3;	 
-   getElement('param1').innerHTML = data.sac1.photo1;	 
-   getElement('param2').innerHTML = data.sac1.photo2;	   
+   getElement('Q1Q').innerHTML = questions.Q1.question;	   
+   getElement('Q1R').innerHTML = questions.Q1.réponse;	   
+   getElement('Q2Q').innerHTML = questions.Q2.question;	   
+   getElement('Q2R').innerHTML = questions.Q2.réponse;	
+   getElement('Q3Q').innerHTML = questions.Q3.question;	   
+   getElement('Q3R').innerHTML = questions.Q3.réponse;		      
    }); 	
 	   
-	   
-   fetch('../ESTELLE/autres_textes.json')
-   .then(ecrits => ecrits.json())
-   .then((ecrits) => {
-   const miscel = ecrits.outils;	 
-   // put new vars here
-   }); 	      
+	      
    </script>	  
 
     <script src="../code/js/jquery-1.10.2.js"></script>
