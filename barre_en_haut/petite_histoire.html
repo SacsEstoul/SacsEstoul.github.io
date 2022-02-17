@@ -126,7 +126,7 @@
    fetch('../ESTELLE/petite_histoire.json')
    .then(ecrits => ecrits.json())
    .then((ecrits) => {
-   const data = ecrits.histoire;	 
+   var data = ecrits.histoire;	 
    // put new vars here
    getElement('titre1').innerHTML = data.sous_titre1;	
    getElement('t1').innerHTML = data.s1_p1;   
