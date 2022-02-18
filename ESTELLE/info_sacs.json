@@ -559,8 +559,28 @@
           "détail3": "",
           "photo1": "",
           "photo2": ""
-          }      
-          
-     }
+          },
+     
+     "sac52": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+          }, 
+     
+     "sac53": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+          }    }
   
 }  
