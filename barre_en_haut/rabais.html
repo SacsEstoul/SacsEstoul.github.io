@@ -55,20 +55,23 @@
     <div class="bottom-three"></div>	    
 
       <div class="row">
-        <div class="col-md-8 portfolio-item">
-		<p style="font-family:Didot;font-size:50px;">Le coin des rabais</p>
-        <div class="bottom-two"></div>
 
-<!-- 	<div class="bottom-two"></div>
-	<a href="mailto:sacs.estoul@gmail.com">
-	    <p style="font-size:20px;text-align:center;border:2px;border-style:solid;border-color:#5F9EA0;padding:0.5em;"> Cliquez ici pour commander</p>
-	</a>	 -->		
+        <div class="col-md-8 portfolio-item">
 		
-	<div class="bottom-two"></div>	
+	<p style="font-family:Didot;font-size:50px;">Le coin des rabais</p>	
+        <div class="bottom-two"></div>       
+	
+	<p style="font-size:35px;color:#5F9EA0" id="titre" onerror="this.style.visibility = 'hidden'"></p>
+	<div class="bottom-one"></div>	
+	<span style="font-size:20px;text-align:justify;font-family:Optima;" id="texte" onerror="this.style.visibility = 'hidden'"></span>
+
+		
+	<div class="bottom-three"></div>	
         </div>
       </div>
       <hr></hr>
-<img class="logo_topright" title="logo estoul" src="../ESTELLE/logo_photos/logo.JPG" alt="logo"></img>
+
+
 
     </div><!-- /.container -->
    
@@ -98,28 +101,16 @@
    <script>
    function getElement(id) {
        return document.getElementById(id);
-   }
-
-   fetch('../ESTELLE/info_sacs.json')
-   .then(res => res.json())
-   .then((res) => {
-   const data = res.données_sacs;
+   } 
 	   
-   // Dims et details:
-   getElement('dims').innerHTML = data.sac1.dimensions;	   
-   getElement('detail1').innerHTML = data.sac1.détail1;	
-   getElement('detail2').innerHTML = data.sac1.détail2;	   
-   getElement('detail3').innerHTML = data.sac1.détail3;	 
-   getElement('param1').innerHTML = data.sac1.photo1;	 
-   getElement('param2').innerHTML = data.sac1.photo2;	   
-   }); 	
-	   
-	   
-   fetch('../ESTELLE/autres_textes.json')
+   fetch('../ESTELLE/petite_histoire.json')
    .then(ecrits => ecrits.json())
    .then((ecrits) => {
-   const miscel = ecrits.outils;	 
+   var textes = ecrits.message;	 
    // put new vars here
+   getElement('titre').innerHTML = textes.titre;	
+   getElement('texte').innerHTML = textes.texte;    
+   
    }); 	      
    </script>	  
 
