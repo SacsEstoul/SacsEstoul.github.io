@@ -11,17 +11,17 @@
         {"question": "<em><strong>Question:</strong></br> Est-ce que les sacs sont lavables? </em>",
          "réponse": "<strong>Réponse:</strong></br> Étant donné que la composition des tissus n'est pas connue (pour la plupart), je suggère de sortir la doublure et de la laver à la main.  La toile peut être frottée avec de l'eau et du savon."
         },
-     "!Q4":
-        {"question": "<em><strong>Question:</strong></br> (texte ici) </em>",
-         "réponse": "<strong>Réponse:</strong></br> (texte ici) "
+     "Q4":
+        {"question": "",
+         "réponse": ""
         },
-     "!Q5":
-        {"question": "<em><strong>Question:</strong></br> (texte ici) </em>",
-         "réponse": "<strong>Réponse:</strong></br> (texte ici) "
+     "Q5":
+        {"question": "",
+         "réponse": ""
         },
-     "!Q6":
-        {"question": "<em><strong>Question:</strong></br> (texte ici) </em>",
-         "réponse": "<strong>Réponse:</strong></br> (texte ici) "
+     "Q6":
+        {"question": "",
+         "réponse": ""
         },    
     }
 }
