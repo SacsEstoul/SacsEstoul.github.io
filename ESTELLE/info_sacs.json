@@ -538,7 +538,17 @@
           "détail3": "Fermeture à velcro",
           "photo1": "",
           "photo2": ""
-         }      
+         },
+      "sac50": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+         }         
      
      
     }
