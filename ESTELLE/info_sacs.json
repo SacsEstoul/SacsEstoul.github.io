@@ -1,6 +1,5 @@
 {"données_sacs":
  
- 
     {"sac1": 
          {"nom": "Les pois jaunes",
           "prix": "65$",
@@ -538,7 +537,8 @@
           "détail3": "Ferme avec fermeture éclair",
           "photo1": "",
           "photo2": ""
-         },   
+         },  
+     
       "sac50": 
          {"nom": "",
           "prix": "",
@@ -548,9 +548,19 @@
           "détail3": "",
           "photo1": "",
           "photo2": ""
-         }         
-     
-     
-    }
+         },
+
+      "sac51": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+          }      
+          
+     }
   
 }  
