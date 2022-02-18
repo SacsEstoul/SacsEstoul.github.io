@@ -7,7 +7,7 @@
           "dimensions": "Dimensions: 53 cm L x 32 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Ferme avec fermeture éclair",
+          "détail3": "",
           "photo1": "",
           "photo2": ""
          },
@@ -508,34 +508,34 @@
          },     
      
       "sac47": 
-         {"nom": "Psychédélique foncé",
+         {"nom": "sac 47",
           "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "",
+          "détail3": "Fermeture à velcro",
           "photo1": "",
           "photo2": ""
          },     
      
       "sac48": 
-         {"nom": "Automne",
+         {"nom": "sac 48",
           "prix": "65$",
-          "dimensions": "Dimensions: 52 cm L x 36 cm P",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "",
+          "détail3": "Fermeture à velcro",
           "photo1": "",
           "photo2": ""
          },     
      
       "sac49": 
-         {"nom": "Grand bleu",
+         {"nom": "sac 49",
           "prix": "65$",
-          "dimensions": "Dimensions: 52 cm L x 32 cm P",
+          "dimensions": "Dimensions: 53 cm L x 35 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Ferme avec fermeture éclair",
+          "détail3": "Fermeture à velcro",
           "photo1": "",
           "photo2": ""
          }      
