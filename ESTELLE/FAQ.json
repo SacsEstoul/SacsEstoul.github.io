@@ -11,7 +11,7 @@
         {"question": "<em><strong>Question:</strong></br> Est-ce que les sacs sont lavables? </em>",
          "réponse": "<strong>Réponse:</strong></br> Étant donné que la composition des tissus n'est pas connue (pour la plupart), je suggère de sortir la doublure et de la laver à la main.  La toile peut être frottée avec de l'eau et du savon."
         },  
-     {"Q4":
+     "Q4":
         {"question": "<em><strong>Question:</strong></br> De quelle façon puis-je passer une commande? </em>",
          "réponse": "<strong>Réponse:</strong></br> Simplement en envoyant un courriel à l’adresse <a href='sacs.estoul@gmail.com'>sacs.estoul@gmail.com</a>.  Tout d’abord, inscrivez le nom du sac que vous aurez choisi.  Dès que je recevrai votre message, je vous indiquerai s’il est toujours disponible et nous pourrons passer à l’étape suivante, la commande."
         }, 
