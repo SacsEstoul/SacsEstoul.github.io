@@ -33,8 +33,8 @@
 	    <li><a href="../../">&#x2302; Accueil</a></li>
             <li><a href="mailto:sacs.estoul@gmail.com">&#x1F4E7; Adresse Courriel</a></li>
             <li><a href="../../barre_en_haut/petite_histoire.html">&#9752; La petite histoire</a></li>
-	    <li><a href="../../barre_en_haut/faq.html">&#128172; FAQ</a></li>	
-	    <li><a href="../../barre_en_haut/message.html">&#128172; Par ici les rabais!</a></li>  
+	    <li><a href="../../barre_en_haut/faq.html">&#10067; FAQ</a></li>	
+	    <li><a href="../../barre_en_haut/rabais.html">&#x2702; Par ici les rabais!</a></li>  
             </br>
 	    <hr></hr>  
 
@@ -42,7 +42,6 @@
 	    <div class="bottom-one"></div>   
             </hr>		  
           </ul>
-<!-- 	<img class="logo_topright" title="logo estoul" src="../../ESTELLE/logo_photos/logo.JPG" alt="logo"></img>     -->
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
     </nav>
@@ -83,7 +82,7 @@
 	</ul>       
 		
 	<div class="bottom-two"></div>
-	<a href="mailto:sacs.estoul@gmail.com?subject=Commande Sac ESTOUL #3&body=''">
+	<a href="mailto:sacs.estoul@gmail.com?subject=Commande Sac ESTOUL #3">
 	    <p style="font-size:20px;text-align:center;border:2px;border-style:solid;border-color:#5F9EA0;padding:0.5em;"> Cliquez ici pour commander</p>
 	</a>	
 	<div class="bottom-two"></div>	
@@ -121,12 +120,12 @@
    const data = res.données_sacs;
 	   
    // Dims et details:
-   getElement('dims').innerHTML = data.sac3.dimensions;	   
-   getElement('detail1').innerHTML = data.sac3.détail1;	
-   getElement('detail2').innerHTML = data.sac3.détail2;	   
-   getElement('detail3').innerHTML = data.sac3.détail3;	 
-   getElement('param1').innerHTML = data.sac3.photo1;	 
-   getElement('param2').innerHTML = data.sac3.photo2;	   
+   getElement('dims').innerHTML = data.sac1.dimensions;	   
+   getElement('detail1').innerHTML = data.sac1.détail1;	
+   getElement('detail2').innerHTML = data.sac1.détail2;	   
+   getElement('detail3').innerHTML = data.sac1.détail3;	 
+   getElement('param1').innerHTML = data.sac1.photo1;	 
+   getElement('param2').innerHTML = data.sac1.photo2;	   
    }); 	
 	   
 	   
@@ -134,7 +133,7 @@
    .then(ecrits => ecrits.json())
    .then((ecrits) => {
    const miscel = ecrits.outils;	 
-   getElement('titre_details').innerHTML = miscel.titre_détails;   
+   // put new vars here
    }); 	      
    </script>	  
 
