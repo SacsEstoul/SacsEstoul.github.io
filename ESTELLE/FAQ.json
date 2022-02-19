@@ -14,7 +14,15 @@
      "Q4!":
         {"question": "<em><strong>Question:</strong></br></em>",
          "réponse": "<strong>Réponse:</strong></br>"
+        },
+     "Q5!":
+        {"question": "<em><strong>Question:</strong></br></em>",
+         "réponse": "<strong>Réponse:</strong></br>"
         }
+     "Q6!":
+        {"question": "<em><strong>Question:</strong></br></em>",
+         "réponse": "<strong>Réponse:</strong></br>"
+        }     
     }
 }
       
