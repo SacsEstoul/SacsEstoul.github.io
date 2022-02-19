@@ -582,6 +582,7 @@
           "photo1": "",
           "photo2": ""
           },
+     
       "sac54": 
          {"nom": "",
           "prix": "",
@@ -624,7 +625,84 @@
           "détail3": "",
           "photo1": "",
           "photo2": ""
-          }       
+          },
+     
+      "sac58": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+          },
+     
+     "sac59": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+          }, 
+     
+     "sac60": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+          },
+     
+      "sac61": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+         },
+
+      "sac62": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+          },
+     
+     "sac63": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+          }, 
+     
+     "sac64": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+          }        
     
     }
   
