@@ -581,7 +581,50 @@
           "détail3": "",
           "photo1": "",
           "photo2": ""
-          }   
+          },
+      "sac54": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+         },
+
+      "sac55": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+          },
+     
+     "sac56": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+          }, 
+     
+     "sac57": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+          }       
     
     }
   
