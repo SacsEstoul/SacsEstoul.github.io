@@ -2,7 +2,7 @@
  
     {"sac1": 
          {"nom": "Les pois jaunes",
-          "prix": "65$",
+          "prix": "VENDU",
           "dimensions": "Dimensions: 53 cm L x 32 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
@@ -277,7 +277,7 @@
      
       "sac26": 
          {"nom": "Rouge à grosses fleurs",
-          "prix": "65$",
+          "prix": "VENDU",
           "dimensions": "Dimensions: 38 cm L x 34 cm P",
           "détail1": "Poche zippée",
           "détail2": "",
