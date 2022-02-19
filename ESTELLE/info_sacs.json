@@ -166,7 +166,7 @@
          },
      
       "sac16": 
-         {"nom": "Le vert et son étui à crayons",
+         {"nom": "Le vert et son étui",
           "prix": "65$",
           "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Poche double",
@@ -364,7 +364,7 @@
          },   
      
       "sac34": 
-         {"nom": "Le jaune et son étui à crayons",
+         {"nom": "Le jaune et son étui",
           "prix": "65$",
           "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Étui détachable",
