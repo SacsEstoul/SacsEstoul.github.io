@@ -562,34 +562,34 @@
           },
      
      "sac52": 
-         {"nom": "",
+         {"nom": "Grappes de raisins",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche simple",
           "détail3": "",
           "photo1": "",
           "photo2": ""
           }, 
      
      "sac53": 
-         {"nom": "",
+         {"nom": "Les vagues",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche simple",
           "détail3": "",
           "photo1": "",
           "photo2": ""
           },
      
       "sac54": 
-         {"nom": "",
+         {"nom": "Pantalon de ski",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
-          "détail3": "",
+          "dimensions": "Dimensions: 53 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Fermeture à velcro",
           "photo1": "",
           "photo2": ""
          },
