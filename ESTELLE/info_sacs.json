@@ -694,151 +694,151 @@
           }, 
      
      "sac64": 
-         {"nom": "",
+         {"nom": "Les cerises",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
           "détail3": "",
           "photo1": "",
           "photo2": ""
           },    
      
       "sac65": 
-         {"nom": "",
+         {"nom": "Jaune aux petits carreaux",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
           "détail3": "",
           "photo1": "",
           "photo2": ""
          },
 
       "sac66": 
-         {"nom": "",
+         {"nom": "Carotté vert et  jaune",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche simple",
           "détail3": "",
           "photo1": "",
           "photo2": ""
           },
      
      "sac67": 
-         {"nom": "",
+         {"nom": "Bleu 3 poches à pois",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
-          "détail3": "",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Deux poches simples",
+          "détail3": "Se ferme avec fermeture éclair",
           "photo1": "",
           "photo2": ""
           }, 
      
      "sac68": 
-         {"nom": "",
+         {"nom": "Cueillette",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "dimensions": "Dimensions: 38 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
           "détail3": "",
           "photo1": "",
           "photo2": ""
           },
      
       "sac69": 
-         {"nom": "",
+         {"nom": "Bouquet de fleurs",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
           "détail3": "",
           "photo1": "",
           "photo2": ""
           },
      
      "sac70": 
-         {"nom": "",
+         {"nom": "Nappe à carreaux",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche simple",
           "détail3": "",
           "photo1": "",
           "photo2": ""
           }, 
      
      "sac71": 
-         {"nom": "",
+         {"nom": "Carotté bleu et jaune",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
           "détail3": "",
           "photo1": "",
           "photo2": ""
           },
      
       "sac72": 
-         {"nom": "",
+         {"nom": "Les petits carreaux 2",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche simple",
           "détail3": "",
           "photo1": "",
           "photo2": ""
          },
 
       "sac73": 
-         {"nom": "",
+         {"nom": "Rose bonbon",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche simple",
           "détail3": "",
           "photo1": "",
           "photo2": ""
           },
      
      "sac74": 
-         {"nom": "",
-          "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
-          "détail3": "",
+         {"nom": "Sport jaune à pois",
+          "prix": "VENDU",
+          "dimensions": "Dimensions: 53 cm L x 37 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Se ferme avec fermeture éclair",
           "photo1": "",
           "photo2": ""
           }, 
      
      "sac75": 
-         {"nom": "",
+         {"nom": "Vert forêt à fleurs",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche simple",
           "détail3": "",
           "photo1": "",
           "photo2": ""
           },
 
       "sac76": 
-         {"nom": "",
+         {"nom": "Kaki à fleurs jaunes",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "dimensions": "Dimensions: 38 cm L x 34 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
           "détail3": "",
           "photo1": "",
           "photo2": ""
           },
      
      "sac77": 
-         {"nom": "",
-          "prix": "",
+         {"nom": "Sac à 6 bouteilles",
+          "prix": "VENDU",
           "dimensions": "",
           "détail1": "",
           "détail2": "",
@@ -848,10 +848,10 @@
           }, 
      
      "sac78": 
-         {"nom": "",
+         {"nom": "Des cercles",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
+          "dimensions": "Dimensions: 38 cm L x 34 cm P",
+          "détail1": "Poche zippée",
           "détail2": "",
           "détail3": "",
           "photo1": "",
@@ -859,33 +859,33 @@
           },
      
       "sac79": 
-         {"nom": "",
+         {"nom": "La plage rose",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
-          "détail3": "",
+          "dimensions": "Dimensions: 52 cm L x 32 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Muni d'une fermeture éclair",
           "photo1": "",
           "photo2": ""
           },
      
      "sac80": 
-         {"nom": "",
+         {"nom": "La plage bleue",
           "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
-          "détail3": "",
+          "dimensions": "Dimensions: 52 cm L x 32 cm P",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Muni d'une fermeture éclair",
           "photo1": "",
           "photo2": ""
           }, 
      
      "sac81": 
-         {"nom": "",
-          "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+         {"nom": "Trousse de toilettes à pois",
+          "prix": "VENDU",
+          "dimensions": "Dimensions: 25 cm x 14 cm 14 cm",
+          "détail1": "Trois petites pochettes",
+          "détail2": "Munie d'une fermeture éclair",
           "détail3": "",
           "photo1": "",
           "photo2": ""
