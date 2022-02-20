@@ -782,7 +782,7 @@
           },
      
       "sac72": 
-         {"nom": "Les petits carreaux 2",
+         {"nom": "Les petits carreaux",
           "prix": "",
           "dimensions": "Dimensions: 43 cm L x 34 cm P",
           "détail1": "Poche zippée",
@@ -839,7 +839,7 @@
      "sac77": 
          {"nom": "Sac à 6 bouteilles",
           "prix": "VENDU",
-          "dimensions": "",
+          "dimensions": "Sac rectangulaire",
           "détail1": "",
           "détail2": "",
           "détail3": "",
@@ -864,7 +864,7 @@
           "dimensions": "Dimensions: 52 cm L x 32 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Muni d'une fermeture éclair",
+          "détail3": "Se ferme avec fermeture éclair",
           "photo1": "",
           "photo2": ""
           },
@@ -875,7 +875,7 @@
           "dimensions": "Dimensions: 52 cm L x 32 cm P",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
-          "détail3": "Muni d'une fermeture éclair",
+          "détail3": "Se ferme avec fermeture éclair",
           "photo1": "",
           "photo2": ""
           }, 
@@ -885,7 +885,7 @@
           "prix": "VENDU",
           "dimensions": "Dimensions: 25 cm x 14 cm 14 cm",
           "détail1": "Trois petites pochettes",
-          "détail2": "Munie d'une fermeture éclair",
+          "détail2": "Se ferme avec fermeture éclair",
           "détail3": "",
           "photo1": "",
           "photo2": ""
