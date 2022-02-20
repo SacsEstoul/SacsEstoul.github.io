@@ -13,11 +13,11 @@
         },  
      "Q1":
         {"question": "<em><strong>Question:</strong></br> Que signifie 'L' et 'P' dans les dimensions? </em>",
-         "réponse": "<strong>Réponse:</strong></br>"
+         "réponse": "<strong>Réponse:</strong></br> 'L' est la largeur du sac; 'P' est la profondeur."
         },
-     "Q5!":
-        {"question": "<em><strong>Question:</strong></br></em>",
-         "réponse": "<strong>Réponse:</strong></br>"
+     "Q5":
+        {"question": "<em><strong>Question:</strong></br> Est-ce qu'il y a d'autres montants à calculer sur les prix indiqués? </em>",
+         "réponse": "<strong>Réponse:</strong></br> Les prix affichés sont ceux à payer, mais ils n'incluent pas la livraison."
         },
      "Q6!":
         {"question": "<em><strong>Question:</strong></br></em>",
