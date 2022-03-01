@@ -12,12 +12,12 @@
          "réponse": "<strong>Réponse:</strong></br> Étant donné que la composition des tissus n'est pas connue (pour la plupart), je suggère de sortir la doublure et de la laver à la main.  La toile peut être frottée avec de l'eau et du savon."
         },  
      "Q1":
-        {"question": "<em><strong>Question:</strong></br> Que signifie 'L' 'l' et 'h' dans les dimensions? </em>",
+        {"question": "<em><strong>Question:</strong></br> Que signifie 'L', 'l' et 'h' dans les dimensions? </em>",
          "réponse": "<strong>Réponse:</strong></br> 'L' est la longueur du sac; 'l' est sa largeur; et 'h', sa hauteur."
         },
      "Q5":
         {"question": "<em><strong>Question:</strong></br> Est-ce qu'il y a d'autres montants à calculer sur les prix indiqués? </em>",
-         "réponse": "<strong>Réponse:</strong></br> Les prix affichés sont ceux à payer, mais ils n'incluent pas le prix de la livraison qui varie énormément d'une région à l'autre."
+         "réponse": "<strong>Réponse:</strong></br> Les prix affichés sont ceux à payer.  Ils n'incluent pas le prix de la livraison qui varie énormément d'une région à l'autre."
         },
      "Q6!":
         {"question": "<em><strong>Question:</strong></br></em>",
