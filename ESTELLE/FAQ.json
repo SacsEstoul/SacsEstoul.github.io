@@ -17,7 +17,7 @@
         },
      "Q5":
         {"question": "<em><strong>Question:</strong></br> Est-ce qu'il y a d'autres montants à calculer sur les prix indiqués? </em>",
-         "réponse": "<strong>Réponse:</strong></br> Les prix affichés sont ceux à payer.  Ils n'incluent pas le prix de la livraison qui varie énormément d'une région à l'autre."
+         "réponse": "<strong>Réponse:</strong></br> Les prix affichés sont ceux à payer.  Cependant, ils n'incluent pas le prix de la livraison qui varie énormément d'une région à l'autre."
         },
      "Q6!":
         {"question": "<em><strong>Question:</strong></br></em>",
