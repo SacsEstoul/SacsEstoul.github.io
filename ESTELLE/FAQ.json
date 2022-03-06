@@ -20,8 +20,8 @@
          "réponse": "<strong>Réponse:</strong></br> Les prix affichés sont ceux à payer.  Cependant, ils n'incluent pas le prix de la livraison qui varie énormément d'une région à l'autre."
         },
      "Q6!":
-        {"question": "<em><strong>Question:</strong></br></em>",
-         "réponse": "<strong>Réponse:</strong></br>"
+        {"question": "<em><strong>Question:</strong></br> Est-ce possible de faire des commandes spéciales.  Par exemple, un sac d'une certaine dimension ou d'une couleur spécifique? </em>",
+         "réponse": "<strong>Réponse:</strong></br> Tout à fait!  Il s'agit de me faire part de votre demande et nous pourrons convenir de l'échéance et du prix."
         }     
     }
 }
