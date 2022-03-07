@@ -122,17 +122,19 @@ footer {
 .Q1_dimphoto_pos {
   position:absolute;
   display: block;	
-  top:200;
-  right:25;
-  height: 200px;
-  width: 200px;	
+  top:200px;
+  right:25px;
+  height: 250px;
+  width: 250px;	
+  padding-right: 30px;	
 }
 
 .histoire_photo_pos {
   position:absolute;
   display: block;	
-  top:300px;
+  top:200px;
   right:25px;
   height: 200px;
   width: 200px;	
+  padding-right: 30px;	
 }
