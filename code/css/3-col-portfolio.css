@@ -119,10 +119,10 @@ footer {
 }	
 
 
-.midright {
+.Q1_dimphoto_pos {
   position:absolute;
-  top:800px;
-  right:5px;
-  height: 100px;
-  width: 100px;	
+  top:400px;
+  right:255px;
+  height: 200px;
+  width: 200px;	
 }
