@@ -110,6 +110,17 @@ footer {
     text-decoration: none;
 }
 
+.midright {
+    position: absolute;
+    right: 0;
+    top: 300px;
+    display: block;
+    height: 130px;
+    width: 130px;
+    text-indent: -999em;
+    text-decoration: none;
+}
+
 .link_border {
     border:2px;
     border-style:solid;
