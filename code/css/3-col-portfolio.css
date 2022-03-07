@@ -127,6 +127,7 @@ footer {
   height: 250px;
   width: 250px;	
   padding-right: 30px;	
+  float: right;	
 }
 
 .histoire_photo_pos {
@@ -136,5 +137,6 @@ footer {
   right:25px;
   height: 200px;
   width: 200px;	
-  padding-right: 30px;	
+  padding-right: 30px;
+  float: right;	
 }
