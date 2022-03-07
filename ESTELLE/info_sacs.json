@@ -24,7 +24,7 @@
      
      "sac3": 
          {"nom": "Les petites rayures",
-          "prix": "45$",
+          "prix": "50$",
           "dimensions": "Dimensions: 38 cm L x 13 l x 34 h",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
@@ -35,8 +35,8 @@
      
       "sac4": 
          {"nom": "Le jean d'Isa",
-          "prix": "65$",
-          "dimensions": "Dimensions: 38 cm L x 34 cm P",
+          "prix": "50$",
+          "dimensions": "Dimensions: 38 cm L x 13 l x 34 h",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Une poche à l'extérieur",
@@ -46,8 +46,8 @@
      
        "sac5": 
          {"nom": "La diligence",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 h",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -57,8 +57,8 @@
      
       "sac6": 
          {"nom": "Flower power vert",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 h",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -68,8 +68,8 @@
      
       "sac7": 
          {"nom": "La vieille maison",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "50$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 h",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "Ferme avec fermeture éclair",
@@ -79,8 +79,8 @@
      
       "sac8": 
          {"nom": "La jupe de ma tante",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 h",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -90,8 +90,8 @@
      
       "sac9": 
          {"nom": "Le Charlot",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 h",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -102,7 +102,7 @@
      "sac10": 
          {"nom": "Le jean d'Isa 2 ",
           "prix": "VENDU ",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 h",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Ferme avec fermeture éclair",
