@@ -119,9 +119,10 @@ footer {
 }	
 
 
-
 #div_midright img {
-  width: 300px;
-  height: 300px;
-  line-height: 300px;
+  width: 120px;
+  height: 120px;
+  float: right;
+  position: absolute;
+  top: 125px; /* (div_height-image_height)/2 */
 }
