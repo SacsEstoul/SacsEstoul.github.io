@@ -130,7 +130,8 @@ footer {
 
 .histoire_photo_pos {
   position:absolute;
-  top:200px;
+  display: block;	
+  top:400px;
   right:25px;
   height: 150px;
   width: 150px;	
