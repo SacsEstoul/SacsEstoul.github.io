@@ -126,3 +126,11 @@ footer {
   height: 200px;
   width: 200px;	
 }
+
+.histoire_photo_pos {
+  position:absolute;
+  top:200px;
+  right:25px;
+  height: 200px;
+  width: 200px;	
+}
