@@ -1,1 +1,37 @@
 
+{"nouveautés":
+ 
+    {"nouv1": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+         },
+    {"nouv2": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+         },     
+     },
+
+"rabais":
+    {"rabais1": 
+         {"nom": "",
+          "prix": "",
+          "dimensions": "",
+          "détail1": "",
+          "détail2": "",
+          "détail3": "",
+          "photo1": "",
+          "photo2": ""
+         },
+}  
