@@ -2,12 +2,12 @@
 {"nouveautés":
  
     {"nouv1": 
-         {"nom": "",
-          "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
-          "détail3": "",
+         {"nom": "Le chamoiré",
+          "prix": "55$",
+          "dimensions": "43 cm L x 13 l x 37 H",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Se ferme avec fermeture éclair",
           "photo1": "",
           "photo2": ""
          },
