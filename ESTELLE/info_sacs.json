@@ -299,8 +299,8 @@
      
       "sac28": 
          {"nom": "Grand bleu fleuri",
-          "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 34 cm P",
+          "prix": "50$",
+          "dimensions": "Dimensions: 53 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "Fermeture à velcro",
@@ -310,8 +310,8 @@
      
       "sac29": 
          {"nom": "Losanges",
-          "prix": "65$",
-          "dimensions": "Dimensions: 38 cm L x 34 cm P",
+          "prix": "40$",
+          "dimensions": "Dimensions: 38 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -321,8 +321,8 @@
      
       "sac30": 
          {"nom": "Psychédélique jaune",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -332,8 +332,8 @@
      
       "sac31": 
          {"nom": "Sport vert",
-          "prix": "65$",
-          "dimensions": "Dimensions: 58 cm L x 37 cm P",
+          "prix": "60$",
+          "dimensions": "Dimensions: 58 cm L x 16 l x 37 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Ferme avec fermeture éclair",
@@ -343,8 +343,8 @@
      
       "sac32": 
          {"nom": "Le chasseur",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche à l'extérieur",
           "détail3": "",
@@ -354,8 +354,8 @@
      
       "sac33": 
          {"nom": "Légumes vert forêt",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -365,8 +365,8 @@
      
       "sac34": 
          {"nom": "Le jaune et son étui",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Étui détachable",
           "détail2": "Poche simple",
           "détail3": "",
@@ -376,8 +376,8 @@
      
       "sac35": 
          {"nom": "Le carotté bleu rose",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -388,7 +388,7 @@
       "sac36": 
          {"nom": "Petit rouge à rayures",
           "prix": "VENDU",
-          "dimensions": "Dimensions: 38 cm L x 34 cm P",
+          "dimensions": "Dimensions: 38 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Ferme avec fermeture éclair",
