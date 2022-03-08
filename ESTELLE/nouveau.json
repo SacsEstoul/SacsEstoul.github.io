@@ -33,10 +33,10 @@
           "photo2": ""
          },
     {"nouv4": 
-         {"nom": "",
-          "prix": "",
+         {"nom": "Trousse de toilette fleurie",
+          "prix": "VENDUE",
           "dimensions": "",
-          "détail1": "",
+          "détail1": "Pochette triple",
           "détail2": "",
           "détail3": "",
           "photo1": "",
@@ -44,11 +44,11 @@
          },     
      },
     {"nouv5": 
-         {"nom": "",
-          "prix": "",
+         {"nom": "Levez l'ancre!",
+          "prix": "60$",
           "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
           "détail3": "",
           "photo1": "",
           "photo2": ""
