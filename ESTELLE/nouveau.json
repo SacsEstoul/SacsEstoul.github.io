@@ -12,22 +12,22 @@
           "photo2": ""
          },
     {"nouv2": 
-         {"nom": "",
-          "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
-          "détail3": "",
+         {"nom": "Cuirette bleue",
+          "prix": "60$",
+          "dimensions": "53 cm L x 17 l x 32 H",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
+          "détail3": "Se ferme avec fermeture éclair",
           "photo1": "",
           "photo2": ""
          },     
      },
     {"nouv3": 
-         {"nom": "",
-          "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+         {"nom": "Le bleuté",
+          "prix": "45$",
+          "dimensions": "43 cm L x 13 l x 34 H",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
           "détail3": "",
           "photo1": "",
           "photo2": ""
