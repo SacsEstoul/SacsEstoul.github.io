@@ -3,7 +3,7 @@
     {"sac1": 
          {"nom": "Les pois jaunes",
           "prix": "VENDU",
-          "dimensions": "Dimensions: 53 cm L x 17 l x 32 h",
+          "dimensions": "Dimensions: 53 cm L x 17 l x 32 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Ferme avec fermeture éclair",
@@ -14,7 +14,7 @@
      "sac2": 
          {"nom": "Tapisserie noir gris blanc",
           "prix": "55$",
-          "dimensions": "Dimensions: 56 cm L x 16 l x 32 h",
+          "dimensions": "Dimensions: 56 cm L x 16 l x 32 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Fermeture à velcro",
@@ -25,7 +25,7 @@
      "sac3": 
          {"nom": "Les petites rayures",
           "prix": "50$",
-          "dimensions": "Dimensions: 38 cm L x 13 l x 34 h",
+          "dimensions": "Dimensions: 38 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Ferme avec fermeture éclair",
@@ -36,7 +36,7 @@
       "sac4": 
          {"nom": "Le jean d'Isa",
           "prix": "50$",
-          "dimensions": "Dimensions: 38 cm L x 13 l x 34 h",
+          "dimensions": "Dimensions: 38 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Une poche à l'extérieur",
@@ -47,7 +47,7 @@
        "sac5": 
          {"nom": "La diligence",
           "prix": "45$",
-          "dimensions": "Dimensions: 43 cm L x 13 l x 34 h",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -58,7 +58,7 @@
       "sac6": 
          {"nom": "Flower power vert",
           "prix": "45$",
-          "dimensions": "Dimensions: 43 cm L x 13 l x 34 h",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -69,7 +69,7 @@
       "sac7": 
          {"nom": "La vieille maison",
           "prix": "50$",
-          "dimensions": "Dimensions: 43 cm L x 13 l x 34 h",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "Ferme avec fermeture éclair",
@@ -80,7 +80,7 @@
       "sac8": 
          {"nom": "La jupe de ma tante",
           "prix": "45$",
-          "dimensions": "Dimensions: 43 cm L x 13 l x 34 h",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -91,7 +91,7 @@
       "sac9": 
          {"nom": "Le Charlot",
           "prix": "45$",
-          "dimensions": "Dimensions: 43 cm L x 13 l x 34 h",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -102,7 +102,7 @@
      "sac10": 
          {"nom": "Le jean d'Isa 2 ",
           "prix": "VENDU ",
-          "dimensions": "Dimensions: 43 cm L x 13 l x 34 h",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Ferme avec fermeture éclair",
@@ -112,8 +112,8 @@
      
      "sac11": 
          {"nom": "Planète bleue",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "50$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Ferme avec fermeture éclair",
@@ -123,8 +123,8 @@
      
      "sac12": 
          {"nom": "Le potager orange fluo",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -134,8 +134,8 @@
      
       "sac13": 
          {"nom": "Petits fruits et champignons",
-          "prix": "65$",
-          "dimensions": "Dimensions: 30 cm L x 34 cm P",
+          "prix": "25$",
+          "dimensions": "Dimensions: 30 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -145,8 +145,8 @@
      
        "sac14": 
          {"nom": "Vert fluo sans nom",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -156,8 +156,8 @@
      
       "sac15": 
          {"nom": "Des noeuds",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -167,8 +167,8 @@
      
       "sac16": 
          {"nom": "Le vert et son étui",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 x 34 H",
           "détail1": "Poche double",
           "détail2": "Étui détachable",
           "détail3": "",
@@ -178,8 +178,8 @@
      
       "sac17": 
          {"nom": "Fleur bleue",
-          "prix": "65$",
-          "dimensions": "Dimensions: 38 cm L x 34 cm P",
+          "prix": "50$",
+          "dimensions": "Dimensions: 38 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Ferme avec fermeture éclair",
@@ -189,8 +189,8 @@
      
       "sac18": 
          {"nom": "Les grandes feuilles",
-          "prix": "65$",
-          "dimensions": "Dimensions: 53 cm L x 32 cm P",
+          "prix": "60$",
+          "dimensions": "Dimensions: 53 cm L x 16 l x 32 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Ferme avec fermeture éclair",
