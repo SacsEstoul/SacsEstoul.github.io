@@ -35,7 +35,7 @@
     {"nouv4": 
          {"nom": "Trousse de toilette fleurie",
           "prix": "VENDUE",
-          "dimensions": "",
+          "dimensions": "25 cm L x 14 l x 14 H",
           "détail1": "Pochette triple",
           "détail2": "",
           "détail3": "",
@@ -45,7 +45,7 @@
      },
     {"nouv5": 
          {"nom": "Levez l'ancre!",
-          "prix": "60$",
+          "prix": "55$",
           "dimensions": "",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
