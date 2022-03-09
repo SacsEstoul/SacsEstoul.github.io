@@ -497,8 +497,8 @@
      
       "sac46": 
          {"nom": "Vert fluo et noir",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "Poche à l'extérieur",
@@ -508,8 +508,8 @@
      
       "sac47": 
          {"nom": "Psychédélique foncé",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -519,8 +519,8 @@
      
       "sac48": 
          {"nom": "Automne",
-          "prix": "65$",
-          "dimensions": "Dimensions: 52 cm L x 36 cm P",
+          "prix": "50$",
+          "dimensions": "Dimensions: 52 cm L x 13 l x 36 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -530,8 +530,8 @@
      
       "sac49": 
          {"nom": "Le grand bleu",
-          "prix": "65$",
-          "dimensions": "Dimensions: 52 cm L x 32 cm P",
+          "prix": "55$",
+          "dimensions": "Dimensions: 52 cm L x 15 l x 32 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Ferme avec fermeture éclair",
@@ -541,8 +541,8 @@
      
       "sac50": 
          {"nom": "Kaki et petites feuilles",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45S",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -552,8 +552,8 @@
 
       "sac51": 
          {"nom": "Fleurs printanières",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "40$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche double",
           "détail2": "",
           "détail3": "",
@@ -563,8 +563,8 @@
      
      "sac52": 
          {"nom": "Grappes de raisins",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -574,8 +574,8 @@
      
      "sac53": 
          {"nom": "Les vagues",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -585,8 +585,8 @@
      
       "sac54": 
          {"nom": "Pantalon de ski",
-          "prix": "",
-          "dimensions": "Dimensions: 53 cm L x 34 cm P",
+          "prix": "50$",
+          "dimensions": "Dimensions: 53 cm L 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Fermeture à velcro",
@@ -596,8 +596,8 @@
 
       "sac55": 
          {"nom": "Rouge à petits pois",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "40$",
+          "dimensions": "Dimensions: 43 cm L 13 l x 34 H",
           "détail1": "Poche simple",
           "détail2": "Poche double",
           "détail3": "",
@@ -607,8 +607,8 @@
      
      "sac56": 
          {"nom": "Vert à fleurs géantes",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "40$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "",
           "détail3": "",
@@ -618,8 +618,8 @@
      
      "sac57": 
          {"nom": "Jaune à petits pois",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -629,8 +629,8 @@
      
       "sac58": 
          {"nom": "Jaune tapissé de noir",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -640,8 +640,8 @@
      
      "sac59": 
          {"nom": "Noir et veste à carreaux",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -651,8 +651,8 @@
      
      "sac60": 
          {"nom": "C'est l'été!",
-          "prix": "",
-          "dimensions": "Dimensions: 38 cm L x 34 cm P",
+          "prix": "40$",
+          "dimensions": "Dimensions: 38 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -662,8 +662,8 @@
      
       "sac61": 
          {"nom": "Kaki rayé",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -673,8 +673,8 @@
 
       "sac62": 
          {"nom": "Vert fluo et poches rayées",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -684,8 +684,8 @@
      
      "sac63": 
          {"nom": "Pique-nique",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -695,8 +695,8 @@
      
      "sac64": 
          {"nom": "Les cerises",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -706,8 +706,8 @@
      
       "sac65": 
          {"nom": "Herbe du printemps",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -717,8 +717,8 @@
 
       "sac66": 
          {"nom": "Carotté vert et  jaune",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -728,8 +728,8 @@
      
      "sac67": 
          {"nom": "Bleu 3 poches à pois",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Deux poches simples",
           "détail3": "Se ferme avec fermeture éclair",
@@ -739,8 +739,8 @@
      
      "sac68": 
          {"nom": "Cueillette",
-          "prix": "",
-          "dimensions": "Dimensions: 38 cm L x 34 cm P",
+          "prix": "40$",
+          "dimensions": "Dimensions: 38 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -750,8 +750,8 @@
      
       "sac69": 
          {"nom": "Bouquet de fleurs",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -761,8 +761,8 @@
      
      "sac70": 
          {"nom": "Nappe à carreaux",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -772,8 +772,8 @@
      
      "sac71": 
          {"nom": "Carotté bleu et jaune",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -783,8 +783,8 @@
      
       "sac72": 
          {"nom": "Les petits carreaux",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -794,8 +794,8 @@
 
       "sac73": 
          {"nom": "Rose bonbon",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -806,7 +806,7 @@
      "sac74": 
          {"nom": "Sport jaune à pois",
           "prix": "VENDU",
-          "dimensions": "Dimensions: 53 cm L x 37 cm P",
+          "dimensions": "Dimensions: 53 cm L x 15 l x 37 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Se ferme avec fermeture éclair",
@@ -816,8 +816,8 @@
      
      "sac75": 
          {"nom": "Vert forêt à fleurs",
-          "prix": "",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -827,8 +827,8 @@
 
       "sac76": 
          {"nom": "Kaki à fleurs jaunes",
-          "prix": "",
-          "dimensions": "Dimensions: 38 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 38 cm L 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -849,8 +849,8 @@
      
      "sac78": 
          {"nom": "Des cercles",
-          "prix": "",
-          "dimensions": "Dimensions: 38 cm L x 34 cm P",
+          "prix": "40$",
+          "dimensions": "Dimensions: 38 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "",
           "détail3": "",
@@ -860,8 +860,8 @@
      
       "sac79": 
          {"nom": "La plage rose",
-          "prix": "",
-          "dimensions": "Dimensions: 52 cm L x 32 cm P",
+          "prix": "50$",
+          "dimensions": "Dimensions: 52 cm Lx 16 l  x 32 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Se ferme avec fermeture éclair",
@@ -871,8 +871,8 @@
      
      "sac80": 
          {"nom": "La plage bleue",
-          "prix": "",
-          "dimensions": "Dimensions: 52 cm L x 32 cm P",
+          "prix": "50$",
+          "dimensions": "Dimensions: 52 cm L x 16 l x 32 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Se ferme avec fermeture éclair",
@@ -882,7 +882,7 @@
      
      "sac81": 
          {"nom": "Trousse de toilette à pois",
-          "prix": "VENDU",
+          "prix": "VENDUE",
           "dimensions": "Dimensions: 25 cm x 14 cm 14 cm",
           "détail1": "Trois petites pochettes",
           "détail2": "Se ferme avec fermeture éclair",
@@ -892,11 +892,11 @@
           },
      
       "sac82": 
-         {"nom": "",
-          "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+         {"nom": "La ferme",
+          "prix": "15$",
+          "dimensions": "40 cm L x 12 l x 37 H",
+          "détail1": "Sac à pain",
+          "détail2": "ou sac à chaussures",
           "détail3": "",
           "photo1": "",
           "photo2": ""
