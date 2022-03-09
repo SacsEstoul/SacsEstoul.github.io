@@ -398,8 +398,8 @@
 
       "sac37": 
          {"nom": "Les clowns + pochette",
-          "prix": "65$",
-          "dimensions": "Dimensions: 38 cm L x 34 cm P",
+          "prix": "35$",
+          "dimensions": "Dimensions: 38 cm L x 13 l x 34 H",
           "détail1": "Pochette détachable",
           "détail2": "Poche double",
           "détail3": "",
@@ -409,8 +409,8 @@
      
       "sac38": 
          {"nom": "Le carotté bleu et sable",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -420,8 +420,8 @@
      
       "sac39": 
          {"nom": "Les rideaux orangés",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "",
@@ -432,7 +432,7 @@
       "sac40": 
          {"nom": "Sport rayé noir gris rouge",
           "prix": "VENDU",
-          "dimensions": "Dimensions: 58 cm L x 37 cm P",
+          "dimensions": "Dimensions: 58 cm L x 16 l x 37 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Se ferme avec fermeture éclair",
@@ -442,8 +442,8 @@
      
       "sac41": 
          {"nom": "Le petit rouge",
-          "prix": "65$",
-          "dimensions": "Dimensions: 30 cm L x 34 cm P",
+          "prix": "25$",
+          "dimensions": "Dimensions: 30 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "",
           "détail3": "",
@@ -453,8 +453,8 @@
      
       "sac42": 
          {"nom": "Les petits carreaux",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm Lx 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -464,8 +464,8 @@
      
       "sac43": 
          {"nom": "Bleu à poche rose",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche simple",
           "détail3": "",
@@ -475,8 +475,8 @@
      
       "sac44": 
          {"nom": "Le vert fluo carotté",
-          "prix": "65$",
-          "dimensions": "Dimensions: 43 cm L x 34 cm P",
+          "prix": "45$",
+          "dimensions": "Dimensions: 43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "",
           "détail3": "",
@@ -486,8 +486,8 @@
      
       "sac45": 
          {"nom": "Les minous + pochette",
-          "prix": "65$",
-          "dimensions": "Dimensions: 38 cm L x 34 cm P",
+          "prix": "35$",
+          "dimensions": "Dimensions: 38 cm L x 13 l x 34 H",
           "détail1": "Pochette détachable",
           "détail2": "Poche double",
           "détail3": "",
