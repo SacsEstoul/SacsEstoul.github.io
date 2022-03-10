@@ -1,9 +1,9 @@
 {"faq":
-    {"Q3":
+    {"Q4":
         {"question": "<em><strong>Question:</strong></br> De quelle façon puis-je passer une commande? </em>",
          "réponse": "<strong>Réponse:</strong></br> Simplement en envoyant un courriel à l’adresse <a href='sacs.estoul@gmail.com'>sacs.estoul@gmail.com</a>.  Tout d’abord, inscrivez le nom du sac que vous aurez choisi.  Dès que je recevrai votre message, je vous indiquerai s’il est toujours disponible et nous pourrons passer à l’étape suivante, la commande."
         },
-    "Q4":
+    "Q5":
         {"question": "<em><strong>Question:</strong></br> Quel est le mode de paiement? </em>",
          "réponse": "<strong>Réponse:</strong></br> Par <em>e-Interac</em>.  La question à inscrire est 'Le nom des sacs?' Et la réponse est 'Estoul'."
         },
@@ -15,7 +15,7 @@
         {"question": "<em><strong>Question:</strong></br> Que signifie 'L', 'l' et 'H' dans les dimensions? </em>",
          "réponse": "<strong>Réponse:</strong></br> 'L' est la longueur du sac; 'l' est sa largeur; et 'H', sa hauteur."
         },
-     "Q5":
+     "Q3":
         {"question": "<em><strong>Question:</strong></br> Est-ce qu'il y a d'autres montants à calculer sur les prix indiqués? </em>",
          "réponse": "<strong>Réponse:</strong></br> Les prix affichés sont ceux à payer.  Cependant, ils n'incluent pas le prix de la livraison qui varie énormément d'une région à l'autre."
         },
