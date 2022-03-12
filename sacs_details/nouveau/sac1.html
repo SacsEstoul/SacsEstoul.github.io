@@ -116,10 +116,10 @@
        return document.getElementById(id);
    }
 
-   fetch('../../ESTELLE/nouveaute.json')
+   fetch('../../ESTELLE/nouveau.json')
    .then(res => res.json())
    .then((res) => {
-   const data = res.données_sacs;
+   const data = res.nouveautés;
 	   
    // Dims et details:
    getElement('dims').innerHTML = data.nouv1.dimensions;	   
