@@ -119,6 +119,12 @@
 
       </div>
 
+	    <hr></hr>
+	    <div class="bottom-one"></div>  	      
+            <p style="font-family:Didot;font-size:23px;color:#5F9EA0;text-align:center">Pour plus de détails, questions, ou pour commander un sac, </br>
+	     communiquez avec nous ici: <a href="mailto:sacs.estoul@gmail.com">sacs.estoul@gmail.com</a></p>  	      
+            <div class="bottom-one"></div>
+
 
     </div><!-- /.container -->
     <hr></hr>	    
@@ -202,76 +208,5 @@
 
 	
 
-<!--     <script>
-        fetch('estoul.json')
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (data) {
-                appendData(data);
-            })
-            .catch(function (err) {
-                console.log('error: ' + err);
-            });
-        function appendData(data) {
-            var mainContainer = document.getElementById("myData");
-            for (var i = 0; i < data.length; i++) {
-                var div = document.createElement("div");
-                div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
-                mainContainer.appendChild(div);
-            }
-        }
-    </script>	   
 
-    <div id='myData'></div> -->
-
-
-	
-<!--    <script>
-   function getName(data) {
-       var nameBag = [];	   
-       for (var i = 0; i < data.length; i++) {	
-	   nameBag.append("sac" + i);  
-	   console.log(nameBag[i]);    
-           getElement.innerHTML(nameBag[i]) = data;	// how to get each varname       
-	       
-	       
-       }	
-
-   }	 
-	   
-   fetch('estoul.json')
-   .then(res => res.json())
-   .then((res) => {
-   const data = res.Données;
-   getName(data);	   
-	   
-   });  
-  </script>	    -->
-
-	 
-
-
-<!-- // for fetching a js variable in html -->
-
-<!--     <script>
-   function putText() {	    
-
-       fetch('ESTELLE/info_sacs.json')
-       .then(res => res.json())
-       .then((res) => {
-       const data = res.données_sacs;    
-	     
-       let mail_details = "mailto:sacs.estoul@gmail.com?subject=" + data.sac1.nom + "&body=prix: " + data.sac1.prix; 
-       document.getElementById("destination").innerHTML = mail_details;
-            
-       });
-   }   
-	    
-    </script>	  
-	  
-  </head>	  
-	  	  
-	  
-  <body onLoad = putText()> -->
-
+   
