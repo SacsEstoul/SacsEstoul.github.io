@@ -133,7 +133,7 @@ footer {
 .histoire_photo_pos {
   position: absolute;
   display: inline-block;	
-  top: 0px;
+  top: -10px;
   right: -25px;
   height: 250px;
   width: 260px;	
