@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Estoul">
+	  
+    <!--  a)  Les 2 lignes suivantes servent à la découverte du site sur Google	   -->
+    <meta name="description" content="Collection de Sacs Design Unique / Handmade Tote Bags">
+    <meta name="keywords", content="sacs Estoul, sacs, sacs faits main, sacoche, sacs de sport, sacs uniques, bags, tote bags">	 
+    <!--  a)   -->
+  
+    <title>Sacs ESTOUL - Collection Complète</title>
+
+    <!--  1) CSS style using bootstrap -->
+    <link href="../../code/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS for the '3 Col Portfolio' Template -->
+    <link href="../../code/css/3-col-portfolio.css" rel="stylesheet">
+    <!-- 1)  -->
+  </head>	  
+	
+  <!--  b) Les prochaines lignes sont pour la barre d'en haut du site - Nom, contact, descriptions avec liens	 -->
+  <body>  
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+	    <li><a href="../../index.html">&#x2302; Accueil</a></li>
+	    <li><a href="../../barre_en_haut/nouveau.html">&#128171; NOUVEAUTÉS!</a></li>              
+            <li><a href="mailto:sacs.estoul@gmail.com">&#x1F4E7; Adresse Courriel</a></li>
+            <li><a href="../../barre_en_haut/petite_histoire.html">&#128092; La petite histoire</a></li>
+	    <li><a href="../../barre_en_haut/faq.html">&#10067; FAQ</a></li>	
+	    <li><a href="../../barre_en_haut/rabais.html">&#x2702; Par ici les rabais!</a></li>  
+            </br>
+	    <hr></hr>  
+
+	    <a href="../../index.html" style="font-family:Didot;font-size:48px;color:#5F9EA0;">&nbsp;Les Sacs ESTOUL</a>
+	    <div class="bottom-one"></div>   
+            </hr>		  
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+   <!-- b)	   -->
+	  	  
+   <div class="bottom-three"></div> 	 
+
+<!-- -->
+    <div class="container">
+    <div class="bottom-three"></div>
+    <div class="bottom-three"></div>	    
+
+      <div class="row">
+        <div class="col-md-4 portfolio-item">
+		<p style="font-size:20px;text-align:center;font-family:Optima" id="param1"></p>
+		<a><img style="text-align:center;width:350px;height:525px;" onerror="this.style.visibility = 'hidden'" src="../../photos/nouveau/sac1a.JPG"></img></a>  
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+	  <p style="font-size:20px;text-align:center;font-family:Optima" id="param2"></p>
+		<a><img style="text-align:center;width:350px;height:525px;" onerror="this.style.visibility = 'hidden'" src="../../photos/nouveau/sac1b.JPG"></img></a>
+   
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+	<div class="bottom-one"></div>	
+        <p style="font-size:22px;text-align:center" id="titre_details"></p>			
+        <div class="bottom-one"></div>
+		
+       <ul>   	
+	  <p style="font-size:20px" id="dims"></p>
+	      <div class="bottom-one"></div>
+	  <p style="font-size:20px"></p>&nbsp;<span style="font-size:20px" id="detail1"></span>
+	      <div class="bottom-one"></div>
+	  <p style="font-size:20px"></p>&nbsp;<span style="font-size:20px" id="detail2"></span>
+	      <div class="bottom-one"></div>
+	  <p style="font-size:20px"></p>&nbsp;<span style="font-size:20px" id="detail3"></span>
+	</ul>       
+		
+	<div class="bottom-two"></div>
+	<a href="mailto:sacs.estoul@gmail.com?subject=Commande Sac ESTOUL Nouveauté #1">
+	    <p style="font-size:20px;text-align:center;border:2px;border-style:solid;border-color:#5F9EA0;padding:0.5em;"> Cliquez ici pour commander</p>
+	</a>	
+	<div class="bottom-two"></div>	
+        </div>
+      </div>
+      <hr></hr>
+    </div><!-- /.container -->
+   
+    <div class="bottom-one"></div>
+    <div class="container">
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+		  <p style="color:#5F9EA0"><strong>Les Sacs Estoul </strong><span id="getCurrentDate"></span></p>
+		  <a href="mailto:sacs.estoul@gmail.com">sacs.estoul@gmail.com</a>
+		  </br>
+          <p style="color:#5F9EA0"> 377 rue Farmer</br>
+                                    Trois-Rivières, Québec</br>
+                                    G9A 3E8</p>
+          </div>
+        </div>
+      </footer>            
+ </div><!-- /.container -->
+
+
+    <!-- JavaScript -->
+
+   <script>
+   function getElement(id) {
+       return document.getElementById(id);
+   }
+
+   fetch('../../ESTELLE/nouveaute.json')
+   .then(res => res.json())
+   .then((res) => {
+   const data = res.données_sacs;
+	   
+   // Dims et details:
+   getElement('dims').innerHTML = data.sac1.dimensions;	   
+   getElement('detail1').innerHTML = data.sac1.détail1;	
+   getElement('detail2').innerHTML = data.sac1.détail2;	   
+   getElement('detail3').innerHTML = data.sac1.détail3;	 
+   getElement('param1').innerHTML = data.sac1.photo1;	 
+   getElement('param2').innerHTML = data.sac1.photo2;	   
+   }); 	
+	   
+	   
+   fetch('../../ESTELLE/autres_textes.json')
+   .then(ecrits => ecrits.json())
+   .then((ecrits) => {
+   const miscel = ecrits.outils;	 
+   // put new vars here
+   }); 	      
+   </script>	  
+
+    <script src="../../code/js/jquery-1.10.2.js"></script>
+    <script src="../../code/js/bootstrap.js"></script>
+    <script type="text/javascript">
+      var dt = new Date();
+      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
+    </script>
+  </body>
+
+</html>
