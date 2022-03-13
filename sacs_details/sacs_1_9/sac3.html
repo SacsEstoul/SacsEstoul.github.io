@@ -30,7 +30,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
-	    <li><a href="../../#">&#127968; Accueil</a></li>
+	    <li><a href="../../index.html">&#127968; Accueil</a></li>
 	    <li><a href="../../barre_en_haut/nouveautes.html">&#128171; NOUVEAUTÉS!</a></li>  		  		  
             <li><a href="mailto:sacs.estoul@gmail.com">&#x1F4E7; Adresse Courriel</a></li>
             <li><a href="../../barre_en_haut/petite_histoire.html">&#128092; La petite histoire</a></li>
@@ -41,7 +41,7 @@
             <div class="bottom-one"></div> 
 	    <a style="font-family:Didot;font-size:48px;color:#5F9EA0" href="../../index.html">&nbsp;Les Sacs ESTOUL</a>  
 	    <div class="bottom-one"></div>   
-            <hr></hr>		  
+            </hr>		  
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -81,7 +81,7 @@
 	  <p style="font-size:20px"></p>&nbsp;<span style="font-size:20px" id="detail2"></span>
 	      <div class="bottom-one"></div>
 	  <p style="font-size:20px"></p>&nbsp;<span style="font-size:20px" id="detail3"></span>
-	</ul>       
+	</ul> 
 		
 	<div class="bottom-two"></div>
 	<a href="mailto:sacs.estoul@gmail.com?subject=Commande Sac ESTOUL #3">
@@ -135,7 +135,7 @@
    .then(ecrits => ecrits.json())
    .then((ecrits) => {
    const miscel = ecrits.outils;	 
-   // put new vars here
+   getElement('titre_details').innerHTML = miscel.titre_détails;   
    }); 	      
    </script>	  
 
