@@ -22,17 +22,18 @@ class Header extends HTMLElement {
         <div class="collapse navbar-collapse navbar-ex1-collapse">
         
         <ul class="nav navbar-nav"> 
-	          <li><a href="#">&#127968; Accueil</a></li>
-	          <li><a href="barre_en_haut/nouveautes.html">&#128171; NOUVEAUTÉS!</a></li>  		  
+	    <li><a href="#">&#127968; Accueil</a></li>
+	    <li><a href="barre_en_haut/nouveautes.html">&#128171; NOUVEAUTÉS!</a></li>  		  
             <li><a href="mailto:sacs.estoul@gmail.com">&#x1F4E7; Adresse Courriel</a></li>	  		  		  		  
             <li><a href="barre_en_haut/petite_histoire.html">&#128092; La petite histoire</a></li>
-	          <li><a href="barre_en_haut/faq.html">&#10067; FAQ</a></li>	
-            <li><a href="barre_en_haut/rabais.html">&#x2702; Par ici les rabais!</a></li>		  	  
+	    <li><a href="barre_en_haut/faq.html">&#10067; FAQ</a></li>	
+            <li><a href="barre_en_haut/rabais.html">&#x2702; Par ici les rabais!</a></li>
+	    
             <div class="bottom-two"></div>
 		  
-	          <a style="font-family:Didot;font-size:48px;color:#5F9EA0" href="#">&nbsp;Les Sacs ESTOUL</a>  
-	          <div class="bottom-one"></div>   
-		  
+	    <a style="font-family:Didot;font-size:48px;color:#5F9EA0" href="#">&nbsp;Les Sacs ESTOUL</a>  
+	    
+	    <div class="bottom-one"></div>   		  
         </ul>
         
         </div><!-- /.navbar-collapse -->
