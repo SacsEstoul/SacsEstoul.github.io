@@ -30,28 +30,34 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav"> 
 	    <li><a href="../index.html">&#127968; Accueil</a></li>
-	    <li><a href="#">&#128171; NOUVEAUTÉS!</a></li>  
+	    <li><a href="#">&#128171; NOUVEAUTÉS!</a></li>  		  
             <li><a href="mailto:sacs.estoul@gmail.com">&#x1F4E7; Adresse Courriel</a></li>	  		  		  		  
             <li><a href="petite_histoire.html">&#128092; La petite histoire</a></li>
-	          <li><a href="faq.html">&#10067; FAQ</a></li>	
+	    <li><a href="faq.html">&#10067; FAQ</a></li>	
             <li><a href="rabais.html">&#x2702; Par ici les rabais!</a></li>		  	  
             <div class="bottom-sm"></div>
 	    <hr></hr>  
-
+            <div class="bottom-one"></div> 
 	    <a style="font-family:Didot;font-size:48px;color:#5F9EA0" href="#">&nbsp;Les Sacs ESTOUL</a>  
 	    <div class="bottom-one"></div>   
             </hr>		  
           </ul>
-<!-- 	<img class="logo_topright" title="logo estoul" src="ESTELLE/logo_photos/logo.JPG" alt="logo"></img>    	   -->
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
     </nav>
    <!-- b)	   -->
 
     <div class="bottom-three"></div> 
-  
-      <div class="bottom-one"></div>
-      <div class="bottom-one"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">	
+	    <div class="bottom-two"></div>
+	    <hr></hr>	     
+	    <div class="bottom-one"></div>	 	      
+        </div>
+	    
+      <hr></hr>	    
+      <div class="bottom-two"></div>
       <div class="row">
       <div class="bottom-one"></div>       
 	  
@@ -103,27 +109,19 @@
         </div>
 
 <!--         <div class="col-md-4 portfolio-item">
-          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_1_9/sac6.html" id="nom6"></a></p>        
-          <a href="sacs_details/sacs_1_9/sac6.html">
-		  <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src="photos/sacs_1-9/sac6.JPG" onerror="this.style.visibility = 'hidden'"></img>
+          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="../sacs_details/nouveau/sac6.html" id="nom6"></a></p>        
+          <a href="../sacs_details/nouveau/sac6.html">
+		  <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src="../photos/nouveau/sac6.JPG" onerror="this.style.visibility = 'hidden'"></img>
 	  </a>
-          <h3 id="prix6"></h3>                -->
+          <h3 id="prix6"></h3>               
 
-        </div>
+        </div> -->
       </div>
-
+      
+	  
 
       <div class="bottom-one"></div> 
-
-      <div class="row text-center">     
-
-      </div>
-
-	    <hr></hr>
-	    <div class="bottom-one"></div>  	      
-            <p style="font-family:Didot;font-size:23px;color:#5F9EA0;text-align:center">Pour plus de détails, questions, ou pour commander un sac, </br>
-	     communiquez avec nous ici: <a href="mailto:sacs.estoul@gmail.com">sacs.estoul@gmail.com</a></p>  	      
-            <div class="bottom-one"></div>
+      <hr></hr>
 
 
     </div><!-- /.container -->
@@ -152,21 +150,17 @@
        return document.getElementById(id);
    }
 
-   fetch('../ESTELLE/nouveau.json')
+   fetch('../ESTELLE/info_sacs.json')
    .then(res => res.json())
    .then((res) => {
-   const data = res.nouveautés;
+   const data = res.données_sacs;
 	   
    // Noms:
    getElement('nom1').innerHTML = data.nouv1.nom;
    getElement('nom2').innerHTML = data.nouv2.nom;
    getElement('nom3').innerHTML = data.nouv3.nom;
    getElement('nom4').innerHTML = data.nouv4.nom;
-   getElement('nom5').innerHTML = data.nouv5.nom;
-   getElement('nom6').innerHTML = data.nouv6.nom;
-   getElement('nom7').innerHTML = data.nouv7.nom;
-   getElement('nom8').innerHTML = data.nouv8.nom;	   
-   getElement('nom9').innerHTML = data.nouv9.nom;	   
+   getElement('nom5').innerHTML = data.nouv5.nom;	   
 	
    // Prix: 	   
    getElement('prix1').innerHTML =  data.nouv1.prix;
@@ -174,22 +168,8 @@
    getElement('prix3').innerHTML =  data.nouv3.prix;	
    getElement('prix4').innerHTML =  data.nouv4.prix;
    getElement('prix5').innerHTML =  data.nouv5.prix;
-   getElement('prix6').innerHTML =  data.nouv6.prix;
-   getElement('prix7').innerHTML =  data.nouv7.prix;	
-   getElement('prix8').innerHTML =  data.nouv8.prix;	
-   getElement('prix9').innerHTML =  data.nouv9.prix;
+ 	       
    });	   
-	   
-	      
-   fetch('../ESTELLE/autres_textes.json')
-   .then(ecrits => ecrits.json())
-   .then((ecrits) => {
-   const phrase = ecrits.phrases;	 
-   const utils = ecrits.outils;	   
-   getElement('slogan').innerHTML = phrase.sous_la_bannière;
-	     
-   }); 	  
-
 	   
    </script>	   
 
@@ -207,6 +187,3 @@
 </html>
 
 	
-
-
-   
