@@ -1,5 +1,6 @@
 body {
 	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+	overflow: hidden; 
 }
 
 .portfolio-item {
@@ -8,27 +9,33 @@ body {
 
 footer {
 	margin: 50px 0;
+	overflow: hidden; 
 }
 
 .bottom-tiny {
      margin-bottom: 0.25cm;
+     overflow: hidden; 
 }
 
 .bottom-sm {
      margin-bottom: 0.5cm;
+     overflow: hidden; 	
 }
 
 
 .bottom-one {
      margin-bottom: 1cm;
+     overflow: hidden; 
 }
 
 .bottom-two {
      margin-bottom: 2cm;
+     overflow: hidden; 	
 }
 
 .bottom-three {
      margin-bottom: 3cm;
+     overflow: hidden; 	
 }
 
 
