@@ -38,6 +38,10 @@
      overflow: hidden; 	
 }
 
+.bottom-lg {
+     margin-bottom: 3.5cm;
+     overflow: hidden;
+}	
 
 .page {
   width: 100vw;
