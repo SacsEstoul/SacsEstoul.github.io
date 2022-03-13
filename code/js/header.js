@@ -5,7 +5,8 @@ class Header extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <style>
+    
+    <style>
     .bottom-one {
          margin-bottom: 1cm;
          overflow: hidden; 
