@@ -11,7 +11,6 @@ class Header extends HTMLElement {
          margin-bottom: 1cm;
          overflow: hidden; 
     }
-
     .bottom-two {
          margin-bottom: 2cm;
          overflow: hidden; 	
@@ -45,3 +44,5 @@ class Header extends HTMLElement {
 }
 
 customElements.define('header-component', Header);
+
+
