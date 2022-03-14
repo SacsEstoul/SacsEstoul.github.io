@@ -31,7 +31,7 @@ class Header extends HTMLElement {
         <li><a href="../barre_en_haut/rabais.html">&#x2702; Par ici les rabais!</a></li>
         <div class="bottom-two"></div>
 		  
-	      <a style="font-family:Didot;font-size:48px;color:#5F9EA0" href="#">&nbsp;Les Sacs ESTOUL</a>  
+	      <a style="font-family:Didot;font-size:48px;color:#5F9EA0" href="../index.html">&nbsp;Les Sacs ESTOUL</a>  
 	      <div class="bottom-one"></div>   		  
         
         </ul>      
