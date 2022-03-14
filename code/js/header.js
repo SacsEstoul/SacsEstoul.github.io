@@ -26,7 +26,6 @@ class Header extends HTMLElement {
 	   var linkHistoire = "../barre_en_haut/petite_histoire.html";
 	   var linkFAQ = "../barre_en_haut/faq.html";
 	   var linkRabais = "../barre_en_haut/rabais.html";	       
-        	    
        }
     this.innerHTML = `
     
