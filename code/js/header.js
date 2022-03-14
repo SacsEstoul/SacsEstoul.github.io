@@ -5,7 +5,7 @@ class Header extends HTMLElement {
 
   connectedCallback() {
   // argument is position == 1, 2, or 3, for root, parent, and grand-parent directory. Default is parent. 	  
-    var linkPosition = this.attributes.position.value;	  
+    var linkPosition = this.attributes.position.value  
        if (linkPosition == 3) {
 	   var linkAccueil = "../../index.html";
 	   var linkNouveaute = "../../barre_en_haut/nouveautes.html";
