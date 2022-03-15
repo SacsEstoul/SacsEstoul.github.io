@@ -41,15 +41,15 @@ class FirstPhoto extends HTMLElement {
     var infoSac = donnees[numeroSac];
       
     var nomSac = infoSac.nom;
-	  var prixSac = infoSac.prix;
+    var prixSac = infoSac.prix;
       
       
-   // Noms:
-   getElement(nomNum).innerHTML = nomSac;
+//    // Noms:
+//    getElement(nomNum).innerHTML = nomSac;
   
 	
-   // Prix: 	   
-   getElement(prixNum).innerHTML =  prixSac;
+//    // Prix: 	   
+//    getElement(prixNum).innerHTML =  prixSac;
 
  	       
    });	  
@@ -72,15 +72,14 @@ class FirstPhoto extends HTMLElement {
     </style>
     
     
-    <p>${addressHTML}</p>
     <div class="col-md-4 portfolio-item">
     
-    <p style="font-size:25px;text-align:center;font-family:Optima"><a href=${addressHTML} id=${nomNum}></a></p>        
+    <p style="font-size:25px;text-align:center;font-family:Optima"><a href=${addressHTML}>${nomSac}</a></p>        
       <a href=${addressHTML}>
 		    <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src=${addressJPG} onerror="this.style.visibility = 'hidden'"></img>
 	    </a>
       
-    <h3 id=prixNum></h3>               
+    <h3>${prixSac}</h3>               
     </div>
     
     
