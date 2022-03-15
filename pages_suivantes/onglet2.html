@@ -17,7 +17,7 @@
     <link href="../code/css/bootstrap.css" rel="stylesheet">
     <!-- Custom CSS for the '3 Col Portfolio' Template -->
     <link href="../code/css/3-col-portfolio.css" rel="stylesheet">
-    <script src="code/js/headerParent.js" type="text/javascript" defer></script>	  
+    <script src="code/js/header.js" type="text/javascript" defer></script>	  
     <script src="code/js/footer.js" type="text/javascript" defer></script>	  
 	  
 	  
@@ -25,7 +25,7 @@
   <body>
 	  
   <!--   header from header.js   -->
-  <header-componentP></header-componentP>	 
+  <header-component position="2"></header-componentP>	 
 
 
     <div class="bottom-three"></div> 
@@ -159,17 +159,8 @@
     </div><!-- /.container -->
     <hr></hr>	    
 
-      <footer>
-        <div class="row">
-          <div class="col-lg-12">
-		  <p style="color:#5F9EA0"><strong>Les Sacs Estoul </strong><span id="getCurrentDate"></span></p>
-		  <a href="mailto:sacs.estoul@gmail.com">sacs.estoul@gmail.com</a>
-		  </br>
-		  <p style="color:#5F9EA0"> Trois-Rivières, Québec</br>
-		                            Canada<p>
-          </div>
-        </div>
-      </footer> 
+    <footer-component></footer-component>
+
            
  </div><!-- /.container -->
 
@@ -241,10 +232,6 @@
 
  <script src="../code/js/jquery-1.10.2.js"></script>
  <script src="../code/js/bootstrap.js"></script>
- <script type="text/javascript">
-    var dt = new Date();
-    document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
- </script>
 
  </body>
 </html>
