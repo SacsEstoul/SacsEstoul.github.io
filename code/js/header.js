@@ -4,16 +4,16 @@ class Header extends HTMLElement {
   }
 
   connectedCallback() {
-  // argument is position == 1, 2, or 3, for root, parent, and grand-parent directory. Default is parent. 	  
+  // argument is position == 1, 2, or 3 (str), for root, parent, and grand-parent directory. Default is parent. 	  
     var linkPosition = this.attributes.position.value  
-       if (linkPosition == 3) {
+       if (linkPosition == "3") {
 	   var linkAccueil = "../../index.html";
 	   var linkNouveaute = "../../barre_en_haut/nouveautes.html";
 	   var linkHistoire = "../../barre_en_haut/petite_histoire.html";
 	   var linkFAQ = "../../barre_en_haut/faq.html";
 	   var linkRabais = "../../barre_en_haut/rabais.html";
        }       
-       else if (linkPosition == 1) {
+       else if (linkPosition == "1") {
 	   var linkAccueil = "#";
 	   var linkNouveaute = "barre_en_haut/nouveautes.html";
 	   var linkHistoire = "barre_en_haut/petite_histoire.html";
