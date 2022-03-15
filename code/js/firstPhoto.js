@@ -71,9 +71,9 @@ class FirstPhoto extends HTMLElement {
     
     <div class="col-md-4 portfolio-item">
     
-    <p style="font-size:25px;text-align:center;font-family:Optima"><a href=${{addressHTML}} id=${{nomNum}}></a></p>        
-      <a href=${{addressHTML}}>
-		    <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src=${{addressJPG}} onerror="this.style.visibility = 'hidden'"></img>
+    <p style="font-size:25px;text-align:center;font-family:Optima"><a href=${addressHTML} id=${nomNum}></a></p>        
+      <a href=${addressHTML}>
+		    <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src=${addressJPG} onerror="this.style.visibility = 'hidden'"></img>
 	    </a>
       
     <h3 id=prixNum></h3>               
