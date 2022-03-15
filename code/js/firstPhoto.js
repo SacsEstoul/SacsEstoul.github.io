@@ -8,6 +8,9 @@ class FirstPhoto extends HTMLElement {
     var numeroSac = this.attributes.numero.value;
     // should be a string, "sacs_1_9", "sacs_10_18", etc.
     var pageSac = this.attributes.page.value;
+    // temporary, until all pageSac are the same for photos and pages suivantes	  
+    var pagePhoto = this.attributes.page_photo.value;
+	  
     // "true" or "false" (str), is it on the first page (index.html) or one of the following ones (onglet#.html).
     // Used to know if we need "../" in link
     var isLanding = this.attributes.landing_page.value;
@@ -19,11 +22,11 @@ class FirstPhoto extends HTMLElement {
     
     if (isLanding == "true") {
       var addressHTML = "sacs_details/" + pageSac + "/" + strSac + ".html";
-      var addressJPG = "sacs_details/" + pageSac + "/" + strSac + ".JPG";  
+      var addressJPG = "sacs_details/" + pagePhoto + "/" + strSac + ".JPG";  
     }  
     else {
       var addressHTML = "../sacs_details/" + pageSac + "/" + strSac + ".html";  
-      var addressJPG = "../sacs_details/" + pageSac + "/" + strSac + ".JPG";
+      var addressJPG = "../sacs_details/" + pagePhoto + "/" + strSac + ".JPG";
     }  
     
     
