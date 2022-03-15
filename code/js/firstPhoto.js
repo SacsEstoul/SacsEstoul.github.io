@@ -68,6 +68,10 @@ class FirstPhoto extends HTMLElement {
          margin-bottom: 2cm;
          overflow: hidden; 	
     }    
+    
+    </style>
+    
+    
     <p>${addressHTML}</p>
     <div class="col-md-4 portfolio-item">
     
