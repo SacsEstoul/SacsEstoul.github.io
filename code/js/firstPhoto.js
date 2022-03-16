@@ -35,19 +35,17 @@ class FirstPhoto extends HTMLElement {
 
 
 
-    fetch('ESTELLE/info_sacs.json')
-    .then(res => res.json())
-    .then((res) => {
-    const data = res.données_sacs;
-    var infoSac = data.sac1;
-      
-    var nomSac = infoSac.nom;
-    var prixSac = infoSac.prix;
-    var typeSac = typeof(nomSac);
-    console.log(typeSac);
-    console.log(infoSac);	    
-             
-   });	
+async function loadNames() {
+  var response = await fetch('ESTELLE/info_sacs.json');
+  var data = await response.json();
+  var sac = data.sac1;
+  console.log(sac); 
+	
+  var nom = sac.nom;
+  var prix = sac.prix;	
+  // logs [{ name: 'Joker'}, { name: 'Batman' }]
+}
+loadNames();
 	  
 	  
 //         <div class="col-md-4 portfolio-item">
@@ -62,7 +60,7 @@ class FirstPhoto extends HTMLElement {
     
     this.innerHTML = `
     
-    <h3>${prixSac}</h3>
+    <h3>${prix}</h3>
     
 
     `;
