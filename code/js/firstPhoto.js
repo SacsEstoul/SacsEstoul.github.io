@@ -33,20 +33,15 @@ class FirstPhoto extends HTMLElement {
     
 
 
-
-
-async function loadNames() {
-  var response = await fetch('ESTELLE/info_sacs.json');
-  var data = await response.json();
-  var sac = data.sac1;
-  console.log(sac); 
-	
-  var nom = sac.nom;
-  var prix = sac.prix;	
-  // logs [{ name: 'Joker'}, { name: 'Batman' }]
-}
-loadNames();
+fetch("ESTELLE/info_sacs.json")
+.then(response => {
+   return response.json();
+})
+.then(data => console.log(data));
+var sac = data.sac1;
+console.log(sac);	  
 	  
+var prix = sac.prix	  
 	  
 //         <div class="col-md-4 portfolio-item">
 //           <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_10_18/sac10.html">${nomSac}</a></p>
