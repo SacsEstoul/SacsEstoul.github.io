@@ -37,14 +37,14 @@ class FirstPhoto extends HTMLElement {
 //       return document.getElementById(id);
 //     }
 
-    fetch('../../ESTELLE/info_sacs.json')
-    .then(res => res.json())
-    .then((res) => {
-    var donnees = res.données_sacs;
-    var infoSac = donnees["sac1"];
+//     fetch('../../ESTELLE/info_sacs.json')
+//     .then(res => res.json())
+//     .then((res) => {
+//     var donnees = res.données_sacs;
+//     var infoSac = donnees["sac1"];
       
-    var nomSac = infoSac.nom;
-    var prixSac = infoSac.prix;
+//     var nomSac = infoSac.nom;
+//     var prixSac = infoSac.prix;
       
       
 //    // Noms:
@@ -55,7 +55,7 @@ class FirstPhoto extends HTMLElement {
 //    getElement(prixNum).innerHTML =  prixSac;
 
  	       
-   });	  
+//    });	  
     this.innerHTML = `
     
         <div class="col-md-4 portfolio-item">
