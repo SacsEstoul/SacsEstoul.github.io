@@ -33,14 +33,10 @@ class FirstPhoto extends HTMLElement {
     
 
 
-fetch("ESTELLE/info_sacs.json")
-.then(response => {
-   return response.json();
-})
-.then(data => console.log(data));
-var sac = data.sac1;
-console.log(sac);	  
-	  
+
+const jsonData= require("ESTELLE/info_sacs.json"); 
+console.log(jsonData);	  
+var sac = jsonData.données_sacs.sac1;	  
 var prix = sac.prix	  
 	  
 //         <div class="col-md-4 portfolio-item">
