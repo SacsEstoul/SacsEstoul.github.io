@@ -55,7 +55,7 @@ class FirstPhoto extends HTMLElement {
 //    getElement(prixNum).innerHTML =  prixSac;
 
  	       
-   });	  
+//    });	  
     this.innerHTML = `
     
     <div class="col-md-4 portfolio-item">
