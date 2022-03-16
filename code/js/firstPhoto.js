@@ -35,25 +35,25 @@ class FirstPhoto extends HTMLElement {
     
 
 
-    fetch('ESTELLE/info_sacs.json')
-    .then(res => res.json())
-    .then((res) => {
-    var donnees = res.données_sacs;
-    var infoSac = donnees["sac1"];
+//     fetch('ESTELLE/info_sacs.json')
+//     .then(res => res.json())
+//     .then((res) => {
+//     var donnees = res.données_sacs;
+//     var infoSac = donnees["sac1"];
       
-    var nomSac = infoSac.nom;
-    var prixSac = infoSac.prix;
+//     var nomSac = infoSac.nom;
+//     var prixSac = infoSac.prix;
       
       
    // Noms:
-   this.getElementById("nom1").innerHTML = nomSac;
+   this.getElementById("nom1").innerHTML = "La diligence";
   
 	
    // Prix: 	   
-   this.getElementById("prix1").innerHTML =  prixSac;
+   this.getElementById("prix1").innerHTML =  "$50";
 
  	       
-   });	  
+//    });	  
 	  
     
     
