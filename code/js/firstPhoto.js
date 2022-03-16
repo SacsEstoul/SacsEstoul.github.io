@@ -46,11 +46,11 @@ class FirstPhoto extends HTMLElement {
       
       
    // Noms:
-   this.getElementById("nom1").innerHTML = "La diligence";
+   var nomSac = "La diligence";
   
 	
    // Prix: 	   
-   this.getElementById("prix1").innerHTML =  "$50";
+   var prixSac =  "$50";
 
  	       
 //    });	  
@@ -62,11 +62,11 @@ class FirstPhoto extends HTMLElement {
 
     
         <div class="col-md-4 portfolio-item">
-          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_1_9/sac1.html" id="nom1"></a></p>
+          <p style="font-size:25px;text-align:center;font-family:Optima" href="sacs_details/sacs_1_9/sac1.html">nomSac</p>
           <a href="sacs_details/sacs_1_9/sac1.html">
 	  <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src="photos/sacs_1-9/sac1.JPG" onerror="this.style.visibility = 'hidden'"></img>
 	  </a>
-          <h3 id="prix1"></h3>               
+          <p>prixSac</p>               
         </div>
     `;
   }
