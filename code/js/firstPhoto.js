@@ -31,8 +31,8 @@ class FirstPhoto extends HTMLElement {
 //     var addressHTML = "sacs_details/sacs_1_9/sac1.html" 
 //     var addressJPG = "sacs_details/sacs_1-9/sac1.JPG"  
     
-    
-    
+
+
 
 
     fetch('ESTELLE/info_sacs.json')
@@ -44,6 +44,8 @@ class FirstPhoto extends HTMLElement {
     var nomSac = infoSac.nom;
     var prixSac = infoSac.prix;
     var typeSac = typeof(nomSac);
+    console.log(typeSac);
+    console.log(infoSac);	    
              
    });	
 	  
@@ -56,12 +58,12 @@ class FirstPhoto extends HTMLElement {
 //           <h3>${prixSac}</h3>
 	  
 //         </div>	  
-    window.alert(typeSac);
+
     
     this.innerHTML = `
     
- 
-    <p>${typeSac}</p>
+    <h3>${prixSac}</h3>
+    
 
     `;
   }
