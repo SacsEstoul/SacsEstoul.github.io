@@ -58,6 +58,7 @@ class FirstPhoto extends HTMLElement {
 //    });	  
     this.innerHTML = `
     
+    <script>
      function getElement(id) {
        return document.getElementById(id);
      }
@@ -77,7 +78,7 @@ class FirstPhoto extends HTMLElement {
     // Prix: 	   
     getElement("prix1").innerHTML =  prixSac; 	       
     });    
-    
+    </script>
     
         <div class="col-md-4 portfolio-item">
           <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_1_9/sac1.html" id="nom1"></a></p>
