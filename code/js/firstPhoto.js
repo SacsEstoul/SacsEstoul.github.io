@@ -48,11 +48,11 @@ class FirstPhoto extends HTMLElement {
       
       
    // Noms:
-   this.getElement("nom1").innerHTML = nomSac;
+   getElement("nom1").innerHTML = nomSac;
   
 	
    // Prix: 	   
-   this.getElement("prix1").innerHTML =  prixSac;
+   getElement("prix1").innerHTML =  prixSac;
 
  	       
    });	  
