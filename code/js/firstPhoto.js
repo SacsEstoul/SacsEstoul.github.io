@@ -33,9 +33,7 @@ class FirstPhoto extends HTMLElement {
     
     
     
-    function getElement(id) {
-      return document.getElementById(id);
-    }
+
 
     fetch('ESTELLE/info_sacs.json')
     .then(res => res.json())
@@ -48,11 +46,11 @@ class FirstPhoto extends HTMLElement {
       
       
    // Noms:
-   getElement("nom1").innerHTML = nomSac;
+   this.getElementById("nom1").innerHTML = nomSac;
   
 	
    // Prix: 	   
-   getElement("prix1").innerHTML =  prixSac;
+   this.getElementById("prix1").innerHTML =  prixSac;
 
  	       
    });	  
