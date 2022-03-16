@@ -58,23 +58,6 @@ class FirstPhoto extends HTMLElement {
    });	  
     this.innerHTML = `
     
-    <style>
-    .bottom-one {
-         margin-bottom: 1cm;
-         overflow: hidden; 
-    }
-    .bottom-two {
-         margin-bottom: 2cm;
-         overflow: hidden; 	
-    }
-    .bottom-three {
-         margin-bottom: 2cm;
-         overflow: hidden; 	
-    }    
-    
-    </style>
-    
-    
     <div class="col-md-4 portfolio-item">
     
     <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_1_9/sac1.html">sac</a></p>        
@@ -83,7 +66,6 @@ class FirstPhoto extends HTMLElement {
       
     <h3>$50</h3>               
     </div>
-    
     
 
     `;
