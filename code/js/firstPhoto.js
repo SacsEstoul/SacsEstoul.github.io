@@ -53,38 +53,22 @@ class FirstPhoto extends HTMLElement {
 //    var prixSac =  "$50";
 
  	       
-//    });	  
+//    });	
 	  
+    var nom1 = "La diligence";
+    var prix1 = "$50"	  
     
     
     this.innerHTML = `
     
-    
-	   <script>
-	   function getElement(id) {
-	       return document.getElementById(id);
-	   }
-
-	   fetch('ESTELLE/info_sacs.json')
-	   .then(res => res.json())
-	   .then((res) => {
-	   const data = res.données_sacs;
-
-	   // Noms:
-	   getElement('nom1').innerHTML = data.sac1.nom;
-
-	   // Prix: 	   
-	   getElement('prix1').innerHTML =  data.sac1.prix;
-
-	   });	
-	   </script>
+ 
     
         <div class="col-md-4 portfolio-item">
-          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_10_18/sac10.html" id="nom1"></a></p>
+          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_10_18/sac10.html">${nom1}</a></p>
           <a href="sacs_details/sacs_1_9/sac1.html">
 		  <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src="photos/sacs_1-9/sac1.JPG" onerror="this.style.visibility = 'hidden'"></img>
 	  </a>
-          <h3 id="prix1"></h3>               
+          <h3>${prix1}</h3>               
         </div>
     `;
   }
