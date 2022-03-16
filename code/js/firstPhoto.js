@@ -56,7 +56,7 @@ class FirstPhoto extends HTMLElement {
 //           <h3>${prixSac}</h3>
 	  
 //         </div>	  
-    
+    window.alert(typeSac);
     
     this.innerHTML = `
     
