@@ -43,17 +43,10 @@ class FirstPhoto extends HTMLElement {
       
     var nomSac = infoSac.nom;
     var prixSac = infoSac.prix;
-	    
-      
              
    });	
 	  
-    
-    
-    this.innerHTML = `
-    
- 
-    <p>${typeof(nomSac)}</p>
+	  
 //         <div class="col-md-4 portfolio-item">
 //           <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_10_18/sac10.html">${nomSac}</a></p>
 //           <a href="sacs_details/sacs_1_9/sac1.html">
@@ -61,7 +54,14 @@ class FirstPhoto extends HTMLElement {
 // 	  </a>
 //           <h3>${prixSac}</h3>
 	  
-//         </div>
+//         </div>	  
+    
+    
+    this.innerHTML = `
+    
+ 
+    <p>${typeof(nomSac)}</p>
+
     `;
   }
 }
