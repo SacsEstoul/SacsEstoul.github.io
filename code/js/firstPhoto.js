@@ -43,6 +43,7 @@ class FirstPhoto extends HTMLElement {
       
     var nomSac = infoSac.nom;
     var prixSac = infoSac.prix;
+    var typeSac = typeof(nomSac);
              
    });	
 	  
@@ -60,12 +61,12 @@ class FirstPhoto extends HTMLElement {
     this.innerHTML = `
     
  
-    <p>${typeof(nomSac)}</p>
+    <p>${typeSac}</p>
 
     `;
   }
 }
 
-customElements.define('firstphoto-component', FirstPhoto);
+customElements.define('first-photo', FirstPhoto);
 
 
