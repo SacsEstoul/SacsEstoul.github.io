@@ -33,9 +33,9 @@ class FirstPhoto extends HTMLElement {
     
     
     
-    function getElement(id) {
-      return document.getElementById(id);
-    }
+//     function getElement(id) {
+//       return document.getElementById(id);
+//     }
 
     fetch('ESTELLE/info_sacs.json')
     .then(res => res.json())
