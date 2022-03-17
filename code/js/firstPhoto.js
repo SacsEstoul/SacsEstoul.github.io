@@ -31,33 +31,47 @@ class FirstPhoto extends HTMLElement {
 //     var addressHTML = "sacs_details/sacs_1_9/sac1.html" 
 //     var addressJPG = "sacs_details/sacs_1-9/sac1.JPG"  
     
+    
+    
 
 
+//     fetch('ESTELLE/info_sacs.json')
+//     .then(res => res.json())
+//     .then((res) => {
+//     var donnees = res.données_sacs;
+//     var infoSac = donnees["sac1"];
+      
+//     var nomSac = infoSac.nom;
+//     var prixSac = infoSac.prix;
+      
+      
+   // Noms:
+   this.getElementById("nom1").innerHTML = "La diligence";
+  
+	
+   // Prix: 	   
+   this.getElementById("prix1").innerHTML =  "$50";
 
-const jsonData = fetch("ESTELLE/info_sacs.json"); 
-console.log(jsonData);	  
-var sac = jsonData.données_sacs.sac1;	  
-var prix = sac.prix	  
+ 	       
+//    });	  
 	  
-//         <div class="col-md-4 portfolio-item">
-//           <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_10_18/sac10.html">${nomSac}</a></p>
-//           <a href="sacs_details/sacs_1_9/sac1.html">
-// 		  <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src="photos/sacs_1-9/sac1.JPG" onerror="this.style.visibility = 'hidden'"></img>
-// 	  </a>
-//           <h3>${prixSac}</h3>
-	  
-//         </div>	  
-
+    
     
     this.innerHTML = `
     
-    <h3>${prix}</h3>
-    
 
+    
+        <div class="col-md-4 portfolio-item">
+          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_1_9/sac1.html" id="nom1"></a></p>
+          <a href="sacs_details/sacs_1_9/sac1.html">
+	  <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src="photos/sacs_1-9/sac1.JPG" onerror="this.style.visibility = 'hidden'"></img>
+	  </a>
+          <h3 id="prix1"></h3>               
+        </div>
     `;
   }
 }
 
-customElements.define('first-photo', FirstPhoto);
+customElements.define('firstphoto-component', FirstPhoto);
 
 
