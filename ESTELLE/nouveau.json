@@ -74,9 +74,9 @@
           "photo2": ""
          },
     {"nouv8": 
-         {"nom": "Losanges pâles",
+         {"nom": "Losanges bleu pâle",
           "prix": "50$",
-          "dimensions": "43 cm l x 13 L x 34 H",
+          "dimensions": "43 cm L x 13 l x 34 H",
           "détail1": "Poche zippée",
           "détail2": "Poche double",
           "détail3": "Se ferme avec fermeture éclair",
@@ -85,11 +85,11 @@
          },     
      },
     {"nouv9": 
-         {"nom": "",
-          "prix": "",
-          "dimensions": "",
-          "détail1": "",
-          "détail2": "",
+         {"nom": "Rouge à rayures",
+          "prix": "25$",
+          "dimensions": "33 cm L x 12 l x 34 H",
+          "détail1": "Poche zippée",
+          "détail2": "Poche double",
           "détail3": "",
           "photo1": "",
           "photo2": ""
