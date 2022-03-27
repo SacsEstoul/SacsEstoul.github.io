@@ -29,16 +29,6 @@ class Header extends HTMLElement {
        }
     this.innerHTML = `
     
-    <style>
-    .bottom-one {
-         margin-bottom: 1cm;
-         overflow: hidden; 
-    }
-    .bottom-two {
-         margin-bottom: 2cm;
-         overflow: hidden; 	
-    }
-    </style>
     
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
         <div class="container">
