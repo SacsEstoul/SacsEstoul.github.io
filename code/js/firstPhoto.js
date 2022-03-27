@@ -68,7 +68,8 @@ class FirstPhoto extends HTMLElement {
    var infoSac = donnees.sac1;
       
 
-   var prixSac = infoSac.prix;   
+   var prixSac = infoSac.prix;  
+   log.console(prixSac);
       
    // Prix: 	   
    getElement("prix1").innerHTML = prixSac;  
