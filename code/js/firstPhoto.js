@@ -59,17 +59,18 @@ class FirstPhoto extends HTMLElement {
     
     this.innerHTML = `
     
-
         <div class="col-md-4 portfolio-item">
-          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_1_9/sac1.html"></a></p>
+          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_1_9/sac1.html" id="nom1"></a></p>   
           <a href="sacs_details/sacs_1_9/sac1.html">
-	  <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src="photos/sacs_1-9/sac1.JPG"></img>
-	  </a>           
+		  <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src="photos/sacs_1-9/sac1.JPG" onerror="this.style.visibility = 'hidden'"></img>
+	  </a>
+          <h3 id="prix1"></h3>               
         </div>
+	
     `;
   }
 }
 
-customElements.define('firstphoto-component', FirstPhoto);
+customElements.define('firstphoto', FirstPhoto);
 
 
