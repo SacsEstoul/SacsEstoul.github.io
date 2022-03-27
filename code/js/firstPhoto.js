@@ -54,7 +54,7 @@ class FirstPhoto extends HTMLElement {
   
 	
    // Prix: 	   
-   getElement("prix1").innerHTML = "$55";
+   getElement("prix1").innerHTML = "$45";
 
  	       
 //    });	  
