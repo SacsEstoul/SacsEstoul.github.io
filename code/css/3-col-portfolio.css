@@ -147,3 +147,7 @@
   padding-right: 10px;
   float: right;	
 }
+
+[role=navigation] {
+    overflow: auto !important;
+}
