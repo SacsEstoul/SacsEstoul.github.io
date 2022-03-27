@@ -50,7 +50,7 @@ class FirstPhoto extends HTMLElement {
   
 	
    // Prix: 	   
-//    this.getElementById("prix1").innerHTML =  "$50";
+   this.getElementById("prix1").innerHTML =  "$50";
 
  	       
 //    });	  
@@ -59,7 +59,7 @@ class FirstPhoto extends HTMLElement {
     
     this.innerHTML = `
     
-       <h3>$60</h3>
+       <h3 id="prix1"></h3>
 	
     `;
   }
