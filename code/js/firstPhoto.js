@@ -43,6 +43,10 @@ class FirstPhoto extends HTMLElement {
       
 //     var nomSac = infoSac.nom;
 //     var prixSac = infoSac.prix;
+	  
+   function getElement(id) {
+       return document.getElementById(id);
+   }	  
       
       
    // Noms:
@@ -50,7 +54,7 @@ class FirstPhoto extends HTMLElement {
   
 	
    // Prix: 	   
-   this.getElementById("prix1").innerHTML =  "$50";
+   getElement("prix1").innerHTML = "$50";
 
  	       
 //    });	  
