@@ -44,17 +44,7 @@ class FirstPhoto extends HTMLElement {
 //     var nomSac = infoSac.nom;
 //     var prixSac = infoSac.prix;
 	  
-   function getElement(id) {
-       return document.getElementById(id);
-   }	  
-      
-      
-   // Noms:
-//    this.getElementById("nom1").innerHTML = "La diligence";
-  
-	
-   // Prix: 	   
-   getElement("prix1").innerHTML = "$45";
+
 
  	       
 //    });	  
@@ -64,6 +54,15 @@ class FirstPhoto extends HTMLElement {
     this.innerHTML = `
     
        <h3 id="prix1"></h3>
+       
+   <script>    
+   function getElement(id) {
+       return document.getElementById(id);
+   }	  
+      
+   // Prix: 	   
+   getElement("prix1").innerHTML = "$45";    
+   </script>
 	
     `;
   }
