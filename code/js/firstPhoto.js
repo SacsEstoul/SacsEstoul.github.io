@@ -71,6 +71,6 @@ class FirstPhoto extends HTMLElement {
   }
 }
 
-customElements.define('firstphoto', FirstPhoto);
+customElements.define('first-photo', FirstPhoto);
 
 
