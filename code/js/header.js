@@ -47,10 +47,11 @@ class Header extends HTMLElement {
         <ul class="nav navbar-nav"> 
 	    <li><a href="${linkAccueil}">&#127968; Accueil</a></li>
 	    <li><a href="${linkNouveaute}">&#128171; NOUVEAUTÉS!</a></li>  		  
-            <li><a href="mailto:sacs.estoul@gmail.com">&#x1F4E7; Adresse Courriel</a></li>	  		  		  		  
             <li><a href="${linkHistoire}">&#128092; La petite histoire</a></li>
 	    <li><a href="${linkFAQ}">&#10067; FAQ</a></li>	
             <li><a href="${linkRabais}">&#x2702; Par ici les rabais!</a></li>
+            <li><a href="mailto:sacs.estoul@gmail.com">&#x1F4E7; Adresse Courriel</a></li>	  		  		  		  
+	    
 	    
             <div class="bottom-two"></div>
 		  
