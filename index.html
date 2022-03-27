@@ -29,12 +29,12 @@
       <div class="row">
         <div class="col-lg-12">	
 	    <div class="bottom-three"></div> 
+	    <div class="bottom-three"></div> 	
 	    <p style="font-family:Optima;font-size:23px;text-align:center" id="slogan"></p>		
-	    <div class="bottom-one"></div> 	
-		<p>-</p>	
+	    <div class="bottom-one"></div> 	      
         </div>
 	      
-
+	<first-photo></first-photo>
 	    
       <hr></hr>	    
       <div class="bottom-two"></div>
@@ -42,14 +42,6 @@
       <div class="bottom-one"></div>       
 	  
       <!-- numero="1" page="sacs_1_9" page_photo="sacs_1-9" landing_page="true"	       -->
-<!--       <firstphoto></firstphoto>	       -->
-        <div class="col-md-4 portfolio-item">
-          <p style="font-size:25px;text-align:center;font-family:Optima"><a href="sacs_details/sacs_1_9/sac1.html" id="nom1"></a></p>   
-          <a href="sacs_details/sacs_1_9/sac1.html">
-		  <img class="img-responsive" style="text-align:center;width:350px;height:525px;" src="photos/sacs_1-9/sac1.JPG" onerror="this.style.visibility = 'hidden'"></img>
-	  </a>
-          <h3 id="prix1"></h3>               
-        </div>	      
 
 
         <div class="col-md-4 portfolio-item">
@@ -176,7 +168,7 @@
    const data = res.données_sacs;
 	   
    // Noms:
-   getElement('nom1').innerHTML = data.sac1.nom;
+
    getElement('nom2').innerHTML = data.sac2.nom;
    getElement('nom3').innerHTML = data.sac3.nom;
    getElement('nom4').innerHTML = data.sac4.nom;
@@ -187,7 +179,7 @@
    getElement('nom9').innerHTML = data.sac9.nom;	   
 	
    // Prix: 	   
-   getElement('prix1').innerHTML =  data.sac1.prix;
+
    getElement('prix2').innerHTML =  data.sac2.prix;
    getElement('prix3').innerHTML =  data.sac3.prix;	
    getElement('prix4').innerHTML =  data.sac4.prix;
@@ -207,7 +199,24 @@
    .then((ecrits) => {
    const phrase = ecrits.phrases;	 
    const utils = ecrits.outils;	   
-   getElement('slogan').innerHTML = phrase.sous_la_bannière;   
+   getElement('slogan').innerHTML = phrase.sous_la_bannière;
+	   
+   // To implement 	   
+   getElement('commandez').innerHTML = phrase.commandez;
+   getElement('email').innerHTML = utils.email;	  
+   getElement('email_ref').innerHTML = "mailto:" + utils.email;	   
+   getElement('fontsize').innerHTML = utils.lettres_taille;
+   getElement('pages').innerHTML = utils.pagination;
+	   
+	   
+   getElement('nom_sac2').innerHTML = "Sac Estoul " + data.sac2.nom; 	   
+   getElement('nom_sac3').innerHTML = "Sac Estoul " + data.sac3.nom; 	   
+   getElement('nom_sac4').innerHTML = "Sac Estoul " + data.sac4.nom; 	   
+   getElement('nom_sac5').innerHTML = "Sac Estoul " + data.sac5.nom; 	   
+   getElement('nom_sac6').innerHTML = "Sac Estoul " + data.sac6.nom; 	   
+   getElement('nom_sac7').innerHTML = "Sac Estoul " + data.sac7.nom; 	   
+   getElement('nom_sac8').innerHTML = "Sac Estoul " + data.sac8.nom; 	   
+   getElement('nom_sac9').innerHTML = "Sac Estoul " + data.sac9.nom; 	   
 	   
     }); 	  
 
