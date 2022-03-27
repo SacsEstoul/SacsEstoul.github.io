@@ -58,16 +58,6 @@ class FirstPhoto extends HTMLElement {
     
     
     this.innerHTML = `
-       <style>
-         .bottom-one {
-         margin-bottom: 1cm;
-         overflow: hidden; 
-         }
-         .bottom-two {
-         margin-bottom: 2cm;
-         overflow: hidden; 	
-         }
-       </style> 
     
        <h3>$60</h3>
 	
