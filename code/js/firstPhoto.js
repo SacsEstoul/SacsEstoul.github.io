@@ -9,7 +9,7 @@ class FirstPhoto extends HTMLElement {
        var nomSac = "sac" + numSac;
        var prixSac = "prix" + numSac;	  
 	  
-       fetch('ESTELLE/info_sacs.json')
+       fetch('../../ESTELLE/info_sacs.json')
        .then(res => res.json())
        .then((res) => {
        var data = res.données_sacs;  
