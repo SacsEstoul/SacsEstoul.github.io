@@ -6,7 +6,7 @@ class FirstPhoto extends HTMLElement {
   connectedCallback() {
 //     // should be a string, "1", "2", "3", etc.
        var numSac = this.attributes.numero.value;
-       var	  
+
        var nomSac = "sac" + numSac;
        var prixSac = "prix" + numSac;	  
 	  
