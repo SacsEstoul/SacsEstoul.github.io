@@ -60,21 +60,13 @@ class FirstPhoto extends HTMLElement {
    function getElement(id) {
        return document.getElementById(id);
    }	  
-   
-   fetch('ESTELLE/info_sacs.json')
-   .then(res => res.json())
-   .then((res) => {
-   var donnees = res.données_sacs;
-   var infoSac = donnees.sac1;
       
 
-   var prixSac = infoSac.prix;  
-   console.log(prixSac);
+   var prixSac = "10";  
       
    // Prix: 	   
    getElement("prix1").innerHTML = prixSac;  
    
-   });
    
    </script>
 	
